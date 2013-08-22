@@ -6,6 +6,7 @@ Lean Theorem Prover
  - Precompiled binaries are available:
    * Linux 64-bit: [bin][5] | [bin linked with tcmalloc][6]
    * OSX 10.8: [bin][7] | [bin linked with tcmalloc][8]
+   * Windows 64-bit: [bin][9] 
 
 [1]: http://leansmt.net
 [2]: http://leodemoura.github.io/lean
@@ -15,3 +16,4 @@ Lean Theorem Prover
 [6]: https://dl.dropboxusercontent.com/u/203889738/bin/lean_linux_tcmalloc
 [7]: https://dl.dropboxusercontent.com/u/203889738/bin/lean_osx
 [8]: https://dl.dropboxusercontent.com/u/203889738/bin/lean_osx_tcmalloc
+[9]: https://dl.dropboxusercontent.com/u/203889738/bin/lean_windows.exe
