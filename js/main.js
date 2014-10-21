@@ -129,19 +129,21 @@ langTools.addCompleter(leanCompleter);
 // Input Method
 editor_main.commands.on("afterExec", function (e) {
     if (e.command.name === "insertstring") {
-        if (e.args === " ") {
-            var pos = editor_main.getCursorPosition(),
-                line = editor_main.session.getLine(pos.row),
-                index = line.lastIndexOf("\\", pos.column) + 1,
-                match = line.substring(index, pos.column - 1);
+        if (e.args === " " || e.args === "\\") {
+            var pos = editor_main.getCursorPosition();
+            var line = editor_main.session.getLine(pos.row);
+            var place_to_search = e.args === " " ? pos.column -1 : pos.column - 2;
+            var index = index = line.lastIndexOf("\\", place_to_search) + 1
+            var match = line.substring(index, pos.column - 1);
             if (index && corrections.hasOwnProperty(match)) {
+                var replaceText = corrections[match];
+                if (e.args === "\\") {
+                    replaceText = replaceText + e.args;
+                }
                 editor_main.session.replace(
                     new Range(pos.row, index - 1, pos.row, pos.column),
-                    corrections[match]
+                    replaceText
                 );
-                if (corrections[match].search(/\{[^\-1]?\}/) !== -1) { // Regex: { <anything except -1> } to jump to input for inverse trig functions
-                    editor_main.moveCursorTo(pos.row, index + corrections[match].search(/\{[^\-1]?\}/));
-                }
             }
         }
     }
