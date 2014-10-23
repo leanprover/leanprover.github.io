@@ -1,3 +1,9 @@
+// Client side redirect to HTTPS
+// Soonhok: This is not as good as server-side methods,
+// however it seems that this is all we can do with github pages.
+if (window.location.protocol != "https:")
+    window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+
 // Add startsWith
 if (typeof String.prototype.startsWith != 'function') {
   String.prototype.startsWith = function (str){
