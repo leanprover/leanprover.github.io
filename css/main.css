@@ -57,6 +57,7 @@ body, html {
 .menu_icon {
     height: 30px;
     margin-top: 5px;
+    cursor: pointer;
 }
 #lean_logo { float: left; margin-left:2px; margin-top:2px; height: 36px; }
 #username { margin-top: 12px; margin-right:10px;}
