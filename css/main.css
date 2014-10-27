@@ -22,8 +22,6 @@
     font-style: normal;
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -58,19 +56,25 @@ body, html {
 }
 #button_container {
     position:absolute;
-    top:0; left:90px;
+    top:0; left:0px;
     z-index:1;
-    margin-right:10px;
     float: left;
     display: flex;
 }
 .button {
     float:left;
-    margin-right:10px;
+    margin-right:5px;
+    width:35px;
+}
+#lean_logo {
+    margin-left:0px;
+    padding-left:0px;
+    margin-right:20px;
 }
 .menu_icon {
-    height: 30px;
-    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    margin-top: 2px;
     cursor: pointer;
     fill:#ffffff;
     stroke:#ffffff;
@@ -85,4 +89,12 @@ body, html {
 #resizable_main {position: absolute;
             border: 0}
 #resizable_console {position: absolute;
-            border: 0}
+                    border: 0}
+#new-button {
+    margin-right:10px;
+}
+
+#console-button {
+    margin-left:5px;
+    margin-right:13px;
+}
