@@ -1,14 +1,17 @@
-// Client side redirect to HTTPS
-// Soonhok: This is not as good as server-side methods,
-// however it seems that this is all we can do with github pages.
-if (window.location.protocol != "https:")
-    window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
-
 // Add startsWith
 if (typeof String.prototype.startsWith != 'function') {
   String.prototype.startsWith = function (str){
     return this.slice(0, str.length) == str;
   };
+}
+
+// Client side redirect to HTTPS
+// Soonhok: This is not as good as server-side methods,
+// however it seems that this is all we can do with github pages.
+if (window.location.protocol != "https:") {
+    if (!window.location.href.startsWith("http://localhost")) {
+    window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    }
 }
 
 function gup( name ){
@@ -36,7 +39,7 @@ var myModule = (function() {
     var editor_console = ace.edit("editor_console");
     var main_console_ratio = 0.5;
     var menu_height = 40;
-    var theme = "ace/theme/subatmoic";
+    var theme = "ace/theme/subatomic";
     var lean_output_buffer = [];
     var default_filename = "input.lean";
     var codeText = gup("code");
