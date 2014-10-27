@@ -10,6 +10,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'freemono-lean';
+    src: url('/fonts/freemonobold.eot');
+    src: url('/fonts/freemonobold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/freemonobold.woff2') format('woff2'),
+         url('/fonts/freemonobold.woff') format('woff'),
+         url('/fonts/freemonobold.ttf') format('truetype'),
+         url('/fonts/freemonobold.svg#freemonomedium') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
