@@ -43,6 +43,7 @@ var myModule = (function() {
     var lean_output_buffer = [];
     var default_filename = "input.lean";
     var codeText = gup("code");
+    var url = gup("url");
     return {
         editor_main: editor_main,
         editor_console: editor_console,
@@ -199,7 +200,7 @@ var myModule = (function() {
                 }
             });
         },
-        load_code_from_url: function() {
+        load_from_code: function() {
             if (codeText != "") {
                 if(codeText.substr(-1) == '/') {
                     codeText = codeText.substr(0, codeText.length - 1);
@@ -207,6 +208,22 @@ var myModule = (function() {
                 var text = decodeURIComponent(escape(atob(codeText)));
                 editor_main.setValue(text, 1)
             }
+        },
+        load_from_url: function() {
+            if (url.indexOf("://github.com/") > -1) {
+                url = url.replace("://github.com", "://raw.githubusercontent.com");
+                url = url.replace("/blob/", "/");
+            }
+            $.ajaxPrefilter(function(options) {
+                if(options.crossDomain && jQuery.support.cors) {
+                    var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+                    options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
+                    //options.url = "http://cors.corsproxy.io/url=" + options.url;
+                }
+            });
+            $.get(url, function(data) {
+                myModule.editor_main.setValue(data, 1);
+            });
         },
         parse_lean_output_buffer: function(buffer) {
             var i = 0;
@@ -327,8 +344,10 @@ var myModule = (function() {
             myModule.append_console_nl("(" + elapsed_time_string(start_time) + ")");
             myModule.dropbox_setup_button();
             if (codeText != "") {
-                myModule.load_code_from_url();
-            } else if(myModule.get_dropbox_client().isAuthenticated()) {
+                myModule.load_from_code();
+            } else if (url != "") {
+                myModule.load_from_url();
+            }else if(myModule.get_dropbox_client().isAuthenticated()) {
                 myModule.dropbox_load_file(default_filename);
             } else {
                 var cookie_contents = $.cookie("leanjs");
