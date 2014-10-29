@@ -346,7 +346,7 @@ var myModule = (function() {
                 select: 'single'
             }).then(
                 function (response) {
-                    // For each folder selected...
+                    console.log(response);
                     if (response.data.folders.length > 0) {
                         myModule.append_console_nl("-- Reading a folder is not supported.");
                     } else if (response.data.files.length != 1) {
@@ -354,35 +354,12 @@ var myModule = (function() {
                     } else {
                         var filename = response.data.files[0].name;
                         var id = response.data.files[0].id;
-                        WL.login({
-                            scope: "wl.skydrive"
-                        }).then(
-                            function (response) {
-                                WL.download({
-                                    path: "file.a6b2a7e8f2515e5e.A6B2A7E8F2515E5E!131/content"
-                                }).then(
-                                    function (response) {
-                                        // Will not be called for web apps.
-                                    },
-                                    function (responseFailed) {
-                                        document.getElementById("info").innerText =
-                                            "Error downloading file: " + responseFailed.error.message;
-                                    }
-                                );
-                            },
-                            function (responseFailed) {
-                                document.getElementById("info").innerText =
-                                    "Error signing in: " + responseFailed.error.message;
-                            }
-                        );
-                    //     for (file = 0; file < response.data.files.length; file++) {
-                    //         // Use file IDs to iterate through files as needed.
-                    //         msg += "\n" +
-                    //     }
-                    // }
-                    // document.getElementById("info").innerText =
-                    //     "Selected folders/files:" + msg;
-
+                        $.get(files[0].link, function(data) {
+                            myModule.editor_main.setValue(data, 1);
+                        });
+                        myModule.append_console_nl("-- " + files[0].name +
+                                                   " is loaded from Dropbox.");
+                        myModule.filename = files[0].name;
                     }
                 },
                 function (responseFailed) {
