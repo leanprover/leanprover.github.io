@@ -345,28 +345,44 @@ var myModule = (function() {
             WL.fileDialog({
                 mode: 'open',
                 select: 'single'
-            }).then(function (response) {
-                console.log(response.data.folders.length, response.data.files.length);
-                if (response.data.folders.length > 0) {
-                    myModule.append_console_nl("-- Reading a folder is not supported.");
-                } else if (response.data.files.length != 1) {
-                    myModule.append_console_nl("-- Please pick a single file.");
-                } else {
-                    var filename = response.data.files[0].name;
-                    var id = response.data.files[0].id;
-                    var source = response.data.files[0].source;
-                    console.log("loading...");
-                    $.get(source, function(data) {
-                        myModule.editor_main.setValue(data, 1);
-                    });
-                    myModule.append_console_nl("-- " + filename +
-                                               " is loaded from OneDrive.");
-                    myModule.filename = filename;
+            }).then(
+                function(response) {
+                    var files = response.data.files;
+                    for (var i = 0; i < files.length; i++) {
+                        var file = files[i];
+                        myModule.append_console_nl("-- Loading from OneDrive: " + file.name);
+                        // WL.download({ "path": file.id + "/content" });
+                    }
+                },
+                function(errorResponse) {
+                    console.log("WL.fileDialog errorResponse = " + JSON.stringify(errorResponse));
                 }
-                console.log("Reach the end of load_file");
-            }, function (responseFailed) {
-                myModule.append_console_nl("Error getting folder/file info: " + responseFailed.error.message);
-            });
+            );
+
+
+            // select: 'single'
+            // }).then(function (response) {
+            //     console.log(response.data.folders.length, response.data.files.length);
+            //     if (response.data.folders.length > 0) {
+            //         myModule.append_console_nl("-- Reading a folder is not supported.");
+            //     } else if (response.data.files.length != 1) {
+            //         myModule.append_console_nl("-- Please pick a single file.");
+            //     } else {
+            //         var filename = response.data.files[0].name;
+            //         var id = response.data.files[0].id;
+            //         var source = response.data.files[0].source;
+            //         console.log("loading...");
+            //         $.get(source, function(data) {
+            //             myModule.editor_main.setValue(data, 1);
+            //         });
+            //         myModule.append_console_nl("-- " + filename +
+            //                                    " is loaded from OneDrive.");
+            //         myModule.filename = filename;
+            //     }
+            //     console.log("Reach the end of load_file");
+            // }, function (responseFailed) {
+            //     myModule.append_console_nl("Error getting folder/file info: " + responseFailed.error.message);
+            // });
         },
         dropbox_load_file: function(filename) {
             var fullpath = dropbox_lean_js_app_prefix + filename;
