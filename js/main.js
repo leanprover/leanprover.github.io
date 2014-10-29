@@ -41,7 +41,7 @@ var myModule = (function() {
     var menu_height = 40;
     var theme = "ace/theme/subatomic";
     var lean_output_buffer = [];
-    var default_filename = "input.lean";
+    var filename = "input.lean";
     var codeText = gup("code");
     var url = gup("url");
     return {
@@ -269,7 +269,7 @@ var myModule = (function() {
                 if (error) {
                     console.log("Dropbox GetAccountInfo", error);
                 } else {
-                    $("#signin-button").text("");
+                    $("#dropbox-signin-button").text("");
                     $("#username").text("Welcome " + accountInfo.name + "!");
                 }
             });
@@ -286,15 +286,109 @@ var myModule = (function() {
         dropbox_setup_button: function() {
             dropbox_client.authenticate({interactive: false}, function(error, dropbox_client) {
                 if (!dropbox_client.isAuthenticated()) {
-                    var button = document.querySelector("#signin-button");
+                    var button = document.querySelector("#dropbox-signin-button");
                     button.addEventListener("click", function() {
                         myModule.dropbox_connect()
                     });
-                    $("#signin-button").prepend("<img class=\"menu_icon\" src=\"/images/dropbox.svg\"/>");
+                    $("#dropbox-signin-button").prepend("<img class=\"menu_icon\" src=\"/images/dropbox.svg\"/>");
                 } else {
                     myModule.dropbox_show_username();
+                    $("#dropbox-signin-button").hide();
                 }
             });
+        },
+        onedrive_init: function() {
+            WL.Event.subscribe("auth.login", myModule.onedrive_onLogin);
+            WL.init({
+                client_id: "000000004C12C858",
+                // redirect_uri: "https://leanprover.github.io/live",
+                redirect_uri: "https://leanprover.github.io/live/",
+                scope: "wl.signin",
+                response_type: "token"
+            });
+        },
+        onedrive_onLogin: function(session) {
+            if (!session.error) {
+                WL.api({
+                    path: "me",
+                    method: "GET"
+                }).then(
+                    function (response) {
+                        myModule.append_console_nl("-- Signed into OneDrive: Welcome " + response.first_name + " " + response.last_name + "!");
+                    },
+                    function (responseFailed) {
+                        myModule.append_console_nl("Error calling API: " + responseFailed.error.message);
+                    }
+                );
+            }
+            else {
+                myModule.append_console_nl("Error signing in: " + session.error_description);
+            }
+        },
+        onedrive_setup_button: function() {
+            // onedrive_client.authenticate({interactive: false}, function(error, onedrive_client) {
+            //     if (!onedrive_client.isAuthenticated()) {
+            var button = document.querySelector("#onedrive-signin-button");
+            button.addEventListener("click", function() {
+                WL.login({
+                    scope: ["wl.signin", "wl.skydrive"]
+                }, myModule.onedrive_onLogin);
+            });
+            $("#onedrive-signin-button").prepend("<img class=\"menu_icon\" src=\"/images/onedrive.png\"/>");
+            //     } else {
+            //         myModule.onedrive_show_username();
+            //     }
+            // });
+        },
+        onedrive_load_file: function() {
+            WL.fileDialog({
+                mode: 'open',
+                select: 'single'
+            }).then(
+                function (response) {
+                    // For each folder selected...
+                    if (response.data.folders.length > 0) {
+                        myModule.append_console_nl("-- Reading a folder is not supported.");
+                    } else if (response.data.files.length != 1) {
+                        myModule.append_console_nl("-- Please pick a single file.");
+                    } else {
+                        var filename = response.data.files[0].name;
+                        var id = response.data.files[0].id;
+                        WL.login({
+                            scope: "wl.skydrive"
+                        }).then(
+                            function (response) {
+                                WL.download({
+                                    path: "file.a6b2a7e8f2515e5e.A6B2A7E8F2515E5E!131/content"
+                                }).then(
+                                    function (response) {
+                                        // Will not be called for web apps.
+                                    },
+                                    function (responseFailed) {
+                                        document.getElementById("info").innerText =
+                                            "Error downloading file: " + responseFailed.error.message;
+                                    }
+                                );
+                            },
+                            function (responseFailed) {
+                                document.getElementById("info").innerText =
+                                    "Error signing in: " + responseFailed.error.message;
+                            }
+                        );
+                    //     for (file = 0; file < response.data.files.length; file++) {
+                    //         // Use file IDs to iterate through files as needed.
+                    //         msg += "\n" +
+                    //     }
+                    // }
+                    // document.getElementById("info").innerText =
+                    //     "Selected folders/files:" + msg;
+
+                    }
+                },
+                function (responseFailed) {
+                    myModule.append_console_nl("Error getting folder/file info: " + responseFailed.error.message);
+                }
+            );
         },
         dropbox_load_file: function(filename) {
             var fullpath = dropbox_lean_js_app_prefix + filename;
@@ -346,12 +440,14 @@ var myModule = (function() {
             myModule.append_console("Done");
             myModule.append_console_nl("(" + elapsed_time_string(start_time) + ")");
             myModule.dropbox_setup_button();
+            myModule.onedrive_init();
+            myModule.onedrive_setup_button();
             if (codeText != "") {
                 myModule.load_from_code();
             } else if (url != "") {
                 myModule.load_from_url();
             }else if(myModule.get_dropbox_client().isAuthenticated()) {
-                myModule.dropbox_load_file(default_filename);
+                myModule.dropbox_load_file(filename);
             } else {
                 var cookie_contents = $.cookie("leanjs");
                 if (cookie_contents && cookie_contents != "") {
@@ -397,9 +493,9 @@ var myModule = (function() {
             myModule.append_console_nl("-- Processing...");
             var start_time = new Date().getTime();
             setTimeout(function() {
-                myModule.save_to_filesystem(default_filename, editor_main.getValue());
-                myModule.save_file(default_filename, editor_main.getValue());
-                myModule.process_file(default_filename);
+                myModule.save_to_filesystem(filename, editor_main.getValue());
+                myModule.save_file(filename, editor_main.getValue());
+                myModule.process_file(filename);
                 myModule.append_console("-- Done");
                 myModule.append_console_nl("(" + elapsed_time_string(start_time) + ")");
             }, 1);
@@ -424,25 +520,26 @@ $(function () {
 $(function () {
     var loadButton = document.querySelector("#load-button");
     loadButton.addEventListener("click", function() {
-        if (myModule.get_dropbox_client().isAuthenticated()) {
-            var options = {
-                success: function(files) {
-                    console.log(files[0]);
-                    $.get(files[0].link, function(data) {
-                        myModule.editor_main.setValue(data, 1);
-                    });
-                    myModule.append_console_nl("-- " + files[0].name +
-                                               " is loaded from Dropbox.");
-                },
-                cancel: function() {
-                },
-                linkType: "direct", // or "preview"
-                multiselect: false,
-                extensions: ['.lean', '.lua', '.docx'],
-            };
-            Dropbox.choose(options);
-        }
-
+        // TODO(soonhok): check dropbox, onedrive connectivity
+        // if (myModule.get_dropbox_client().isAuthenticated()) {
+        //     var options = {
+        //         success: function(files) {
+        //             $.get(files[0].link, function(data) {
+        //                 myModule.editor_main.setValue(data, 1);
+        //             });
+        //             myModule.append_console_nl("-- " + files[0].name +
+        //                                        " is loaded from Dropbox.");
+        //             myModule.filename = files[0].name;
+        //         },
+        //         cancel: function() {
+        //         },
+        //         linkType: "direct", // or "preview"
+        //         multiselect: false,
+        //         extensions: ['.lean', '.lua', '.docx'],
+        //     };
+        //     Dropbox.choose(options);
+        // }
+        myModule.onedrive_load_file();
     });
 });
 // Run Button
@@ -456,8 +553,8 @@ $(function () {
 $(function () {
     var saveButton = document.querySelector("#save-button");
     saveButton.addEventListener("click", function() {
-        myModule.save_file("input.lean", myModule.editor_main.getValue());
-        // Dropbox.save("URL", "FILE.txt");
+        var encodedText = btoa(unescape(encodeURIComponent(myModule.editor_main.getValue())));
+        Dropbox.save("data:text/plain;base64," + encodedText, myModule.filename);
     });
 });
 // Console Button

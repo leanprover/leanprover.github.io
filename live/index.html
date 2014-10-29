@@ -18,10 +18,11 @@
     <script src="//leanprover.github.io/ace/ace/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/input-method.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/completion.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//js.live.net/v5.0/wl.js"></script>
   </head>
   <body>
     <div id="menu_bar">
-      <div id="button_container">
+      <div id="menu_bar_left">
         <a href="https://github.com/leanprover/lean"><img id="lean_logo" src="/images/lean_logo_small.svg"/></a>
         <div id="new-button" class="button"><img class="menu_icon" src="/images/new.svg"/></div>
         <div id="load-button" class="button"><img class="menu_icon" src="/images/load.svg"/></div>
@@ -32,8 +33,12 @@
         <div id="console-button" class="button"><img class="menu_icon" src="/images/console.svg"/></div>
         <div id="share-button" class="button"><img class="menu_icon" src="/images/share.svg"/></div>
         <!-- <div id="help-button" class="button"><img class="menu_icon" src="/images/help.svg"/></div> -->
-        <div id="signin-button" class="button"></div>
-        <span id="username"></span>
+      </div>
+      <div id="menu_bar_right">
+        <div id="username"></div>
+        <div id="dropbox-signin-button" class="button"></div>
+        <div id="onedrive-signin-button" class="button"></div>
+        <div id="msr-logo" class="button"><a href="http://research.microsoft.com"><img src="/images/msr-logo.png" id="msr_logo_img"/></a></div>
       </div>
     </div>
     <div id="resizable_console">
