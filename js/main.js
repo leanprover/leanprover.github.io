@@ -346,7 +346,6 @@ var myModule = (function() {
                 select: 'single'
             }).then(
                 function (response) {
-                    console.log(response);
                     if (response.data.folders.length > 0) {
                         myModule.append_console_nl("-- Reading a folder is not supported.");
                     } else if (response.data.files.length != 1) {
@@ -355,6 +354,7 @@ var myModule = (function() {
                         var filename = response.data.files[0].name;
                         var id = response.data.files[0].id;
                         var source = response.data.files[0].source;
+                        console.log("loading...");
                         $.get(source, function(data) {
                             myModule.editor_main.setValue(data, 1);
                         });
