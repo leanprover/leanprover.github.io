@@ -346,6 +346,7 @@ var myModule = (function() {
                 select: 'single'
             }).then(
                 function (response) {
+                    console.log(response.data.folders.length, response.data.files.length);
                     if (response.data.folders.length > 0) {
                         myModule.append_console_nl("-- Reading a folder is not supported.");
                     } else if (response.data.files.length != 1) {
@@ -362,6 +363,7 @@ var myModule = (function() {
                                                    " is loaded from OneDrive.");
                         myModule.filename = filename;
                     }
+                    console.log("Reach the end of load_file");
                 },
                 function (responseFailed) {
                     myModule.append_console_nl("Error getting folder/file info: " + responseFailed.error.message);
