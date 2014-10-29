@@ -354,12 +354,13 @@ var myModule = (function() {
                     } else {
                         var filename = response.data.files[0].name;
                         var id = response.data.files[0].id;
-                        $.get(files[0].link, function(data) {
+                        var source = response.data.files[0].source;
+                        $.get(source, function(data) {
                             myModule.editor_main.setValue(data, 1);
                         });
-                        myModule.append_console_nl("-- " + files[0].name +
-                                                   " is loaded from Dropbox.");
-                        myModule.filename = files[0].name;
+                        myModule.append_console_nl("-- " + filename +
+                                                   " is loaded from OneDrive.");
+                        myModule.filename = filename;
                     }
                 },
                 function (responseFailed) {
