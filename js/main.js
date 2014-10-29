@@ -350,7 +350,15 @@ var myModule = (function() {
                     var files = response.data.files;
                     for (var i = 0; i < files.length; i++) {
                         var file = files[i];
-                        // WL.download({ "path": file.id + "/content"});
+                        // WL.download({ "path": file.id +
+                        // "/content"});
+                        $.ajaxPrefilter(function(options) {
+                            if(options.crossDomain && jQuery.support.cors) {
+                                var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+                                options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
+                                //options.url = "http://cors.corsproxy.io/url=" + options.url;
+                            }
+                        });
                         $.get(file.source, function(data) {
                             myModule.editor_main.setValue(data, 1);
                         });
