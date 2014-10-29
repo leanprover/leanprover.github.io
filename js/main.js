@@ -350,8 +350,11 @@ var myModule = (function() {
                     var files = response.data.files;
                     for (var i = 0; i < files.length; i++) {
                         var file = files[i];
+                        // WL.download({ "path": file.id + "/content"});
+                        $.get(file.source, function(data) {
+                            myModule.editor_main.setValue(data, 1);
+                        });
                         myModule.append_console_nl("-- Loading from OneDrive: " + file.name);
-                        // WL.download({ "path": file.id + "/content" });
                     }
                 },
                 function(errorResponse) {
@@ -441,7 +444,7 @@ var myModule = (function() {
             } else if (url != "") {
                 myModule.load_from_url();
             }else if(myModule.get_dropbox_client().isAuthenticated()) {
-                myModule.dropbox_load_file(filename);
+                // myModule.dropbox_load_file(filename);
             } else {
                 var cookie_contents = $.cookie("leanjs");
                 if (cookie_contents && cookie_contents != "") {
