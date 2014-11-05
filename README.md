@@ -1,16 +1,16 @@
-How to edit this page
-=====================
+# Skinny Bones Jekyll Starter
 
-Please edit *.md file and run `make` to generate *.html file.
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
-Note
-=====================
- - This branch (gh-pages) should be only on
-   [the official repository of lean][lean]
-   (git@github.com:leodemoura/lean.git) because of the way
-   [github.com][github] resolves custom domain names. For more information,
-   read [this][custom-domain].
+I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
 
-[lean]: https://github.com/leodemoura/lean
-[github]: http://github.com
-[custom-domain]: https://github.com/pydata/compilers-webpage/issues/2
+![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
+
+---
+
+## Notable Features
+
+* Stylesheet built using Sass. *Requires Jekyll 2.x*
+* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
+* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
+* And more.

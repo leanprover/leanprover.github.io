@@ -1,0 +1,37 @@
+# Site wide configuration
+
+title: Lean Theorem Prover
+description:
+logo:    lean_logo_med.svg
+teaser:
+locale:
+url: http://leanprover.github.io
+# url:   http://localhost:4000
+safe: true
+
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name:
+  email:
+  twitter:
+  google:
+  ad-client:
+  ad-slot:
+  bio:
+  avatar:
+disqus-shortname:
+
+
+exclude: ["vendor", "lib", "tutorial", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

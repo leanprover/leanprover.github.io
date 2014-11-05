@@ -1,17 +1,19 @@
-Lean Theorem Prover
-===================
- - [http://leanprover.net][1] => [http://leodemoura.github.io/lean][2]
- - Doxygen page is available at [http://doc.leanprover.net][3]
- - Code coverage is available at [http://cov.leanprover.net][4]
- - Precompiled packages are available:
-   * Linux 64-bit: [bin][5] 
-   * OSX 10.8: [bin][6]
-   * Windows 64-bit: [bin][7] 
+---
+layout: archive
+image:
+  feature: lean_logo_banner.svg
+permalink: /
+title: "Introduction"
+---
 
-[1]: http://leanprover.net
-[2]: http://leodemoura.github.io/lean
-[3]: http://doc.leanprover.net/
-[4]: http://cov.leanprover.net/
-[5]: https://dl.dropboxusercontent.com/u/203889738/bin/lean-0.1-linux.tar.gz
-[6]: https://dl.dropboxusercontent.com/u/203889738/bin/lean-0.1-darwin.zip
-[7]: https://dl.dropboxusercontent.com/u/203889738/bin/lean-0.1-windows.zip
+<div class="tiles">
+{% for post in site.posts %}
+        {% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->
+
+
+The Lean project aims to bring the automated and interactive theorem
+proving worlds together. One of the main goals is to provide a
+powerful system for reasoning about complex systems and mathematics,
+and verifying claims about both.
