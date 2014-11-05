@@ -164,7 +164,8 @@ var myModule = (function() {
             var leanCompleter = {
                 getCompletions: function(editor, session, pos, prefix, callback) {
                     var line = session.getLine(pos.row)
-                    prefix = util.retrievePrecedingIdentifier(line, pos.column, /[a-zA-Z_0-9\$-\.]/);
+                    var leanIDRegex = /[A-Za-z_'\u03b1-\u03ba\u03bc-\u03fb\u1f00-\u1ffe\u2070-\u2079\u207f-\u2089\u2090-\u209c\u2100-\u214f\.]/
+                    prefix = util.retrievePrecedingIdentifier(line, pos.column, leanIDRegex);
                     mycompletions = []
                     if (prefix.length > 2) {
                         var mycompletions = completions.filter(function(elem) {
@@ -172,7 +173,8 @@ var myModule = (function() {
                         });
                         var popup = editor_main.completer.popup;
                         // TODO(soonhok): adjust the width automatically
-                        popup.container.style.width=window.innerWidth * 0.8;
+                        if (popup)
+                            popup.container.style.width=window.innerWidth * 0.8;
                     }
                     callback(null, mycompletions);
                 }
