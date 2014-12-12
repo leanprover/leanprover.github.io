@@ -13,5 +13,5 @@ ads: false
 
  - Tutorial: Theorem Proving in Lean [[HTML][tutorial-html]/[PDF][tutorial-pdf]]
 
-[tutorial-html]: ../tutorial/tutorial.html
+[tutorial-html]: ../tutorial/index.html
 [tutorial-pdf]: ../tutorial/tutorial.pdf
