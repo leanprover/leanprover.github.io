@@ -11,4 +11,7 @@ image:
 ads: false
 ---
 
-- [Basics: Functional Programming in Lean](http://leanprover.github.io/tutorial/basics.html)
+ - Tutorial: Theorem Proving in Lean [[HTML][tutorial-html]/[PDF][tutorial-pdf]]
+
+[tutorial-html]: ../tutorial/tutorial.html
+[tutorial-pdf]: ../tutorial/tutorial.pdf
