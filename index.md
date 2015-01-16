@@ -1,7 +1,7 @@
 ---
 layout: archive
 image:
-  feature: lean_logo_banner.svg
+  feature: lean_logo.svg
 permalink: /
 title: "Introduction"
 ---
@@ -11,9 +11,3 @@ title: "Introduction"
         {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
-
-
-The Lean project aims to bring the automated and interactive theorem
-proving worlds together. One of the main goals is to provide a
-powerful system for reasoning about complex systems and mathematics,
-and verifying claims about both.
