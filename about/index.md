@@ -11,7 +11,7 @@ image:
 ads: false
 ---
 
-The /Lean Theorem Prover/ aims to bridge the gap between interactive
+The *Lean Theorem Prover* aims to bridge the gap between interactive
 and automated theorem proving, by situating automated tools and
 methods in a framework that supports user interaction and the
 construction of fully specified axiomatic proofs. The goal is to
