@@ -3,7 +3,6 @@ layout: archive
 image:
   feature: lean_logo.svg
 permalink: /
-title: "Introduction"
 ---
 
 <div class="tiles">
