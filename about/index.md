@@ -11,7 +11,9 @@ image:
 ads: false
 ---
 
-The Lean project aims to bring the automated and interactive theorem
-proving worlds together.  One of the main goals is to provide a
-powerful system for reasoning about complex systems and mathematics,
-and verifying claims about both.
+The /Lean Theorem Prover/ aims to bridge the gap between interactive
+and automated theorem proving, by situating automated tools and
+methods in a framework that supports user interaction and the
+construction of fully specified axiomatic proofs. The goal is to
+support both mathematical reasoning and reasoning about complex
+systems, and to verify claims in both domains.
