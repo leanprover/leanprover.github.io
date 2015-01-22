@@ -36,7 +36,7 @@ In the first part, we will introduce Lean logic and language with a
 series of examples. Participants will be able to execute and modify
 all examples using any modern web browser. The course material will be
 based on the one used at the [interactive theorem proving
-course]({{site.url}}/tutorial/index.html) at
+course](../tutorial/index.html) at
 [CMU](http://www.cs.cmu.edu/~emc/15815-s15/syllabus.html).
 
 We will also describe how to install the Lean native IDE (based on

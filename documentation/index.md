@@ -15,3 +15,5 @@ ads: false
 
 [tutorial-html]: ../tutorial/index.html
 [tutorial-pdf]: ../tutorial/tutorial.pdf
+
+ - [Tutorial at CADE-25](../cade25)
