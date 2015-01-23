@@ -17,3 +17,7 @@ ads: false
 [tutorial-pdf]: ../tutorial/tutorial.pdf
 
  - [Tutorial at CADE-25](../cade25)
+
+* Presentations
+
+ - [Lean mode for Emacs](http://leanprover.github.io/presentations/20150123_lean-mode/lean-mode.pdf)
