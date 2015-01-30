@@ -38,7 +38,7 @@ and emacs is under `c:\\emacs\\bin`.
 - Click on *Environment Variables....*
 - Under *System Variables* find `Path` then choose to Edit....
 
-At the end of the listed path, append (include the first =;= only if not already present):
+At the end of the listed path, append (include the first `;` only if not already present):
 {% highlight batch %}
 ;C:\Python27\;C:\emacs\bin
 {% endhighlight %}
