@@ -16,9 +16,9 @@ builds, and/or build the source code by yourself.
 
 Windows 8
 ---------
+=======
 
-[Download](https://github.com/leanprover/bin/blob/master/lean-0.2.0-windows.zip?raw=true)
-
+[Download](https://github.com/leanprover/bin/blob/master/lean-0.2.0-windows.zip?raw=true) [Installation](wininst)
 
 Ubuntu 14.04 / Ubuntu 14.10
 ---------------------------
