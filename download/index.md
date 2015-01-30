@@ -16,9 +16,21 @@ builds, and/or build the source code by yourself.
 
 - [Windows 8](https://github.com/leanprover/bin/blob/master/lean-0.2.0-windows.zip?raw=true)
 
-- Linux (Ubuntu 14): use the following commands to install Lean using PPA
+- Ubuntu 14.04 / Ubuntu 14.10: use the following commands to install Lean using PPA
 
 {% highlight bash %}
+sudo add-apt-repository ppa:leanprover/lean
+sudo apt-get update
+sudo apt-get install lean
+{% endhighlight %}
+
+Once installed via PPA, you can use the standard `sudo apt-get upgrade` to get the latest version of Lean.
+
+- Ubuntu 12.04: use the following commands to install Lean using PPA
+
+{% highlight bash %}
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
 sudo add-apt-repository ppa:leanprover/lean
 sudo apt-get update
 sudo apt-get install lean
