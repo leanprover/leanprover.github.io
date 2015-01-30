@@ -19,33 +19,34 @@ For using the lean emacs mode, you must have [emacs version
 24.3](https://ftp.gnu.org/gnu/emacs/windows/) (or greater) and
 [python](https://www.python.org/downloads) installed in your system.
 
-Both =emacs= and =python= need to be added to your =%PATH%=.
-Assuming that =python= is installed to the default location (=c:\\Python27)
-and emacs is under =c:\\emacs\\bin=.
+Both `emacs` and `python` need to be added to your `%PATH%`.
+Assuming that `python` is installed to the default location (`c:\\Python27`)
+and emacs is under `c:\\emacs\\bin`.
 
 ### By Command Line
 
-```
+{% highlight batch %}
 > setx PATH "%PATH%;c:\Python27\"
 > setx PATH "%PATH%;c:\emacs\bin"
-```
+{% endhighlight %}
+
 
 ### By GUI
 
-- Use =Win+Pause= to open System Properties.
+- Use `Win+Pause` to open System Properties.
 - Under Windows 7 or newer, click on *Advanced system settings*.
 - Click on *Environment Variables....*
-- Under *System Variables* find =Path= then choose to Edit....
+- Under *System Variables* find `Path` then choose to Edit....
 
 At the end of the listed path, append (include the first =;= only if not already present):
-```
+{% highlight batch %}
 ;C:\Python27\;C:\emacs\bin
-```
+{% endhighlight %}
 
 ## Starting Lean Emacs mode
 
-After =emacs= and =python= have been added to your =%PATH%=.
-You can start the lean emacs mode by executing the =bin/leanemacs.bat=.
+After `emacs` and `python` have been added to your `%PATH%`.
+You can start the lean emacs mode by executing the `bin/leanemacs.bat`.
 
-Advanced users can configure their .emacs initialization file using
+Advanced users can configure their `.emacs` initialization file using
 these [instructions](https://github.com/leanprover/lean/blob/master/src/emacs/README.md).
