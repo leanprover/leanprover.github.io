@@ -14,9 +14,16 @@ ads: false
 Lean was not officially released yet, but you can try the latest daily
 builds, and/or build the source code by yourself.
 
-- [Windows 8](https://github.com/leanprover/bin/blob/master/lean-0.2.0-windows.zip?raw=true)
+Windows 8
+---------
 
-- Ubuntu 14.04 / Ubuntu 14.10: use the following commands to install Lean using PPA
+[Download](https://github.com/leanprover/bin/blob/master/lean-0.2.0-windows.zip?raw=true)
+
+
+Ubuntu 14.04 / Ubuntu 14.10
+---------------------------
+
+Use the following commands to install Lean using PPA
 
 {% highlight bash %}
 sudo add-apt-repository ppa:leanprover/lean
@@ -26,7 +33,11 @@ sudo apt-get install lean
 
 Once installed via PPA, you can use the standard `sudo apt-get upgrade` to get the latest version of Lean.
 
-- Ubuntu 12.04: use the following commands to install Lean using PPA
+
+Ubuntu 12.04
+------------
+
+Use the following commands to install Lean using PPA
 
 {% highlight bash %}
 sudo apt-get install python-software-properties
@@ -38,7 +49,11 @@ sudo apt-get install lean
 
 Once installed via PPA, you can use the standard `sudo apt-get upgrade` to get the latest version of Lean.
 
-- OSX: use the following commands to install Lean using Homebrew
+
+OS X 10.10 / 10.9
+-----------------
+
+Use the following commands to install Lean using Homebrew
 
 {% highlight bash %}
 brew tap leanprover/lean
@@ -51,4 +66,8 @@ To upgrade lean to the latest version, run the following commands:
 brew update && brew upgrade
 {% endhighlight %}
 
-- [Source code](http://github.com/leanprover/lean/archive/master.zip)
+
+Source Code
+-----------
+
+[Download](http://github.com/leanprover/lean/archive/master.zip)
