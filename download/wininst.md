@@ -20,8 +20,8 @@ For using the lean emacs mode, you must have [emacs version
 [python](https://www.python.org/downloads) installed in your system.
 
 Both `emacs` and `python` need to be added to your `%PATH%`.
-Assuming that `python` is installed to the default location (`c:\\Python27`)
-and emacs is under `c:\\emacs\\bin`.
+Assuming that `python` is installed to the default location (`c:\Python27`)
+and emacs is under `c:\emacs\bin`.
 
 ### By Command Line
 
@@ -46,7 +46,7 @@ At the end of the listed path, append (include the first `;` only if not already
 ## Starting Lean Emacs mode
 
 After `emacs` and `python` have been added to your `%PATH%`.
-You can start the lean emacs mode by executing the `bin/leanemacs.bat`.
+You can start the lean emacs mode by executing the `bin\leanemacs.bat`.
 
 Advanced users can configure their `.emacs` initialization file using
 these [instructions](https://github.com/leanprover/lean/blob/master/src/emacs/README.md).
