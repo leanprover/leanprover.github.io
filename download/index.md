@@ -11,7 +11,7 @@ image:
 ads: false
 ---
 
-Lean was not officially released yet, but you can try the latest daily
+Lean has not been officially released yet, but you can try the latest daily
 builds, and/or build the source code by yourself.
 
 Windows 8
@@ -24,7 +24,7 @@ Windows 8
 Ubuntu 14.04 / Ubuntu 14.10
 ---------------------------
 
-Use the following commands to install Lean using PPA
+Use the following commands to install Lean using PPA:
 
 {% highlight bash %}
 sudo add-apt-repository ppa:leanprover/lean
@@ -38,7 +38,7 @@ Once installed via PPA, you can use the standard `sudo apt-get upgrade` to get t
 Ubuntu 12.04
 ------------
 
-Use the following commands to install Lean using PPA
+Use the following commands to install Lean using PPA:
 
 {% highlight bash %}
 sudo apt-get install python-software-properties
@@ -54,7 +54,7 @@ Once installed via PPA, you can use the standard `sudo apt-get upgrade` to get t
 OS X 10.10 / 10.9
 -----------------
 
-Use the following commands to install Lean using Homebrew
+Use the following commands to install Lean using Homebrew:
 
 {% highlight bash %}
 brew tap leanprover/lean
