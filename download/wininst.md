@@ -14,7 +14,7 @@ ads: false
 Download the [Lean zip file for Windows](https://github.com/leanprover/bin/blob/master/lean-0.2.0-windows.zip?raw=true),
 and unfold it in a directory of your choice.
 
-## Configuring lean emacs mode
+## Configuring Lean emacs mode
 
 To use the Lean emacs mode, you must have [emacs version
 24.3](https://ftp.gnu.org/gnu/emacs/windows/) (or greater) and
