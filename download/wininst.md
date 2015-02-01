@@ -11,7 +11,8 @@ image:
 ads: false
 ---
 
-Unfold the Lean zip file in a directory of your choice.
+Download the [Lean zip file for Windows](https://github.com/leanprover/bin/blob/master/lean-0.2.0-windows.zip?raw=true),
+and unfold it in a directory of your choice.
 
 ## Configuring lean emacs mode
 
@@ -20,7 +21,7 @@ To use the Lean emacs mode, you must have [emacs version
 [python](https://www.python.org/downloads) installed on your system.
 
 Both `emacs` and `python` need to be added to your `%PATH%`.
-These instruction assume that `python` is installed at the default location 
+These instruction assume that `python` is installed at the default location
 (`c:\Python27`) and emacs is under `c:\emacs\bin`.
 
 ### By Command Line

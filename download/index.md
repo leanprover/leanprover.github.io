@@ -14,29 +14,12 @@ ads: false
 Lean has not been officially released yet, but you can try the latest daily
 builds, and/or build the source code by yourself.
 
-Windows 8
----------
+- [Windows 8](wininst)
 
-[Download](https://github.com/leanprover/bin/blob/master/lean-0.2.0-windows.zip?raw=true)
+- [Ubuntu 14.04 / Ubuntu 14.10](ubuntu14inst)
 
-[Installation instructions](wininst)
+- [Ubuntu 12.04](ubuntu12inst)
 
-Ubuntu 14.04 / Ubuntu 14.10
----------------------------
+- [OS X 10.10 / 10.9](OSX10inst)
 
-[Installation instructions](ubuntu14inst)
-
-Ubuntu 12.04
-------------
-
-[Installation instructions](ubuntu12inst)
-
-OS X 10.10 / 10.9
------------------
-
-[Installation instructions](OSX10inst)
-
-Source Code
------------
-
-[Download](http://github.com/leanprover/lean/archive/master.zip)
+- [Source Code](http://github.com/leanprover/lean/archive/master.zip)
