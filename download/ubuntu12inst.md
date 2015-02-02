@@ -12,8 +12,14 @@ ads: false
 ---
 
 Lean Emacs mode requires [Emacs](http://www.gnu.org/software/emacs/) version 24.3 (or greater).
-This version is not available by default in Ubuntu 12.04. [Here](http://ubuntuhandbook.org/index.php/2013/09/install-upgrade-to-emacs-24-3-in-ubuntu-13-04-12-10-12-04/)
-are instructions to install it on Ubuntu 12.04, 12.10 and 13.04.
+This version is not available by default in Ubuntu 12.04. You have to execute the following commands
+to install it.
+
+{% highlight bash %}
+sudo add-apt-repository ppa:cassou/emacs
+sudo apt-get update
+sudo apt-get install emacs24
+{% endhighlight %}
 
 Use the following commands to install Lean using PPA:
 
