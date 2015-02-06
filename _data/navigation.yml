@@ -9,7 +9,7 @@
   excerpt:    "precompiled binaries"
 
 - title:      Try Lean
-  url:        https://leanprover.github.io/live/
+  url:        https://leanprover.github.io/tutorial/index.html?live=1
   excerpt:    "in your web browser"
   image:
 
