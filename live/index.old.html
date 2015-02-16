@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lean Theorem Prover Live Demo">
+    <meta name="author" content="Soonho Kong">
+    <title>Lean</title>
+    <link rel="stylesheet" href="/css/main_live.css">
+    <link rel="stylesheet" href="/css/jquery-ui.css">
+    <script src="/js/jquery-1.10.2.js"></script>
+    <script src="/js/jquery-ui.js"></script>
+    <script src="/js/jquery.cookie.js"></script>
+    <script src="/js/dropins.js" type="text/javascript" id="dropboxjs" data-app-key="kl2l16uaul9rwpe"></script>
+    <script src="/js/dropbox.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//leanprover.github.io/ace/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//leanprover.github.io/ace/ace/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/input-method.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/completion.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="menu_bar">
+      <div id="button_container">
+        <a href="https://github.com/leanprover/lean"><img id="lean_logo" src="/images/lean_logo_small.svg"/></a>
+        <div id="new-button" class="button"><img class="menu_icon" src="/images/new.svg"/></div>
+        <div id="load-button" class="button"><img class="menu_icon" src="/images/load.svg"/></div>
+        <div id="run-button" class="button"><img class="menu_icon" src="/images/run.svg"/></div>
+        <!-- <div id="prev-button" class="button"><img class="menu_icon" src="/images/prev.svg"/></div> -->
+        <!-- <div id="next-button" class="button"><img class="menu_icon" src="/images/next.svg"/></div> -->
+        <div id="save-button" class="button"><img class="menu_icon" src="/images/save.svg"/></div>
+        <div id="console-button" class="button"><img class="menu_icon" src="/images/console.svg"/></div>
+        <div id="share-button" class="button"><img class="menu_icon" src="/images/share.svg"/></div>
+        <!-- <div id="help-button" class="button"><img class="menu_icon" src="/images/help.svg"/></div> -->
+        <div id="signin-button" class="button"></div>
+        <span id="username"></span>
+      </div>
+    </div>
+    <div id="resizable_console">
+      <div id="editor_console"></div>
+    </div>
+    <div id="resizable_main">
+      <div id="editor_main"></div>
+    </div>
+    <script src="/js/main_live.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//leanprover.github.io/lean.js/lean.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
