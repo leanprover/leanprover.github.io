@@ -10,3 +10,10 @@ permalink: /
         {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
+
+
+<center>
+<a href="http://research.microsoft.com">
+<image src="images/segoe_msr_logo.png"/>
+</a>
+</center>

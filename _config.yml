@@ -5,7 +5,7 @@ description:
 logo:    lean_logo_med.svg
 teaser:
 locale:
-baseurl: https://leanprover.github.io
+# baseurl: https://leanprover.github.io
 safe: true
 
 # Jekyll configuration
