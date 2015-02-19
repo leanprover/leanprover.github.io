@@ -20,4 +20,6 @@ ads: false
 
 ## Presentations
 
+ - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150218_MSR) PL(X) meeting at MSR, Feb 2015
+
  - [Lean mode for Emacs](http://leanprover.github.io/presentations/20150123_lean-mode/lean-mode.pdf)
