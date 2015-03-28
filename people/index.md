@@ -22,9 +22,12 @@ The Lean standard library is being developed by
 - [Floris van Doorn](http://www.contrib.andrew.cmu.edu/~fpv/) (CMU)
 - [Jakob von Raumer](http://von-raumer.de/) (CMU)
 - [Leonardo de Moura](http://research.microsoft.com/en-us/um/people/leonardo) (Microsoft Research)
+- [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/Site/Home.html) (CMU)
 
 Contributors
 
+- [Assia Mahboubi](http://specfun.inria.fr/mahboubi/) (INRIA)
 - [Cody Roux](http://www.andrew.cmu.edu/user/croux/) (Draper)
-- [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/Site/Home.html) (CMU)
 - Parikshit Khanna (Indian Institute of Technology, Kanpur)
+- [Ulrik Buchholtz](http://www.andrew.cmu.edu/user/ulrikb/) (CMU)
+- [Favonia (Kuen-Bang How)](http://www.cs.cmu.edu/~kuenbanh/) (CMU)
