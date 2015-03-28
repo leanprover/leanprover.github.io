@@ -15,14 +15,11 @@
 - title:      Try Lean
   url:        https://leanprover.github.io/tutorial/?live
   excerpt:    "in your web browser"
-  image:
 
 - title:      People
   url:        /people/
   excerpt:    "Developers and contributors"
-  image:
 
 - title:      About
   url:        /about/
   excerpt:    "Introduction to Lean"
-  image:
