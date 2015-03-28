@@ -4,6 +4,10 @@
   url:        /documentation/
   excerpt:
 
+- title:      Publications
+  url:        /publications/
+  excerpt:
+
 - title:      Download
   url:        /download/
   excerpt:    "precompiled binaries"
