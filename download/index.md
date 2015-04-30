@@ -20,7 +20,7 @@ builds, and/or build the source code by yourself.
 
 - [Ubuntu 12.04](ubuntu12inst.html)
 
-- [Debian 7](debian7.html)
+- [Debian 7/8](debian78.html)
 
 - [OS X 10.10 / 10.9](OSX10inst.html)
 

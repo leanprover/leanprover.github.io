@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Debian 7 Installation"
+title: "Debian 7/8 Installation"
 date:
 modified:
 excerpt:
@@ -18,8 +18,13 @@ wget https://raw.githubusercontent.com/leanprover/bin/master/lean-0.2.0-debian.d
 sudo dpkg -i lean-0.2.0-debian.deb
 {% endhighlight %}
 
+## Install emacs-24 on Debian-8
 
-## Install emacs-24
+{% highlight bash %}
+sudo apt-get install emacs24
+{% endhighlight %}
+
+## Install emacs-24 on Debian-7
 
 Debian 7 (wheezy) only provides emacs-23 while lean-mode requires
 emacs-24. To install emacs-24, edit `/etc/apt/sources.list` file and
