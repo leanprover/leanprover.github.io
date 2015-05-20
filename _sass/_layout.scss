@@ -174,12 +174,12 @@
                         @include media($large) {
                                 @include span-columns(7 of 9);
                         }
-                        // larger font for intro paragraph
-                        > p {
-                                &:first-child {
-                                        @include font-size(20,yes,30);
-                                }
-                        }
+                        //// larger font for intro paragraph
+                        //> p {
+                        //        &:first-child {
+                        //                @include font-size(20,yes,30);
+                        //        }
+                        //}
                         // cleaner underlines for links
                         a { text-decoration: none; }
                         p > a,
