@@ -20,3 +20,13 @@ methods in a framework that supports user interaction and the
 construction of fully specified axiomatic proofs. The goal is to
 support both mathematical reasoning and reasoning about complex
 systems, and to verify claims in both domains.
+
+The Lean project was launched by Leonardo de Moura at Microsoft
+Research in 2013. It is a collaborative open source project, hosted on
+[github](https://github.com/leanprover/lean). Contributions to the
+code base and library are welcome.
+
+You can experiment with an
+[online version of Lean](https://leanprover.github.io/tutorial/?live)
+that runs in your browser, or use an
+[online tutorial](https://leanprover.github.io/tutorial).

@@ -1,25 +1,17 @@
 # Site navigation links
 
+- title:      About
+  url:        /about/
+  excerpt:    "Introduction to Lean"
+
 - title:      Documentation
   url:        /documentation/
-  excerpt:
-
-- title:      Publications
-  url:        /publications/
   excerpt:
 
 - title:      Download
   url:        /download/
   excerpt:    "precompiled binaries"
 
-- title:      Try Lean
-  url:        https://leanprover.github.io/tutorial/?live
-  excerpt:    "in your web browser"
-
 - title:      People
   url:        /people/
   excerpt:    "Developers and contributors"
-
-- title:      About
-  url:        /about/
-  excerpt:    "Introduction to Lean"
