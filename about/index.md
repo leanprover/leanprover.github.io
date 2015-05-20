@@ -23,7 +23,7 @@ systems, and to verify claims in both domains.
 
 The Lean project was launched by Leonardo de Moura at Microsoft
 Research in 2013. It is a collaborative open source project, hosted on
-[github](https://github.com/leanprover/lean). Contributions to the
+[GitHub](https://github.com/leanprover/lean). Contributions to the
 code base and library are welcome.
 
 You can experiment with an

@@ -21,6 +21,22 @@ ads: false
 [tutorial-html]: ../tutorial/index.html
 [tutorial-pdf]: ../tutorial/tutorial.pdf
 
+## Libraries
+
+Two libraries are being developed for Lean.
+
+- You can explore the [standard library][standard] directly in the
+  GitHub respository, or through annotated [markdown
+  files][standardmd].
+
+- You can also browse the [homotopy type theory library][hott]
+  directly or through [markdown files][hottmd].
+
+[standard]: https://github.com/leanprover/lean/tree/master/library
+[standardmd]: https://github.com/leanprover/lean/blob/master/library/library.md
+[hott]: https://github.com/leanprover/lean/tree/master/hott
+[hottmd]: https://github.com/leanprover/lean/blob/master/hott/hott.md
+
 ## Publications
 
 - *The Lean Theorem Prover*. [PDF](/files/system.pdf)<br />
