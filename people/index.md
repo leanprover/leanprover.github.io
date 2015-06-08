@@ -23,6 +23,7 @@ The Lean standard library is being developed by
 - [Jakob von Raumer](http://von-raumer.de/) (CMU)
 - [Leonardo de Moura](http://research.microsoft.com/en-us/um/people/leonardo) (Microsoft Research)
 - [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/Site/Home.html) (CMU)
+- Haitao Zhang (Independent Researcher)
 
 Contributors
 
