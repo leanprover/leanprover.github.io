@@ -53,5 +53,8 @@ ads: false
 
 
 ## Presentations
+ - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150717_CICM) [CICM](http://cicm-conference.org/2015/cicm.php), Washington D.C., July 2015
+
  - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150218_MSR) PL(X) meeting at <a href="http://research.microsoft.com/en-us/groups/rise/">Microsoft Research</a>, Feb 2015
+
  - [Lean mode for Emacs](http://leanprover.github.io/presentations/20150123_lean-mode/lean-mode.pdf)
