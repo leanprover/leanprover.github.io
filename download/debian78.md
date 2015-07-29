@@ -11,7 +11,7 @@ image:
 ads: false
 ---
 
-Visit https://launchpad.net/~leanprover/+archive/ubuntu/lean/+packages
+Visit [launchpad.net](https://launchpad.net/~leanprover/+archive/ubuntu/lean/+packages)
 and download `.deb` file under `Trusty` series.
 
 ![Download .deb file]({{ site.url }}/download/debian.png)
