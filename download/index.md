@@ -16,7 +16,7 @@ builds, and/or build the source code by yourself.
 
 - [Windows 8](wininst.html)
 
-- [Ubuntu 14.04 / Ubuntu 14.10](ubuntu14inst.html)
+- [Ubuntu 14.04 / Ubuntu 15.04](ubuntu14inst.html)
 
 - [Ubuntu 12.04](ubuntu12inst.html)
 
