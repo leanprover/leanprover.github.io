@@ -11,11 +11,17 @@ image:
 ads: false
 ---
 
+Visit https://launchpad.net/~leanprover/+archive/ubuntu/lean/+packages
+and download `.deb` file under `Trusty` series.
+
+![Download .deb file]({{ site.url }}/download/debian.png)
+
 Run the following commands to install Lean:
 
 {% highlight bash %}
-wget https://raw.githubusercontent.com/leanprover/bin/master/lean-0.2.0-debian.deb
-sudo dpkg -i lean-0.2.0-debian.deb
+# Dependencies
+apt-get install libstdc++-4.8-dev libgmp-dev libmpfr-dev liblua5.2-dev ninja-build
+sudo dpkg -i <DOWNLOADED_DEB_FILE>
 {% endhighlight %}
 
 ## Install emacs-24 on Debian-8
