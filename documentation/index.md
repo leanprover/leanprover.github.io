@@ -16,10 +16,12 @@ ads: false
  - There is an [online tutorial][tutorial-html], which is presented
    alongside a version of Lean running in your browser.
  - You can also read the [pdf version][tutorial-pdf].
- - We will have a [tutorial session at CADE-25](../cade25).
+ - The tutorial includes a [quick reference][quickref].
+ - There will be a [tutorial session at CADE-25](../cade25).
 
 [tutorial-html]: ../tutorial/index.html
 [tutorial-pdf]: ../tutorial/tutorial.pdf
+[quickref]: ../tutorial/quickref.pdf
 
 ## Libraries
 
