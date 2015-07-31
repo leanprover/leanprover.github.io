@@ -36,6 +36,12 @@ ads: false
 [hott]: https://github.com/leanprover/lean/tree/master/hott
 [hottmd]: https://github.com/leanprover/lean/blob/master/hott/hott.md
 
+## Forum
+
+- You are welcome to join the [Lean user forum][leanuser] on Google Groups.
+
+[leanuser]: https://groups.google.com/forum/#!forum/lean-user
+
 ## Publications
 
 - *The Lean Theorem Prover*. [PDF](/files/system.pdf)<br />
