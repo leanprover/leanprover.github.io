@@ -59,9 +59,10 @@ ads: false
 [cody]: http://www.andrew.cmu.edu/user/croux
 [constr]: http://arxiv.org/abs/1505.04324
 
-
 ## Presentations
- - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150717_CICM) [CICM](http://cicm-conference.org/2015/cicm.php), Washington D.C., July 2015
+ - [Lean CADE Tutorial](http://leanprover.github.io/presentations/20150803_CADE) [CADE'25](http://conference.mi.fu-berlin.de/cade-25/home), Berlin, Germany, August 2015
+
+- [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150717_CICM) [CICM](http://cicm-conference.org/2015/cicm.php), Washington D.C., July 2015
 
  - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150218_MSR) PL(X) meeting at <a href="http://research.microsoft.com/en-us/groups/rise/">Microsoft Research</a>, Feb 2015
 
