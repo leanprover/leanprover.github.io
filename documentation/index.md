@@ -60,7 +60,9 @@ ads: false
 [constr]: http://arxiv.org/abs/1505.04324
 
 ## Presentations
- - [Lean CADE Tutorial](http://leanprover.github.io/presentations/20150803_CADE) [CADE'25](http://conference.mi.fu-berlin.de/cade-25/home), Berlin, Germany, August 2015
+ - [The Lean Theorem Prover (CADE system description)](http://leanprover.github.io/presentations/20150807_CADE) [CADE'25](http://conference.mi.fu-berlin.de/cade-25/home), Berlin, Germany, August 2015
+
+- [Lean CADE Tutorial](http://leanprover.github.io/presentations/20150803_CADE) [CADE'25](http://conference.mi.fu-berlin.de/cade-25/home), Berlin, Germany, August 2015
 
 - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150717_CICM) [CICM](http://cicm-conference.org/2015/cicm.php), Washington D.C., July 2015
 
