@@ -25,3 +25,8 @@ builds, and/or build the source code by yourself.
 - [OS X 10.10 / 10.9](OSX10inst.html)
 
 - [Source Code](http://github.com/leanprover/lean/archive/master.zip)
+
+You will need a recent version of Emacs, as described in the download
+instructions above. For more information on configuring Emacs and
+installing unicode-friendly fonts, see
+[here](https://github.com/leanprover/lean/blob/master/src/emacs/README.md).
