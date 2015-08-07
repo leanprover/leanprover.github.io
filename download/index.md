@@ -26,7 +26,7 @@ builds, and/or build the source code by yourself.
 
 - [Source Code](http://github.com/leanprover/lean/archive/master.zip)
 
-You will need a recent version of Emacs, as described in the download
+You will need [Emacs24](https://www.gnu.org/software/emacs/) (or later), as described in the download
 instructions above. For more information on configuring Emacs and
 installing unicode-friendly fonts, see
 [here](https://github.com/leanprover/lean/blob/master/src/emacs/README.md).
