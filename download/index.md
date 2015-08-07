@@ -11,8 +11,8 @@ image:
 ads: false
 ---
 
-Lean has not been officially released yet, but you can try the latest daily
-builds, and/or build the source code by yourself.
+Lean and its libraries are still under development, but you can install
+the latest daily builds, or build from the source code.
 
 - [Windows 8](wininst.html)
 
