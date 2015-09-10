@@ -32,7 +32,7 @@ brew install lean
 To upgrade lean to the latest version, run the following commands:
 
 {% highlight bash %}
-brew update && brew upgrade
+brew update && brew upgrade lean
 {% endhighlight %}
 
 
