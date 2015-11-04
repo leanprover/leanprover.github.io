@@ -16,7 +16,7 @@ the latest daily builds, or build from the source code.
 
 - [Windows 8](wininst.html)
 
-- [Ubuntu 14.04 / Ubuntu 15.04](ubuntu14inst.html)
+- [Ubuntu 14.04 / Ubuntu 15.04 / Ubuntu 15.10](ubuntu14inst.html)
 
 - [Ubuntu 12.04](ubuntu12inst.html)
 
