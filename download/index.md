@@ -24,7 +24,7 @@ the latest daily builds, or build from the source code.
 
 - [OS X 10.10 / 10.9](OSX10inst.html)
 
-- [Source Code](http://github.com/leanprover/lean/archive/master.zip)
+- [Source Code](http://github.com/leanprover/lean)
 
 You will need [Emacs24](https://www.gnu.org/software/emacs/) (or later), as described in the download
 instructions above. For more information on configuring Emacs and
