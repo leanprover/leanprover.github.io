@@ -15,6 +15,7 @@ The Lean theorem prover is being developed by
 
 - [Leonardo de Moura](http://research.microsoft.com/en-us/um/people/leonardo) (Microsoft Research)
 - [Soonho Kong](http://www.cs.cmu.edu/~soonhok) (CMU)
+- Daniel Selsam (Stanford)
 
 The Lean standard library is being developed by
 
@@ -23,7 +24,6 @@ The Lean standard library is being developed by
 - [Jakob von Raumer](http://von-raumer.de/) (CMU)
 - [Leonardo de Moura](http://research.microsoft.com/en-us/um/people/leonardo) (Microsoft Research)
 - [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/Site/Home.html) (CMU)
-- Haitao Zhang (Independent Researcher)
 
 Contributors
 
@@ -32,3 +32,7 @@ Contributors
 - Parikshit Khanna (Indian Institute of Technology, Kanpur)
 - [Ulrik Buchholtz](http://www.andrew.cmu.edu/user/ulrikb/) (CMU)
 - [Favonia (Kuen-Bang How)](http://www.cs.cmu.edu/~kuenbanh/) (CMU)
+- Haitao Zhang (Independent Researcher)
+- Sebastian Ullrich (Karlsruhe Institute of Technology)
+- Jacob Alexander Gross (University of Pittsburgh)
+- Andrew Zipperer (CMU)
