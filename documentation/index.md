@@ -17,7 +17,6 @@ ads: false
    alongside a version of Lean running in your browser.
  - You can also read the [pdf version][tutorial-pdf].
  - The tutorial includes a [quick reference][quickref].
- - There will be a [tutorial session at CADE-25](../cade25).
 
 [tutorial-html]: ../tutorial/index.html
 [tutorial-pdf]: ../tutorial/tutorial.pdf
