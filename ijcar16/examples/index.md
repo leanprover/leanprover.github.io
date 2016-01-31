@@ -11,6 +11,8 @@ image:
 ads: false
 ---
 
+*Remark*: all examples can be browsed directly at [github](https://github.com/leanprover/leanprover.github.io/tree/master/ijcar16/examples).
+
 The two examples from the Applications section are available here:
 
 - [example1](./example1.lean)
