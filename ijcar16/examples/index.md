@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Examples for IJCAR 2016 paper"
+title: "Examples for IJCAR 2016 paper: Congruence Closure in Intensional Type Theory"
 date:
 modified:
 excerpt:
@@ -22,8 +22,7 @@ discharge goals in Group theory and Lists.
 - [Group theory](./group.lean)
 - [Lists](./list.lean)
 
-The following list contains small files used to test the congruence
-closure procedure.
+The following list contains small files used to test the congruence closure procedure.
 
 - [cc1](./cc1.lean)
 - [cc2](./cc2.lean)
