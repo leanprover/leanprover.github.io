@@ -4,9 +4,8 @@ namespace paper
 In Lean {x : A} is used to declare implicit parameters that must be inferred
 by solving typing constraints.
 
-In Lean, the introduction rule and elimination rule for equality are called eq
-  eq.refl
-  eq.rec
+In Lean, the introduction rule and elimination rule for eq are called `eq.refl`
+and `eq.rec` respectively.
 
 So, we define refl and erec using them to match the notation used in the paper.
 -/
