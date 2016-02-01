@@ -47,7 +47,7 @@ constant safe_inv : Π (x : ℝ), nzero x → ℝ
 /-
 Define notation (log x), (x ⁻¹) and (x / y) for safe_log and safe_inv.
 We discharge the preconditions pos and nzero using tactics.
-The grid tactic is based on backward chaining, and uses all axioms/lemmas
+The grind tactic is based on backward chaining, and uses all axioms/lemmas
 marked with the `[intro!]` attribute.
 -/
 notation `log`:max x:max := (@safe_log x (by grind))
