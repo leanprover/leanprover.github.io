@@ -58,7 +58,7 @@ definition app : Π {n m : nat}, vector A n → vector A m → vector A (n + m)
 theorem app_nil_left [simp] {n : nat} (v : vector A n) : app [] v == v :=
 by unfold app; inst_simp
 
-theorem app_cons [simp] {n m : nat} (h : A) (t : vector A n) (v : vector A m) : app (cons h t) v ==  cons h (app t v) :=
+theorem app_cons [simp] {n m : nat} (h : A) (t : vector A n) (v : vector A m) : app (cons h t) v == cons h (app t v) :=
 -- unfold the first occurrence of `app` and apply congruence closure
 by unfold app at {1}; inst_simp
 
