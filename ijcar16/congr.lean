@@ -95,7 +95,7 @@ begin
 end
 
 /-
-We can prove any instance of hcong_n using the following
+We can prove any instance of hcongr_n using the following
 tactic script
 
   begin
