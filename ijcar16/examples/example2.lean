@@ -11,26 +11,22 @@ axiom exp_add : ∀ x y : ℝ, (: exp (x + y) :) = exp x * exp y
 attribute [forward] exp_add
 
 /- Define t² as notation for t*t -/
-definition sq (x : ℝ) := x * x
-notation a `²` := sq a
+notation a `²` := a * a
 /- (sq x) and (x * x) are equal by definition, and we can prove it using reflexivity. -/
-lemma sq_def [forward] : ∀ x : ℝ, sq x = x * x :=
-  take x, rfl
-lemma sq_add [forward] : ∀ x y : ℝ, sq (x + y) = (: sq x + 2 * x * y + sq y :) :=
-  take x y, by unfold sq; rewrite add_mul_self_eq
+lemma sq_add [forward] : ∀ x y : ℝ, (x + y)² = (: x² + 2 * x * y + y² :) :=
+  take x y, by rewrite add_mul_self_eq
 
 /- Define predicate pos and state basic properties using axioms. -/
 definition pos (x : ℝ) := x > 0
 axiom pos_1    : pos (1:ℝ)
 axiom pos_bit1 : ∀ x : ℝ,   pos x → pos (bit1 x)
 axiom pos_bit0 : ∀ x : ℝ,   pos x → pos (bit0 x)
-axiom pos_sq   : ∀ x : ℝ,   pos x → pos (sq x)
 axiom pos_add  : ∀ x y : ℝ, pos x → pos y → (: pos (x + y) :)
 axiom pos_mul  : ∀ x y : ℝ, pos x → pos y → (: pos (x * y) :)
 axiom pos_exp  : ∀ x : ℝ,   pos (exp x)
 
 /- The [intro!] attribute instructs lean to use the following axioms for backward chaining. -/
-attribute [intro!]  pos_bit1 pos_bit0 pos_1 pos_add pos_mul pos_sq pos_exp
+attribute [intro!]  pos_bit1 pos_bit0 pos_1 pos_add pos_mul pos_exp
 attribute [forward] pos_add pos_mul
 
 /- Define predicate nzero and state basic properties using axioms. -/
@@ -69,10 +65,9 @@ attribute [intro!] inv_pos
 attribute [forward] inv_pos inv_mul inv_cancel_left inv_neg
 
 axiom log_mul : ∀ x y : ℝ, pos x → pos y → log (x * y) = log x + log y
-axiom log_sq  : ∀ x : ℝ,   pos x → log (sq x) = 2 * log x
 axiom log_inv : ∀ x : ℝ,   pos x → log (x⁻¹)  = - log x
 
-attribute [forward] log_mul log_sq log_inv
+attribute [forward] log_mul log_inv
 
 /- To prove the main lemma, we also need the following basic properties from the standard library. -/
 lemma rdistrib [forward]    : ∀ x y z : ℝ, (x + y) * z = x * z + y * z   :=
@@ -81,13 +76,14 @@ lemma addcomm [forward]     : ∀ x y : ℝ, x + y = y + x                   :=
   add.comm
 lemma sub_def [forward]     : ∀ x y : ℝ, x - y = x + -y                  :=
   take x y, rfl
-lemma mul_two_sum [forward] : ∀ x : ℝ, (: 2 * x :) = x + x               :=
+lemma mul_two_sum [forward] : ∀ x : ℝ, 2 * x = x + x                     :=
   take x, show (1 + 1) * x = x + x,
   by rewrite [rdistrib, one_mul]
 lemma neg_mul [forward]     : ∀ x y : ℝ, (: (- x) * y :) = - (x * y)     :=
   take x y, by rewrite neg_mul_eq_neg_mul
 
 set_option blast.strategy "ematch"
+set_option blast.ematch.max_instances 2000
 
 example : ∀ x y z w : ℝ, pos x → pos y → pos z → pos w → x * y = exp z + w →
           log (2 * w * exp z + w² + exp (2*z)) / -2 = log (y⁻¹) - log x :=
