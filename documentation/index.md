@@ -61,6 +61,8 @@ ads: false
 ## Presentations
  - [The Lean Theorem Prover and Automation](http://leanprover.github.io/presentations/20160119_CPP) [CPP'16](https://people.csail.mit.edu/adamc/cpp16/index.html) Florida, 2016
 
+- [Type Theory and Practical Foundations (with examples in Lean)](http://www.andrew.cmu.edu/user/avigad/Talks/fields_type_theory.pdf), Fields Institute, Toronto, February 2016
+
 - [The Lean Theorem Prover (CADE system description)](http://leanprover.github.io/presentations/20150807_CADE) [CADE'25](http://conference.mi.fu-berlin.de/cade-25/home), Berlin, Germany, August 2015
 
 - [Lean CADE Tutorial](http://leanprover.github.io/presentations/20150803_CADE) [CADE'25](http://conference.mi.fu-berlin.de/cade-25/home), Berlin, Germany, August 2015
