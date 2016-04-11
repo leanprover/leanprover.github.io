@@ -36,9 +36,14 @@ lemma congr {A B : Type} {f g : A → B} {a b : A} : f = g → a = b → f a = g
   erec (λ x, f a = g x) p e₂
 
 /-
+Heterogeneous equality
+----------------------
+
 There are many ways to define heterogeneous equality.
 In the following one, given (a : A) (b : B), we say `a == b` iff
 there is a proof (e : A = B) that can be used to cast `a` into B.
+Two equivalent ways of defining heterogeneous equality can be found
+at the end of this file.
 -/
 definition heq {A B : Type} (a : A) (b : B) :=
 ∃ e : A = B, e ▸ a = b
@@ -72,6 +77,7 @@ begin
   constructor, exact merge e₁₂ e₂₂
 end
 
+/- Converting homogeneous equality to heterogeneous equality -/
 lemma ofeq {A : Type} {a b : A} : a = b → a == b :=
 λ e, erec (λ x, a == x) (hrefl a) e
 
@@ -95,6 +101,9 @@ begin
 end
 
 /-
+Congruence lemmas for heterogeneous equality
+--------------------------------------------
+
 We can prove any instance of hcongr_n using the following
 tactic script
 
@@ -183,21 +192,44 @@ begin
 end
 
 /-
+Equivalent ways of defining heterogeneous equality
+--------------------------------------------------
+
 In Coq, heterogeneous equality is called JMeq,
 and is defined as the following inductive datatype.
 -/
 inductive JMeq {A : Type} (a : A) : ∀ {B : Type}, B → Prop :=
 refl : JMeq a a
 
-/- JMeq and heq are equivalent. -/
-lemma heq_of_JMeq {A B : Type} {a : A} {b : B} : JMeq a b → a == b :=
-assume e, JMeq.rec (hrefl a) e
-
-lemma JMeq_of_heq {A B : Type} {a : A} {b : B} : a == b → JMeq a b :=
+lemma heq_iff_JMeq {A B : Type} {a : A} {b : B} : a == b ↔ JMeq a b :=
 begin
-  intro e, induction e with [e₁, e₂],
-  subst e₁, subst e₂,
+  apply iff.intro,
+    {intro e, induction e with [e₁, e₂], subst e₁, subst e₂, apply JMeq.refl},
+    {assume e, JMeq.rec (hrefl a) e}
+end
+
+/-
+Another way to define heterogeneous equality is as homogeneous equality
+of pointed types.
+-/
+inductive ptdtype := mk : ∀ {A : Type}, A → ptdtype
+definition ptdeq {A B : Type} (a : A) (b : B) : Prop := ptdtype.mk a = ptdtype.mk b
+
+definition unptd (p : ptdtype) : Type := ptdtype.rec_on p (λ A a, A)
+definition basept (p : ptdtype) : unptd p := ptdtype.rec_on p (λ A a, a)
+
+lemma JMeq_of_ptdeq_helper : ∀ (p₁ p₂ : ptdtype), p₁ = p₂ -> JMeq (basept p₁) (basept p₂) :=
+begin
+  intros p₁ p₂ eq_p₁_p₂,
+  induction eq_p₁_p₂,
   apply JMeq.refl
+end
+
+lemma JMeq_iff_ptdeq {A B : Type} (a : A) (b : B) : JMeq a b ↔ ptdeq a b :=
+begin
+  apply iff.intro,
+    {intro JMeq_a_b, induction JMeq_a_b, apply refl},
+    {intro ptdeq_a_b, apply JMeq_of_ptdeq_helper, exact ptdeq_a_b}
 end
 
 end paper
