@@ -47,7 +47,8 @@ ads: false
   [Leonardo de Moura][leo], [Soonho Kong][soonho], [Jeremy Avigad][jeremy], [Floris van Doorn][floris] and [Jakob von Raumer][jakob],<br />25th International Conference on Automated Deduction (CADE-25), Berlin, Germany, 2015.
 
 - *Congruence Closure in Intensional Type Theory*. [PDF](/files/congr.pdf)<br />
-  Daniel Selsam and [Leonardo de Moura][leo], International Joint Conference on Automated Reasoning (IJCAR), Coimbra, Portugal, 2016.
+  Daniel Selsam and [Leonardo de Moura][leo], <br />
+  International Joint Conference on Automated Reasoning (IJCAR), Coimbra, Portugal, 2016.
 
 - *Elaboration in Dependent Type Theory*. [PDF][constr] <br />
   [Leonardo de Moura][leo], [Jeremy Avigad][jeremy], [Soonho Kong][soonho] and [Cody Roux][cody]<br />
