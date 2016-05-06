@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Ubuntu 14/15 Installation"
+title: "Ubuntu 14/15/16 Installation"
 date:
 modified:
 excerpt:
