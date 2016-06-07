@@ -16,13 +16,13 @@ the latest daily builds, or build from the source code.
 
 - [Windows 8](wininst)
 
-- [Ubuntu 14.04 / Ubuntu 15.04 / Ubuntu 16.04](ubuntu14inst)
+- [Ubuntu 14.04 / Ubuntu 15.10 / Ubuntu 16.04](ubuntu14inst)
 
 - [Ubuntu 12.04](ubuntu12inst)
 
 - [Debian 7/8](debian78)
 
-- [OS X 10.10 / 10.9](OSX10inst)
+- [OS X 10.10 / 10.11](OSX10inst)
 
 - [Source Code](http://github.com/leanprover/lean)
 
