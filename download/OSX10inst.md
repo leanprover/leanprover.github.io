@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "OSX 10.10/10.09 Installation"
+title: "OSX 10.11/10.10 Installation"
 date:
 modified:
 excerpt:
@@ -66,7 +66,7 @@ Setting up emacs
 
 Make sure that you have emacs installed:
 
- - If you're using [homebrew](http://brew.sh), do `brew install emacs`
+ - If you're using [homebrew](http://brew.sh), do `brew install emacs --with-cocoa && brew linkapps emacs`
  - If you're using [macports](https://www.macports.org), do `sudo port install emacs`
  - You can also visit [emacsformacosx.com](http://emacsformacosx.com)
    to get a pre-compiled binary of emacs.
