@@ -15,7 +15,7 @@ The Lean theorem prover is being developed by
 
 - [Leonardo de Moura](http://research.microsoft.com/en-us/um/people/leonardo) (Microsoft Research)
 - [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
-- [Sebastian Ullrich](https://kha.github.io/) (CMU)
+- [Sebastian Ullrich](https://kha.github.io/) (Karlsruhe Institute of Technology)
 - [Jared Roesch](http://jroesch.github.io/) (University of Washington)
 - Daniel Selsam (Stanford)
 
