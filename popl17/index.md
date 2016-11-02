@@ -19,7 +19,7 @@ take place in Paris at 16 January 2017.
 [Lean]({{site.url}}/index) is a new open source theorem prover being
 developed at Microsoft Research, Carnegie
 Mellon University, and University of Washington.
-The *Lean* is a new theorem prover that aims to
+*Lean* is a new theorem prover that aims to
 bridge the gap between interactive and automated theorem proving, by
 situating automated tools and methods in a framework that supports
 user interaction and the construction of fully specified axiomatic
