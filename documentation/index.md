@@ -15,25 +15,19 @@ ads: false
 
  - There is an [online tutorial][tutorial-html], which is presented
    alongside a version of Lean running in your browser.
- - You can also read the [pdf version][tutorial-pdf].
- - The tutorial includes a [quick reference][quickref].
 
-[tutorial-html]: ../tutorial/index.html
-[tutorial-pdf]: ../tutorial/tutorial.pdf
-[quickref]: ../tutorial/quickref.pdf
+[tutorial-html]: ../theorem_proving_in_lean/index.html
 
-## Libraries
+## Tutorial for Lean2 (aka Lean version 2.0)
 
-- You can explore the [standard library][standard] directly in the
-  GitHub respository, or through annotated [markdown
-  files][standardmd].
-- You can also browse the [homotopy type theory library][hott]
-  directly or through [markdown files][hottmd].
+ - The [online tutorial for version 0.2][tutorial2-html] is also available.
+   Lean2 has special support for Homotopy Type Theory.
+ - You can also read the [pdf version][tutorial2-pdf].
+ - The tutorial includes a [quick reference][quickref2].
 
-[standard]: https://github.com/leanprover/lean/tree/master/library
-[standardmd]: https://github.com/leanprover/lean/blob/master/library/library.md
-[hott]: https://github.com/leanprover/lean/tree/master/hott
-[hottmd]: https://github.com/leanprover/lean/blob/master/hott/hott.md
+[tutorial2-html]: ../tutorial/index.html
+[tutorial2-pdf]: ../tutorial/tutorial.pdf
+[quickref2]: ../tutorial/quickref.pdf
 
 ## Forum
 
