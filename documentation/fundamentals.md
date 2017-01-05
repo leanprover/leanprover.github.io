@@ -15,9 +15,9 @@ This document assumes that you have installed Lean following the instructions on
 
 ## Source Files and Object Files
 
-A `.lean` (read "dot Lean") file consists of instructions that tell Lean how to construct formal terms in dependent type theory. Processing this file is a matter of filling in missing or implicit information, building the relevant terms, and sending them to the type checker to confirm that they are well-formed and have the specified types. This is analogous to the compilation process for a programming language; the `.lean` file contains source code that is compiled down to machine representations of the desired formal objects. Lean caches the output of the compilation process in files with the extension `.olean`, for "object Lean."
+A `.lean` (read "dot Lean") file consists of instructions that tell Lean how to construct formal terms in dependent type theory. Processing this file is a matter of filling in missing or implicit information, building the relevant terms, and sending them to the type checker to confirm that they are well-formed and have the specified types. This is analogous to the compilation process for a programming language, in that the `.lean` file contains source code that is compiled down to machine representations of the desired formal objects. Lean caches the output of the compilation process in files with the extension `.olean`, for "object Lean."
 
-Assuming the directory that contains Lean is in your system path, you can run Lean on a file `foo.lean` from a system command line simply by typing:
+Assuming the directory that contains Lean is in your system path, you can run Lean on a file `foo.lean` from a system command line by typing:
 ```
 lean foo.lean
 ```
