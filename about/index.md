@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: archive
 title: "About"
 date:
 modified:
