@@ -11,23 +11,48 @@ image:
 ads: false
 ---
 
-## Tutorial
+The current version of Lean is Lean 3, and is under active
+development. The source code and libraries can be found on
+[github](http://github.com/leanprover/lean).
 
- - There is an [online tutorial][tutorial-html], which is presented
-   alongside a version of Lean running in your browser.
+- [Lean Fundamentals](fundamentals)
+- [Using Lean with Emacs](emacs)
 
-[tutorial-html]: ../theorem_proving_in_lean/index.html
+## Tutorials
 
-## Tutorial for Lean2 (aka Lean version 2.0)
+Each of the following tutorials is available in an online version that
+runs alongside a Lean in your browser, and as a PDF document.
 
- - The [online tutorial for version 0.2][tutorial2-html] is also available.
-   Lean2 has special support for Homotopy Type Theory.
- - You can also read the [pdf version][tutorial2-pdf].
- - The tutorial includes a [quick reference][quickref2].
+- *An Introduction to Lean.*<br />
+  A quick tour of Lean and its features.<br /> 
+  [online tutorial](../introduction_to_lean),
+  [pdf](../introduction_to_lean/introduction_to_lean.pdf)<br />
 
-[tutorial2-html]: ../tutorial/index.html
-[tutorial2-pdf]: ../tutorial/tutorial.pdf
-[quickref2]: ../tutorial/quickref.pdf
+- *Theorem Proving in Lean.*<br />
+  A introduction to using Lean as an interactive theorem prover. <br /> 
+  [online tutorial](../theorem_proving_in_lean),
+  [pdf](../theorem_proving_in_lean/theorem_proving_in_lean.pdf)<br />
+
+- *Programming in Lean*<br />
+  An introduction to writing and reasoning about programs in Lean, as well as
+  writing tactics and automation.<br /> 
+  [online tutorial](../programming_in_lean),
+  [pdf](../programming_in_lean/programming_in_lean.pdf) <br />
+  
+*Caveat.* All three are incomplete and under construction.
+
+## Lean 2
+
+The previous version of Lean is still being maintained but not
+developed. Lean 2 has special support for homotopy type theory and a
+substantial library. The source code and libraries can be found on
+[github](http://github.com/leanprover/lean2).
+
+- *Theorem Proving in Lean.*<br />
+  The version for Lean 2.<br />
+  [online tutorial](../tutorial),
+  [pdf](../tutorial/tutorial.pdf),
+  [quick reference (pdf)](../tutorial/quickref)
 
 ## Forum
 
