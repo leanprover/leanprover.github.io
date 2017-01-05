@@ -28,5 +28,5 @@ code base and library are welcome.
 
 You can experiment with an
 [online version of Lean](https://leanprover.github.io/tutorial/?live)
-that runs in your browser, or try the online tutorials listed under [Documentation](../Documentation).
+that runs in your browser, or try the online tutorials listed under [Documentation](../documentation).
 
