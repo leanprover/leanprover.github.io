@@ -40,6 +40,5 @@ Contributors:
 - [Ulrik Buchholtz](http://www.andrew.cmu.edu/user/ulrikb/) (Carnegie Mellon University)
 - [Favonia (Kuen-Bang Hou)](http://www.cs.cmu.edu/~kuenbanh/) (Carnegie Mellon University)
 - Haitao Zhang (Independent Researcher)
-- Sebastian Ullrich (Karlsruhe Institute of Technology)
 - Jacob Alexander Gross (University of Pittsburgh)
 - Andrew Zipperer (Carnegie Mellon University)
