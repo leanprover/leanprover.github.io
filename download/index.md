@@ -11,7 +11,11 @@ image:
 ads: false
 ---
 
-Lean and its libraries are still under development, but you can build it from the source code.
+The latest binaries for the major platforms are available here:
+
+- [Binaries](https://github.com/leanprover/lean/releases/latest)
+
+The source code can be download here:
 
 - [Source Code](http://github.com/leanprover/lean)
 
