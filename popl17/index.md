@@ -41,13 +41,13 @@ checking, auto-completion, and visualization features.
 Participants are expected to have a notebook or tablet with a
 Javascript enabled web-browser installed.  Participants interested in
 the native IDE must have a Linux (Ubuntu preferred), OS X or Windows 8/10
-notebook, and Emacs 24.x installed.
+notebook, and [Emacs 24.x](https://www.gnu.org/software/emacs) or [Visual Studio Code](https://code.visualstudio.com) installed.
 
 In the second part, we cover advanced features.
 It includes topics such as: type classes, implicit coercions,
 overloading, code extraction, and an introduction to the tactic framework.
-Again, all the material will be available online, and participants
-will be able to access it before and after the tutorial.
+[All the material](https://github.com/leanprover/presentations/tree/master/20170116_POPL) is available online, and participants
+can access it before and after the tutorial.
 
 In the final part, we describe how to write and debug non trivial tactics.
 Lean tactics and other meta programs are implemented using the same language
