@@ -5,7 +5,7 @@ description: The Lean Theorem Prover
 logo: lean_logo.svg
 teaser:
 locale:
-baseurl: https://leanprover.github.io
+baseurl:
 safe: true
 
 # Jekyll configuration
