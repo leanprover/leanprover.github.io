@@ -24,7 +24,7 @@ The Lean standard library is being developed by:
 - [Jeremy Avigad](http://www.andrew.cmu.edu/user/avigad) (Carnegie Mellon University)
 - [Floris van Doorn](http://www.contrib.andrew.cmu.edu/~fpv/) (Carnegie Mellon University)
 - [Leonardo de Moura](http://research.microsoft.com/en-us/um/people/leonardo) (Microsoft Research)
-- [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/Site/Home.html) (Carnegie Mellon University)
+- [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/) (Carnegie Mellon University)
 - [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
 
 Past members:
