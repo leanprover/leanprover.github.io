@@ -76,6 +76,6 @@ These include papers, presentations, theses, and a undergraduate course.
 ## Courses
 
 - *Logic and Proof*. An introductory course for undergraduates.
-  [online tutorial](../logic_and_proof),
+  [online tutorial](../../logic_and_proof),
   [pdf](../../logic_and_proof/logic_and_proof.pdf)<br />
   Jeremy Avigad, Robert Y. Lewis, and Floris van Doorn.
