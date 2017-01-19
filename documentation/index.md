@@ -16,6 +16,7 @@ development. The source code and libraries can be found on
 [github](http://github.com/leanprover/lean).
 
 - [Lean Fundamentals](fundamentals)
+- [Using Lean Online](online)
 - [Using Lean with Emacs](emacs)
 
 ## Tutorials
