@@ -25,22 +25,26 @@ Each of the following tutorials is available in an online version that
 runs alongside a Lean in your browser, and as a PDF document.
 
 - *An Introduction to Lean*<br />
-  A quick tour of Lean and its features.<br /> 
+  A quick tour of Lean and its features.<br />
   [online tutorial](../introduction_to_lean),
   [pdf](../introduction_to_lean/introduction_to_lean.pdf)<br />
 
 - *Theorem Proving in Lean*<br />
-  A introduction to using Lean as an interactive theorem prover. <br /> 
+  A introduction to using Lean as an interactive theorem prover. <br />
   [online tutorial](../theorem_proving_in_lean),
   [pdf](../theorem_proving_in_lean/theorem_proving_in_lean.pdf)<br />
 
 - *Programming in Lean*<br />
   An introduction to writing and reasoning about programs in Lean, as well as
-  writing tactics and automation.<br /> 
+  writing tactics and automation.<br />
   [online tutorial](../programming_in_lean),
   [pdf](../programming_in_lean/programming_in_lean.pdf) <br />
-  
+
 *Caveat:* all three are incomplete and under construction.
+
+## Forum
+
+You are welcome to join the [Lean user forum](https://groups.google.com/forum/#!forum/lean-user) on Google Groups.
 
 ## Lean 2
 
@@ -58,11 +62,4 @@ substantial library. The source code and libraries can be found on
 ## Publications
 
 There are papers, talks, MS theses, and an undergraduate course listed
-on our [publications page](publications).
-
-## Forum
-
-You are welcome to join the [Lean user
-  forum](https://groups.google.com/forum/#!forum/lean-user) on Google
-  Groups.
-
+on our [publications page](../publications).

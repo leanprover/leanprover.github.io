@@ -10,7 +10,11 @@
 
 - title:      Download
   url:        /download/
-  excerpt:    "precompiled binaries"
+  excerpt:    "Precompiled binaries"
+
+- title:      Publications
+  url:        /publications/
+  excerpt:    "Publications: papers, talks, and theses"
 
 - title:      People
   url:        /people/
