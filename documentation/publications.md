@@ -18,7 +18,7 @@ These include papers, presentations, theses, and a undergraduate course.
 - "The Lean Theorem Prover." [PDF](/papers/system.pdf)<br />
   [Leonardo de Moura][leo], [Soonho Kong][soonho], [Jeremy Avigad][jeremy], [Floris van Doorn][floris] and [Jakob von Raumer][jakob],<br />25th International Conference on Automated Deduction (CADE-25), Berlin, Germany, 2015.
 
-- "Congruence Closure in Intensional Type Theory." [PDF](/papers/congr.pdf)<br />
+- "Congruence Closure in Intensional Type Theory." [PDF][congr] <br />
   Daniel Selsam and [Leonardo de Moura][leo], <br />
   International Joint Conference on Automated Reasoning (IJCAR), Coimbra, Portugal, 2016.
 
@@ -33,6 +33,7 @@ These include papers, presentations, theses, and a undergraduate course.
 [jakob]: http://von-raumer.de/
 [cody]: http://www.andrew.cmu.edu/user/croux
 [constr]: http://arxiv.org/abs/1505.04324
+[congr]: http://arxiv.org/abs/1701.04391
 
 ## Presentations
 
