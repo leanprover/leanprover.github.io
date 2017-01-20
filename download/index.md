@@ -17,6 +17,10 @@ There are binary packages available for all major platforms here:
 
 - [Binaries](https://github.com/leanprover/lean/releases/latest)
 
+All previous releases are available here:
+
+- [Older binaries](https://github.com/leanprover/lean/releases)
+
 ## Source
 
 The source code can be downloaded here:
