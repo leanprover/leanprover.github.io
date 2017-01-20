@@ -19,7 +19,7 @@ There are binary packages available for all major platforms here:
 
 ## Source
 
-The source code can be download here:
+The source code can be downloaded here:
 
 - [Source Code](http://github.com/leanprover/lean)
 
