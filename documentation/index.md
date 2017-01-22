@@ -18,6 +18,7 @@ development. The source code and libraries can be found on
 - [Lean Fundamentals](fundamentals)
 - [Using Lean Online](online)
 - [Using Lean with Emacs](emacs)
+- [Using Lean with Visual Studio Code](vscode)
 
 ## Tutorials
 

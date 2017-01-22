@@ -27,7 +27,7 @@ You can get pretty far using the menus for basic editing and file management. Th
 
 To use Emacs with Lean, you simply need to create a file with the extension `.lean` and edit it. For example, you can create a file by typing `emacs my_file.lean` in a terminal window, in the directory where you want to keep the file. Assuming everything has been installed correctly, Emacs will start up in Lean mode, already checking your file in the background. 
 
-Lean mode offers syntax highlighting, so commands, identifiers, and so on are color-coded. Any errors that Lean detects are subtly underlined in red, and the editor adds an annotation to the left margin at lines where errors occur. As you continue to type and eliminate errors, these annotations magically disappear. Lean uses multiple cores to process a file, and caches previous work to speed up compilation. As a result, changes you make are registered almost instantaneously.
+Lean mode offers syntax highlighting, so commands, identifiers, and so on are color-coded. Any errors that Lean detects are subtly underlined in red, and the editor adds an annotation to the left margin at lines where errors occur. As you continue to type and eliminate errors, these annotations magically disappear. Lean uses multiple cores to process a file and caches previous work to speed up compilation. As a result, changes you make are registered almost instantaneously.
 
 If you put the Emacs cursor on a highlighted error, Emacs displays the error message in at the bottom of the frame. If you hover over the highlighted error with the system cursor, the error message appears in a pop-up bubble. Alternatively, if you type `C-c ! l` while in Lean mode, Emacs opens a new window with a list of compilation errors. Some commands in Lean, such as `check` and `print`, produce output. The annotations are a different color, but they are otherwise handled the same way.
 
@@ -51,7 +51,7 @@ Here is another useful trick: if you see some notation in a Lean file and you wa
 
 ## Projects and the Search Path
 
-When you `import` a file, Lean searches for it in presribed locatiosn, as described in [Lean Fundamentals](../fundamentals).
+When you `import` a file, Lean searches for it in prescribed locatiosn, as described in [Lean Fundamentals](../fundamentals).
 
 It is often useful to organize your project files in a hierarchical directory structure. Because files can be opened in Emacs anywhere and at any time, it takes a bit of effort to help Lean identify the root directory. You can do this simply by creating a file named `.project` there. This serves only as a marker, and the contents of the file are ignored. (On variants of Unix, you can create an empty file by typing `touch .project` at a shell prompt.) When you open a `.lean` file in Emacs, Lean traverses the parent directories, and if it finds a `.project` file along the way, it takes that to be the root of the project. That root is added to the Lean search path, as described in 
 [Lean Fundamentals](../fundamentals).
