@@ -11,8 +11,6 @@ image:
 ads: false
 ---
 
-These include papers, presentations, theses, and a undergraduate course.
-
 ## Papers
 
 - "The Lean Theorem Prover." [PDF](/papers/system.pdf)<br />
@@ -36,19 +34,21 @@ These include papers, presentations, theses, and a undergraduate course.
 
 ## Presentations
 
-- [The Lean Theorem Prover](http://leanprover.github.io/presentations/20170116_POPL) [POPL'17](http://popl17.sigplan.org/)
+- [The Lean Theorem Prover](http://leanprover.github.io/presentations/20170116_POPL), [POPL'17](http://popl17.sigplan.org/), Paris, January 2017
 
-- [The Lean Theorem Prover and Automation](http://leanprover.github.io/presentations/20160119_CPP) [CPP'16](https://people.csail.mit.edu/adamc/cpp16/index.html) Florida, 2016
+- [Formal Methods in Mathematics and the Lean Theorem Prover](http://leanprover.github.io/talks/stanford2017.pdf), [CSLI](https://www-csli.stanford.edu/), Stanford, January 2017
 
-- [Type Theory and Practical Foundations (with examples in Lean)](http://www.andrew.cmu.edu/user/avigad/Talks/fields_type_theory.pdf), Fields Institute, Toronto, February 2016
+- [The Lean Theorem Prover and Automation](http://leanprover.github.io/presentations/20160119_CPP), [CPP'16](https://people.csail.mit.edu/adamc/cpp16/index.html), St. Petersburg, Florida, January, 2016
+
+- [Type Theory and Practical Foundations (with examples in Lean)](http://www.andrew.cmu.edu/user/avigad/Talks/fields_type_theory.pdf), [Fields Institute](http://www.fields.utoronto.ca/), Toronto, February 2016
 
 - [The Lean Theorem Prover (CADE system description)](http://leanprover.github.io/presentations/20150807_CADE) [CADE'25](http://conference.mi.fu-berlin.de/cade-25/home), Berlin, Germany, August 2015
 
-- [Lean CADE Tutorial](http://leanprover.github.io/presentations/20150803_CADE) [CADE'25](http://conference.mi.fu-berlin.de/cade-25/home), Berlin, Germany, August 2015
+- [Lean CADE Tutorial](http://leanprover.github.io/presentations/20150803_CADE), [CADE'25](http://conference.mi.fu-berlin.de/cade-25/home), Berlin, Germany, August 2015
 
-- [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150717_CICM) [CICM](http://cicm-conference.org/2015/cicm.php), Washington D.C., July 2015
+- [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150717_CICM), [CICM](http://cicm-conference.org/2015/cicm.php), Washington D.C., July 2015
 
-- [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150218_MSR) PL(X) meeting at <a href="http://research.microsoft.com/en-us/groups/rise/">Microsoft Research</a>, Feb 2015
+- [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150218_MSR), PL(X) meeting at <a href="http://research.microsoft.com/en-us/groups/rise/">Microsoft Research</a>, Feb 2015
 
 - [Lean mode for Emacs](http://leanprover.github.io/presentations/20150123_lean-mode/lean-mode.pdf)
 
