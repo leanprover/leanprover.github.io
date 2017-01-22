@@ -15,6 +15,8 @@ The current version of Lean is Lean 3, and is under active
 development. The source code and libraries can be found on
 [github](http://github.com/leanprover/lean).
 
+## Using Lean
+
 - [Lean Fundamentals](fundamentals)
 - [Using Lean Online](online)
 - [Using Lean with Emacs](emacs)
@@ -43,10 +45,6 @@ runs alongside a Lean in your browser, and as a PDF document.
 
 *Caveat:* all three are incomplete and under construction.
 
-## Forum
-
-You are welcome to join the [Lean user forum](https://groups.google.com/forum/#!forum/lean-user) on Google Groups.
-
 ## Lean 2
 
 The previous version of Lean is still being maintained but not
@@ -60,7 +58,7 @@ substantial library. The source code and libraries can be found on
   [pdf](../tutorial/tutorial.pdf),
   [quick reference (pdf)](../tutorial/quickref)
 
-## Publications
+## Forum
 
-There are papers, talks, MS theses, and an undergraduate course listed
-on our [publications page](../publications).
+You are welcome to join the [Lean user forum](https://groups.google.com/forum/#!forum/lean-user) on Google Groups.
+
