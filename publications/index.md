@@ -38,7 +38,9 @@ ads: false
 
 - [Formal Methods in Mathematics and the Lean Theorem Prover](http://leanprover.github.io/talks/stanford2017.pdf), [CSLI](https://www-csli.stanford.edu/), Stanford, January 2017
 
-- [The Lean Theorem Prover and Automation](http://leanprover.github.io/presentations/20160119_CPP), [CPP'16](https://people.csail.mit.edu/adamc/cpp16/index.html), St. Petersburg, Florida, January, 2016
+- [The Lean Theorem Prover](http://leanprover.github.io/presentations/20161024_ICTAC), [ICTAC'16](http://cc.ee.ntu.edu.tw/~ictac2016), Taipei, Taiwan, October 2106
+
+- [The Lean Theorem Prover and Automation](http://leanprover.github.io/presentations/20160119_CPP), [CPP'16](https://people.csail.mit.edu/adamc/cpp16/index.html), St. Petersburg, Florida, January 2016
 
 - [Type Theory and Practical Foundations (with examples in Lean)](http://www.andrew.cmu.edu/user/avigad/Talks/fields_type_theory.pdf), [Fields Institute](http://www.fields.utoronto.ca/), Toronto, February 2016
 
