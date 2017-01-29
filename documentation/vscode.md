@@ -12,6 +12,7 @@ ads: false
 ---
 
 If you have installed [Visual Studio Code](https://code.visualstudio.com/), you can easily add the Lean extension by clicking the extension icon in the view bar at left and searching for `lean`. To run properly, the extension needs to be able to find Lean. You can make this possible in one of three ways:
+
 - Add a path to the Lean binary to your `PATH` environment variable.
 - Use `make install` from the Lean build directory to copy the Lean binary to a directory in your search path.
 - Specify the Lean path to VS Code in the `settings.json` file, by choosing `File -> Preferences -> User Settings`.
@@ -23,7 +24,7 @@ With the third option, you should add the lines
 {% endhighlight %}
 for a Windows installation, or
 {% highlight bash %}
-  "lean.executablePath": "[path-to-lean]\bin\lean",
+  "lean.executablePath": "[path-to-lean]/bin/lean",
   "input-assist.languages": ["lean"]
 {% endhighlight %}
 for Linux or macOS.
