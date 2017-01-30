@@ -51,7 +51,7 @@ Here is another useful trick: if you see some notation in a Lean file and you wa
 
 ## Projects and the Search Path
 
-When you `import` a file, Lean searches for it in prescribed locatiosn, as described in [Lean Fundamentals](../fundamentals).
+When you `import` a file, Lean searches for it in prescribed locations, as described in [Lean Fundamentals](../fundamentals).
 
 It is often useful to organize your project files in a hierarchical directory structure. Because files can be opened in Emacs anywhere and at any time, it takes a bit of effort to help Lean identify the root directory. You can do this simply by creating a file named `.project` there. This serves only as a marker, and the contents of the file are ignored. (On variants of Unix, you can create an empty file by typing `touch .project` at a shell prompt.) When you open a `.lean` file in Emacs, Lean traverses the parent directories, and if it finds a `.project` file along the way, it takes that to be the root of the project. That root is added to the Lean search path, as described in 
 [Lean Fundamentals](../fundamentals).
