@@ -15,19 +15,7 @@ If you have installed [Visual Studio Code](https://code.visualstudio.com/), you 
 
 - Add a path to the Lean binary to your `PATH` environment variable.
 - Use `make install` from the Lean build directory to copy the Lean binary to a directory in your search path.
-- Specify the Lean path to VS Code in the `settings.json` file, by choosing `File -> Preferences -> User Settings`.
-
-With the third option, you should add the lines
-{% highlight bash %}
-  "lean.executablePath": "[path-to-lean]\\bin\\lean.exe",
-  "input-assist.languages": ["lean"]
-{% endhighlight %}
-for a Windows installation, or
-{% highlight bash %}
-  "lean.executablePath": "[path-to-lean]/bin/lean",
-  "input-assist.languages": ["lean"]
-{% endhighlight %}
-for Linux or macOS.
+- Specify the Lean path in the VS Code `settings.json` file. To do this, choose `File -> Preferences -> User Settings`, find `Lean configuration`, and set `lean.executablePath` to the correct path.
 
 After that, if you create a file with the extension `.lean` and edit it, Lean will check the file continuously as you type. For example, if you type the words `check id`, the word `check` is underlined in green to indicate a response from the Lean server. Hovering over the word `check` displays the response, in this case, the type of the identity function.
 
