@@ -47,9 +47,9 @@ runs alongside a Lean in your browser, and as a PDF document.
 
 ## Lean 2
 
-The previous version of Lean is still being maintained but not
-developed. Lean 2 has special support for homotopy type theory and a
-substantial library. The source code and libraries can be found on
+The previous version of Lean, Lean 2, is still being maintained but
+not developed. Lean 2 has special support for homotopy type theory and
+a substantial library. The source code and libraries can be found on
 [github](http://github.com/leanprover/lean2).
 
 - *Theorem Proving in Lean*<br />
