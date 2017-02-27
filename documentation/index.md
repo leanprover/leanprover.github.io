@@ -56,7 +56,7 @@ substantial library. The source code and libraries can be found on
   A version for Lean 2.<br />
   [online tutorial](../tutorial),
   [pdf](../tutorial/tutorial.pdf),
-  [quick reference (pdf)](../tutorial/quickref)
+  [quick reference (pdf)](../tutorial/quickref.pdf)
 
 ## Forum
 
