@@ -71,7 +71,7 @@ ads: false
 
 - *Simple Verification of Rust Programs via Functional Purification*.
   [PDF](https://github.com/Kha/masters-thesis/blob/master/main.pdf), [code](https://github.com/Kha/electrolysis)<br />
-  Sebastian Ullrich, MS thesis, Karlruhe Institute of Technology, 2015.
+  Sebastian Ullrich, MS thesis, Karlruhe Institute of Technology, 2016.
 
 ## Courses
 
