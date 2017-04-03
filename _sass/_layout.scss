@@ -15,8 +15,9 @@
         }
 }
 .site-title {
-        @include row;
+        display: none;
         @include media($large) {
+                @include row;
                 @include span-columns(2);
         }
         padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
@@ -82,19 +83,17 @@
 }
 
 .top-menu {
-        display: none;
         position: relative;
-        @include media($medium) {
-                @include span-columns(12);
-        }
         @include media($large) {
                 @include span-columns(9);
+                .home {
+                        display: none;
+                }
                 ul {
                         position: absolute;
                         right: 0;
                 }
         }
-        .home,
         .sub-menu-item {
                 display: none;
         }
