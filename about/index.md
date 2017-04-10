@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Blog"
+title: "About"
 date:
 modified:
 excerpt:
