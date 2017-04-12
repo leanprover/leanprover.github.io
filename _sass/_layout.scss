@@ -410,12 +410,16 @@
 .page-footer {
         position: relative;
 }
+
+.author {
+        display: flex;
+}
+
 .author-image {
         position: absolute;
         left: 0;
+        padding: 0px;
         img {
-                width: 80px;
-                height: 80px;
                 border-radius: $border-radius;
         }
 }
@@ -464,7 +468,7 @@
         @include outer-container;
         margin-top: (3 * (0px + $doc-line-height));
         margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
-        padding-bottom: $gutter;
+        // padding-bottom: $gutter;
         font-family: $alt-font;
         .copyright {
                 @include font-size(12);
@@ -473,7 +477,27 @@
                         color: lighten($black,60);
                         text-decoration: none;
                 }
+                margin-bottom: 10px;
         }
+
+        #msr {
+                margin-left: 50px;
+        }
+
+        #msr img {
+                height: 20px;
+        }
+}
+
+div.right-column {
+        width: 40%;
+        float: right;
+        padding-right: 25px;
+}
+
+div.left-column {
+        width: 40%;
+        float: left;
 }
 
 // Custom CSS by Soonho Kong
