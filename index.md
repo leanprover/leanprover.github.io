@@ -2,6 +2,7 @@
 layout: archive
 ---
 
+<div class="main-column">
 <div class="left-column">
 <div id="front-page-copy">
 <p>
@@ -50,6 +51,18 @@ lemma app_length (A : Type) (xs : list A) :
   length (xs ++ ys) = length xs + length y :=
     by iblast
 {% endhighlight %}
+</div>
+<h5>Constructor Tactic</h5>
+<div class="front-page-example">
+{% highlight lean %}
+meta def constructor : tactic unit :=
+ do tgt <- target,
+ ctors <- get_constructors_for,
+ try_constructor ctors
+{% endhighlight %}
+</div>
+<div id="more-examples">
 <a href="/">More Examples</a>
+</div>
 </div>
 </div>

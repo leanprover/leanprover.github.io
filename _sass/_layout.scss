@@ -489,15 +489,28 @@
         }
 }
 
+div.main-column {
+        width: 95%;
+}
+
 div.right-column {
-        width: 40%;
-        float: right;
-        padding-right: 25px;
+        //float: right;
+        h5 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+        }
 }
 
 div.left-column {
-        width: 40%;
         float: left;
+        width: 50%;
+        margin-right: 25px;
+}
+
+div#more-examples {
+        padding-top: 15px;
+        padding-right: 15px;
+        float: right;
 }
 
 // Custom CSS by Soonho Kong
