@@ -16,6 +16,9 @@ ads: false
 - "The Lean Theorem Prover." [PDF](/papers/system.pdf)<br />
   [Leonardo de Moura][leo], [Soonho Kong][soonho], [Jeremy Avigad][jeremy], [Floris van Doorn][floris] and [Jakob von Raumer][jakob],<br />25th International Conference on Automated Deduction (CADE-25), Berlin, Germany, 2015.
 
+- "A Metaprogramming Framework for Formal Verification." [PDF](/papers/tactic.pdf)<br />
+  [Gabriel Ebner][gabriel], [Sebastian Ullrich][kha], [Jared Roesch][jared], [Jeremy Avigad][jeremy], [Leonardo de Moura][leo],<br />22nd ACM SIGPLAN International Conference on Functional Programming (ICFP 2017), Oxford, UK, 2017.
+
 - "Congruence Closure in Intensional Type Theory." [PDF](/papers/congr.pdf)<br />
   Daniel Selsam and [Leonardo de Moura][leo], <br />
   International Joint Conference on Automated Reasoning (IJCAR), Coimbra, Portugal, 2016.
@@ -31,6 +34,9 @@ ads: false
 [jakob]: http://von-raumer.de/
 [cody]: http://www.andrew.cmu.edu/user/croux
 [constr]: http://arxiv.org/abs/1505.04324
+[gabriel]: https://gebner.org/
+[kha]: https://kha.github.io/
+[jared]: http://jroesch.github.io/
 
 ## Presentations
 
