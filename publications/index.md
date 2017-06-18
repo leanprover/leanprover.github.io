@@ -27,7 +27,7 @@ ads: false
   [Leonardo de Moura][leo], [Jeremy Avigad][jeremy], [Soonho Kong][soonho] and [Cody Roux][cody]<br />
   A description of the elaborator used in Lean 2 only.
 
-[leo]: http://research.microsoft.com/en-us/um/people/leonardo
+[leo]: http://leodemoura.github.io/
 [soonho]: http://www.cs.cmu.edu/~soonhok
 [jeremy]: http://www.andrew.cmu.edu/user/avigad
 [floris]: http://www.contrib.andrew.cmu.edu/~fpv
