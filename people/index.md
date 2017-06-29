@@ -17,7 +17,7 @@ The Lean theorem prover is being developed by:
 - [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
 - [Sebastian Ullrich](https://kha.github.io/) (Karlsruhe Institute of Technology)
 - [Jared Roesch](http://jroesch.github.io/) (University of Washington)
-- Daniel Selsam (Stanford)
+- [Daniel Selsam](http://stanford.edu/~dselsam/) (Stanford)
 
 The Lean standard library is being developed by:
 
