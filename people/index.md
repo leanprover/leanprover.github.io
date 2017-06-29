@@ -26,6 +26,7 @@ The Lean standard library is being developed by:
 - [Leonardo de Moura](http://research.microsoft.com/en-us/um/people/leonardo) (Microsoft Research)
 - [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/) (Carnegie Mellon University)
 - [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
+- [Sebastian Ullrich](https://kha.github.io/) (Karlsruhe Institute of Technology)
 
 Past members:
 
