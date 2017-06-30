@@ -19,11 +19,12 @@ ads: false
 - "A Metaprogramming Framework for Formal Verification." [PDF](/papers/tactic.pdf)<br />
   [Gabriel Ebner][gabriel], [Sebastian Ullrich][kha], [Jared Roesch][jared], [Jeremy Avigad][jeremy], [Leonardo de Moura][leo],<br />22nd ACM SIGPLAN International Conference on Functional Programming (ICFP 2017), Oxford, UK, 2017.
 
-- ["Developing Bug-Free Machine Learning Systems With Formal Mathematics."](https://arxiv.org/abs/1706.08605)<br />
-  [Daniel Selsam][daniel], Percy Liang, David L. Dill, Thirty-fourth International Conference on Machine Learning (ICML) 2017.
+- ["Developing Bug-Free Machine Learning Systems With Formal Mathematics."](https://arxiv.org/abs/1706.08605) [Source code](https://github.com/dselsam/certigrad) <br />
+  [Daniel Selsam][daniel], Percy Liang, David L. Dill, Thirty-fourth International Conference on Machine Learning (ICML) 2017.<br />
+
 
 - "Congruence Closure in Intensional Type Theory." [PDF](/papers/congr.pdf)<br />
-  Daniel Selsam[daniel] and [Leonardo de Moura][leo], <br />
+  [Daniel Selsam][daniel] and [Leonardo de Moura][leo], <br />
   International Joint Conference on Automated Reasoning (IJCAR), Coimbra, Portugal, 2016.
 
 - "Elaboration in Dependent Type Theory." [PDF][constr] <br />
