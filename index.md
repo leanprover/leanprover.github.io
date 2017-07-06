@@ -61,8 +61,11 @@ meta def constructor : tactic unit :=
  try_constructor ctors
 {% endhighlight %}
 </div>
-<div id="more-examples">
-<a href="/">More Examples</a>
-</div>
+
+<!-- TODO(jroesch):
+Carosel would be cool here<div id="more-examples">
+<a href="examples.html">More Examples</a>
+</div>-->
+
 </div>
 </div>
