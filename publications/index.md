@@ -45,6 +45,10 @@ ads: false
 
 ## Presentations
 
+- [From Z3 to Lean](http://leanprover.github.io/talks/from_z3_to_lean.pdf), [The Alan Turing Institute](https://www.turing.ac.uk/), London, July 2017
+
+- [Metaprogramming with Dependent Type Theory](http://leanprover.github.io/talks/Lean_BPR.pdf), [Issac Newton Institute for Mathematical Sciences](https://www.newton.ac.uk/event/bpr), Cambridge, July 2017
+
 - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20170116_POPL), [POPL'17](http://popl17.sigplan.org/), Paris, January 2017
 
 - [Formal Methods in Mathematics and the Lean Theorem Prover](http://leanprover.github.io/talks/stanford2017.pdf), [CSLI](https://www-csli.stanford.edu/), Stanford, January 2017
