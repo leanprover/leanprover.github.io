@@ -93,5 +93,4 @@ Here are some of the most useful ones:
 | --json               | print JSON-formatted structured error messages                                                 |
 | --profile            | display elaboration/type checking time for each definition/theorem                             |
 | --export=file -E     | export final environment as textual low-level file                                             |
-| --export-all=file -A | export final environment (and all dependencies) as textual low-level file                      |
 
