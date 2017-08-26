@@ -27,5 +27,5 @@ Research in 2013. It is a collaborative open source project, hosted on
 code base and library are welcome.
 
 You can experiment with an
-[online version of Lean](https://leanprover.github.io/programming_in_lean/?live)
+[online version of Lean](https://leanprover.github.io/live/)
 that runs in your browser, or try the online tutorials listed under [documentation](../documentation).

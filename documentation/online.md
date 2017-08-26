@@ -11,7 +11,7 @@ image:
 ads: false
 ---
 
-You can run a Javascript version of Lean [online](https://leanprover.github.io/programming_in_lean/?live) in your browser. The tutorial documents also use this system. It is much slower than a native version, but it provides a convenient way to use Lean and experiment with it.
+You can run a Javascript version of Lean [online](https://leanprover.github.io/live/) in your browser. The tutorial documents also use this system. It is much slower than a native version, but it provides a convenient way to use Lean and experiment with it.
 
 The online version of Lean checks your input continuously. Lean output and error messages are indicated with icons in the left gutter, and are displayed in popups when you hover over these icons. If you hover over an identifier, the type is displayed in a popup. When you hover over the lines of a tactic proof, the goal at that line is displayed.
 
