@@ -4,6 +4,10 @@
   url:        /about/
   excerpt:    "Introduction to Lean"
 
+- title:      Blog
+  url:        /blog/
+  excerpt:    "Lean Technical Blog"
+
 - title:      Documentation
   url:        /documentation/
   excerpt:
