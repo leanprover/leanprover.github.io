@@ -22,6 +22,12 @@ development. The source code and libraries can be found on
 - [Using Lean with Emacs](emacs)
 - [Using Lean with Visual Studio Code](vscode)
 
+## Reference
+
+- *The Lean Reference Manual*<br />
+  [online version](../reference),
+  [pdf](../reference/reference.pdf)
+
 ## Tutorials
 
 Each of the following tutorials is available in an online version that
