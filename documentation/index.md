@@ -11,22 +11,23 @@ image:
 ads: false
 ---
 
-The current version of Lean is Lean 3, and is under active
-development. The source code and libraries can be found on
-[github](http://github.com/leanprover/lean).
-
-## Using Lean
-
-- [Lean Fundamentals](fundamentals)
-- [Using Lean Online](online)
-- [Using Lean with Emacs](emacs)
-- [Using Lean with Visual Studio Code](vscode)
+You can experiment with Lean by running an 
+[online](https://leanprover.github.io/live/) Javascript version in 
+your browser. If you have installed Lean locally, you can use it 
+interactively with [Visual Studio Code](https://code.visualstudio.com/) or 
+[Emacs](http://www.gnu.org/software/emacs/). See the 
+[Using Lean](https://leanprover.github.io/reference/using_lean.html)
+chapter of the reference manual for details.
 
 ## Reference
 
 - *The Lean Reference Manual*<br />
   [online version](../reference),
   [pdf](../reference/reference.pdf)
+
+The current version of Lean is Lean 3, and is under active
+development. The source code and libraries can be found on
+[github](http://github.com/leanprover/lean).
 
 ## Tutorials
 
