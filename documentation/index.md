@@ -40,7 +40,7 @@ comprehensive is the following:
   [online tutorial](../theorem_proving_in_lean),
   [pdf](../theorem_proving_in_lean/theorem_proving_in_lean.pdf)<br />
 
-The next two are not fully up to date, but may still be helpful:
+The next two are incomplete and not fully up to date, but may still be helpful:
 
 - *An Introduction to Lean*<br />
   A quick tour of Lean and its features.<br />
