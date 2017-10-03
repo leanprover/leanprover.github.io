@@ -45,6 +45,8 @@ ads: false
 
 ## Presentations
 
+- [White-box automation](http://leanprover.github.io/talks/ITP2017.pdf), [International Conference on Interactive Theorem Proving](http://itp2017.cic.unb.br/), Brasilia, September 2017
+
 - [From Z3 to Lean](http://leanprover.github.io/talks/from_z3_to_lean.pdf), [The Alan Turing Institute](https://www.turing.ac.uk/), London, July 2017
 
 - [Metaprogramming with Dependent Type Theory](http://leanprover.github.io/talks/Lean_BPR.pdf), [Issac Newton Institute for Mathematical Sciences](https://www.newton.ac.uk/event/bpr), Cambridge, July 2017
