@@ -11,7 +11,7 @@ image:
 ads: false
 ---
 
-This document assumes that you have installed Lean and Emacs following the instructions on the [Download](../../download) page.
+This document assumes that you have installed Lean and the Lean Emacs packages following the instructions on the [Download](../../download) page and the [lean-mode](https://github.com/leanprover/lean-mode) readme, respectively.
 
 ## About Emacs
 
@@ -41,7 +41,7 @@ Typing an underscore in an expression asks Lean to infer a suitable value for th
 
 The Emacs Lean mode maintains a continuous dialog with the background Lean server and uses it to present useful information to you. For example, if you put your cursor on any identifier --- a theorem name, a defined symbol, or a variable --- Emacs displays its type in the information line at the bottom. 
 
-The Lean mode supports tab completion. In a context where Lean expects an identifier (e.g. a theorem name or a defined symbol), if you start typing and then hit the tab key, a popup window suggests possible matches or near-matches for the expression you have typed. This helps you find the theorems you need without having to browse the library. 
+The Lean mode supports auto completion if you install the optional `company-lean` package; see the `lean-mode` readme for details.
 
 If you put your cursor on an identifier and hit `M-.`, Emacs will take you to the identifier's definition, whether it is in the same file, in another file in your project , or in the library. This works even in an autocompletion popup window: if you start typing an identifier, press the tab key, choose a completion from the list of options, and press `M-.`, you are taken to the symbol's definition.  If you have Emacs 25 or later, you can then press `M-,` to go back to the original location.
 
@@ -74,7 +74,6 @@ In Lean, the `exit` command halts processing of a file abruptly. Inserting an `e
 |--------------------|---------------------------------------------------------------------------------|
 | <kbd>M-.</kbd>     | jump to definition in source file (`lean-find-definition`)                      |
 | <kbd>M-,</kbd>     | return to original position (requires Emacs 25)                                 |
-| <kbd>TAB</kbd>     | tab complete identifier, option, filename, etc. (`lean-tab-indent-or-complete`) |
 | <kbd>C-c C-k</kbd> | shows the keystroke needed to input the symbol under the cursor                 |
 | <kbd>C-c C-g</kbd> | show goal in tactic proof (`lean-show-goal-at-pos`)                             |
 | <kbd>C-c C-x</kbd> | execute lean in stand-alone mode (`lean-std-exe`)                               |
