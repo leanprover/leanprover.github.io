@@ -41,9 +41,7 @@ The source code can be downloaded here:
 
 There are [Emacs](https://www.gnu.org/software/emacs/) and [Visual Studio Code](http://code.visualstudio.com) extensions, each of which support interactive editing.
 
-- Emacs: you will need [Emacs24](https://www.gnu.org/software/emacs/) (or later). For more information on configuring Emacs and
-installing unicode-friendly fonts, see
-[here](https://github.com/leanprover/lean/blob/master/src/emacs/README.md).
+- Emacs: [lean-mode](https://github.com/leanprover/lean-mode) is a major mode available as a MELPA package for Emacs 24.3 or newer.
 
 - [Visual Studio Code](http://code.visualstudio.com) is available for all major platforms.
   The [Lean extension](https://marketplace.visualstudio.com/items?itemName=jroesch.lean) is available in its marketplace.
