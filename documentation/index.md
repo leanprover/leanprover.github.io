@@ -23,7 +23,7 @@ chapter of the reference manual for details.
 
 - *The Lean Reference Manual*<br />
   [online version](../reference),
-  [pdf](../reference/reference.pdf)
+  [pdf](../reference/lean_reference.pdf)
 
 The current version of Lean is Lean 3, and is under active
 development. The source code and libraries can be found on
