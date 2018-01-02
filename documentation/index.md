@@ -11,23 +11,13 @@ image:
 ads: false
 ---
 
-You can experiment with Lean by running an 
-[online](https://leanprover.github.io/live/) Javascript version in 
-your browser. If you have installed Lean locally, you can use it 
-interactively with [Visual Studio Code](https://code.visualstudio.com/) or 
-[Emacs](http://www.gnu.org/software/emacs/). See the 
+You can experiment with Lean by running an
+[online](https://leanprover.github.io/live/) Javascript version in
+your browser. If you have installed Lean locally, you can use it
+interactively with [Visual Studio Code](https://code.visualstudio.com/) or
+[Emacs](http://www.gnu.org/software/emacs/). See the
 [Using Lean](https://leanprover.github.io/reference/using_lean.html)
 chapter of the reference manual for details.
-
-## Reference
-
-- *The Lean Reference Manual*<br />
-  [online version](../reference),
-  [pdf](../reference/lean_reference.pdf)
-
-The current version of Lean is Lean 3, and is under active
-development. The source code and libraries can be found on
-[github](http://github.com/leanprover/lean).
 
 ## Tutorials
 
@@ -53,6 +43,16 @@ The next two are incomplete and not fully up to date, but may still be helpful:
   [online tutorial](../programming_in_lean),
   [pdf](../programming_in_lean/programming_in_lean.pdf) <br />
 
+## Reference (work in progress)
+
+- *The Lean Reference Manual*<br />
+  [online version](../reference),
+  [pdf](../reference/lean_reference.pdf)
+
+The current version of Lean is Lean 3, and is under active
+development. The source code and libraries can be found on
+[github](http://github.com/leanprover/lean).
+
 ## Lean 2
 
 The previous version of Lean, Lean 2, is still being maintained but
@@ -73,4 +73,3 @@ A public chat room dedicated to Lean is open on [Gitter](https://gitter.im/leanp
 ## Forum
 
 You are welcome to join the [Lean user forum](https://groups.google.com/forum/#!forum/lean-user) on Google Groups.
-
