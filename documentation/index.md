@@ -19,6 +19,13 @@ interactively with [Visual Studio Code](https://code.visualstudio.com/) or
 [Using Lean](https://leanprover.github.io/reference/using_lean.html)
 chapter of the reference manual for details.
 
+Lean is a work in progress. You are welcome to experiment with it, but please 
+recognize that the system is still changing, and if you are looking 
+for stability, it may not be the system for you. Similarly, the project 
+cannot accommodate feature requests at this stage. If you are trying to decide 
+whether to invest time in learning to use Lean right now, this 
+[FAQ](https://github.com/leanprover/lean/blob/master/doc/faq.md) may be helpful.
+
 ## Tutorials
 
 Each of the following tutorials is available in an online version that
@@ -30,7 +37,7 @@ comprehensive is the following:
   [online tutorial](../theorem_proving_in_lean),
   [pdf](../theorem_proving_in_lean/theorem_proving_in_lean.pdf)<br />
 
-The next two are incomplete and not fully up to date, but may still be helpful:
+The next two are incomplete and outdated but may be helpful:
 
 - *An Introduction to Lean*<br />
   A quick tour of Lean and its features.<br />
