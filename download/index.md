@@ -23,13 +23,9 @@ All previous releases are available here:
 
 ### Nightlies
 
-Binaries of the latest development version are also available for all platforms:
+Nightly builds of Lean's `master` branch can be found in the following repository:
 
-- [Nightly Windows](https://ci.appveyor.com/api/projects/leodemoura/lean/artifacts/build/lean-nightly-windows.zip?branch=master)
-- [Nightly Linux](https://leanprover.github.io/lean-nightly/build/lean-nightly-linux.tar.gz)
-- [Nightly Mac OS](https://leanprover.github.io/lean-nightly/build/lean-nightly-darwin.zip)
-
-These binaries are updated automatically whenever the `master` branch passes the Lean test suite.
+- [Nightlies](https://github.com/leanprover/lean-nightly/releases)
 
 ## Source
 
