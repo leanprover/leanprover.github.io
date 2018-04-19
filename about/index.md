@@ -11,7 +11,7 @@ image:
 ads: false
 ---
 
-Lean is an open source theorem prover being developed at <a href="http://research.microsoft.com">Microsoft Research</a>.
+Lean is an open source theorem prover and programming language being developed at <a href="http://research.microsoft.com">Microsoft Research</a>.
 Lean aims to bridge the gap between interactive
 and automated theorem proving, by situating automated tools and
 methods in a framework that supports user interaction and the
