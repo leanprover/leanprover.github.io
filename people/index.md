@@ -11,25 +11,24 @@ image:
 ads: false
 ---
 
-The Lean theorem prover is being developed by:
+The Lean 4 is being developed by:
 
 - [Leonardo de Moura](http://leodemoura.github.io) (Microsoft Research)
-- [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
 - [Sebastian Ullrich](https://kha.github.io/) (Karlsruhe Institute of Technology)
-- [Jared Roesch](http://jroesch.github.io/) (University of Washington)
-- [Daniel Selsam](http://stanford.edu/~dselsam/) (Stanford)
 
-The Lean standard library is being developed by:
+The [mathematical components library (mathlib)](https://github.com/leanprover/mathlib) is being developed by:
 
 - [Jeremy Avigad](http://www.andrew.cmu.edu/user/avigad) (Carnegie Mellon University)
-- [Floris van Doorn](http://www.contrib.andrew.cmu.edu/~fpv/) (Carnegie Mellon University)
-- [Leonardo de Moura](http://research.microsoft.com/en-us/um/people/leonardo) (Microsoft Research)
-- [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/) (Carnegie Mellon University)
-- [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
-- [Sebastian Ullrich](https://kha.github.io/) (Karlsruhe Institute of Technology)
+- [Mario Carneiro](https://www.cmu.edu/dietrich/philosophy/people/phd/mario-carneiro.html) (Carnegie Mellon University)
+- [Johannes Hölzl](https://www.cs.vu.nl/~jhl890) (Faculty of Science - Computer Science, Vrije Universiteit Amsterdam)
 
 Past members:
 
+- [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
+- [Daniel Selsam](http://stanford.edu/~dselsam/) (Stanford)
+- [Jared Roesch](http://jroesch.github.io/) (University of Washington)
+- [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/) (Carnegie Mellon University)
+- [Floris van Doorn](http://www.contrib.andrew.cmu.edu/~fpv/) (Carnegie Mellon University)
 - [Soonho Kong](http://www.cs.cmu.edu/~soonhok) (Carnegie Mellon University)
 - [Jakob von Raumer](http://von-raumer.de/) (University of Nottingham)
 
