@@ -45,6 +45,8 @@ ads: false
 
 ## Presentations
 
+- [Lean: past, present and future](http://leanprover.github.io/talks/LeanAtGalois.pdf), Galois Inc., Oregon, August 2018.
+
 - [Efficient verification and metaprogramming in Lean](http://leanprover.github.io/talks/FM2018.pdf), [22nd International Symposium on Formal Methods](http://www.fm2018.org/), Oxford, July 2018
 
 - [White-box automation](http://leanprover.github.io/talks/ITP2017.pdf), [International Conference on Interactive Theorem Proving](http://itp2017.cic.unb.br/), Brasilia, September 2017
