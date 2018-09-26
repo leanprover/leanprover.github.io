@@ -11,6 +11,17 @@ image:
 ads: false
 ---
 
+## Elan
+
+Elan is a project manager for Lean. Elan installs different versions of Lean based on the requirements for a particular project. To install Elan:
+
+1. Make sure `git` and `curl` are installed. For example, use your distribution package manager.
+2. Run the command
+```
+curl https://raw.githubusercontent.com/Kha/elan/master/elan-init.sh -sSf | sh
+```
+and type enter when a question is asked. It is recommended that you re-login so that your environment knows about Elan.
+
 ## Binary
 
 There are binary packages available for all major platforms here:
