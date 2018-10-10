@@ -75,7 +75,7 @@ a substantial library. The source code and libraries can be found on
 
 ## Chat Room
 
-A public chat room dedicated to Lean is open on [Gitter](https://gitter.im/leanprover_public/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link).
+A public chat room dedicated to Lean is open on [Zulip](https://leanprover.zulipchat.com/).
 
 ## Forum
 
