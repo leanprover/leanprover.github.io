@@ -56,9 +56,8 @@ The next two are incomplete and outdated but may be helpful:
   [online version](../reference),
   [pdf](../reference/lean_reference.pdf)
 
-The current version of Lean is Lean 3, and is under active
-development. The source code and libraries can be found on
-[github](http://github.com/leanprover/lean).
+The current version of Lean is Lean 3, its development is frozen. The source code and libraries can be found on
+[github](http://github.com/leanprover/lean). The next version of Lean will be released when it is ready.
 
 ## Lean 2
 
