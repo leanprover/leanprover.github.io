@@ -45,6 +45,10 @@ ads: false
 
 ## Presentations
 
+- [An optimized object model for an interactive theorem prover](http://leanprover.github.io/talks/eth2018.pdf) [[video]](https://www.youtube.com/watch?v=Bv0CXyhbJ5s), ETH Compiler Social, Zurich, December 2018.
+
+- [Lean 4: reimplementing Lean in Lean](http://leanprover.github.io/presentations/20181012_MSR), internship report, Redmond, October 2018.
+
 - [Lean: past, present and future](http://leanprover.github.io/talks/LeanAtGalois.pdf), Galois Inc., Oregon, August 2018.
 
 - [Efficient verification and metaprogramming in Lean](http://leanprover.github.io/talks/FM2018.pdf), [22nd International Symposium on Formal Methods](http://www.fm2018.org/), Oxford, July 2018
