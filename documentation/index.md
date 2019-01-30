@@ -19,11 +19,11 @@ interactively with [Visual Studio Code](https://code.visualstudio.com/) or
 [Using Lean](https://leanprover.github.io/reference/using_lean.html)
 chapter of the reference manual for details.
 
-Lean is a work in progress. You are welcome to experiment with it, but please 
-recognize that the system is still changing, and if you are looking 
-for stability, it may not be the system for you. Similarly, the project 
-cannot accommodate feature requests at this stage. If you are trying to decide 
-whether to invest time in learning to use Lean right now, this 
+Lean is a work in progress. You are welcome to experiment with it, but please
+recognize that the system is still changing, and if you are looking
+for stability, it may not be the system for you. Similarly, the project
+cannot accommodate feature requests at this stage. If you are trying to decide
+whether to invest time in learning to use Lean right now, this
 [FAQ](https://github.com/leanprover/lean/blob/master/doc/faq.md) may be helpful.
 
 ## Tutorials
@@ -36,41 +36,6 @@ comprehensive is the following:
   A introduction to using Lean as an interactive theorem prover. <br />
   [online tutorial](../theorem_proving_in_lean),
   [pdf](../theorem_proving_in_lean/theorem_proving_in_lean.pdf)<br />
-
-The next two are incomplete and outdated but may be helpful:
-
-- *An Introduction to Lean*<br />
-  A quick tour of Lean and its features.<br />
-  [online tutorial](../introduction_to_lean),
-  [pdf](../introduction_to_lean/introduction_to_lean.pdf)<br />
-
-- *Programming in Lean*<br />
-  An introduction to writing and reasoning about programs in Lean, as well as
-  writing tactics and automation.<br />
-  [online tutorial](../programming_in_lean),
-  [pdf](../programming_in_lean/programming_in_lean.pdf) <br />
-
-## Reference (work in progress)
-
-- *The Lean Reference Manual*<br />
-  [online version](../reference),
-  [pdf](../reference/lean_reference.pdf)
-
-The current version of Lean is Lean 3, its development is frozen. The source code and libraries can be found on
-[github](http://github.com/leanprover/lean). The next version of Lean will be released when it is ready.
-
-## Lean 2
-
-The previous version of Lean, Lean 2, is still being maintained but
-not developed. Lean 2 has special support for homotopy type theory and
-a substantial library. The source code and libraries can be found on
-[github](http://github.com/leanprover/lean2).
-
-- *Theorem Proving in Lean*<br />
-  A version for Lean 2.<br />
-  [online tutorial](../tutorial),
-  [pdf](../tutorial/tutorial.pdf),
-  [quick reference (pdf)](../tutorial/quickref.pdf)
 
 ## Chat Room
 
