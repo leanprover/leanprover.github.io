@@ -16,12 +16,6 @@ Lean 4 is being developed by:
 - [Leonardo de Moura](http://leodemoura.github.io) (Microsoft Research)
 - [Sebastian Ullrich](https://kha.github.io/) (Karlsruhe Institute of Technology)
 
-The [mathematical components library (mathlib)](https://github.com/leanprover/mathlib) is being developed by:
-
-- [Jeremy Avigad](http://www.andrew.cmu.edu/user/avigad) (Carnegie Mellon University)
-- [Mario Carneiro](https://www.cmu.edu/dietrich/philosophy/people/phd/mario-carneiro.html) (Carnegie Mellon University)
-- [Johannes Hölzl](https://www.cs.vu.nl/~jhl890) (Faculty of Science - Computer Science, Vrije Universiteit Amsterdam)
-
 Past members:
 
 - [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
@@ -31,6 +25,9 @@ Past members:
 - [Floris van Doorn](http://www.contrib.andrew.cmu.edu/~fpv/) (Carnegie Mellon University)
 - [Soonho Kong](http://www.cs.cmu.edu/~soonhok) (Carnegie Mellon University)
 - [Jakob von Raumer](http://von-raumer.de/) (University of Nottingham)
+- [Jeremy Avigad](http://www.andrew.cmu.edu/user/avigad) (Carnegie Mellon University)
+- [Mario Carneiro](https://www.cmu.edu/dietrich/philosophy/people/phd/mario-carneiro.html) (Carnegie Mellon University)
+- [Johannes Hölzl](https://www.cs.vu.nl/~jhl890) (Faculty of Science - Computer Science, Vrije Universiteit Amsterdam)
 
 Contributors:
 
