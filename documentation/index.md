@@ -26,11 +26,8 @@ cannot accommodate feature requests at this stage. If you are trying to decide
 whether to invest time in learning to use Lean right now, this
 [FAQ](https://github.com/leanprover/lean/blob/master/doc/faq.md) may be helpful.
 
-## Tutorials
-
-Each of the following tutorials is available in an online version that
-runs alongside a Lean in your browser, and as a PDF document. The most
-comprehensive is the following:
+The following tutorial is available in an online version that
+runs alongside a Lean in your browser, and as a PDF document.
 
 - *Theorem Proving in Lean*<br />
   A introduction to using Lean as an interactive theorem prover. <br />
