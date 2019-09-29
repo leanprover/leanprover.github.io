@@ -45,6 +45,8 @@ ads: false
 
 ## Presentations
 
+- [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](http://leanprover.github.io/talks/IFL2019.pdf), [IFL 2019](http://2019.iflconference.org/), Singapore, September 2019.
+
 - [Lean 4: a guided preview](http://leanprover.github.io/talks/vu2019.pdf), [Lean Together 2019](https://lean-forward.github.io/lean-together/2019/index.html), Amsterdam, January 2019.
 
 - [An optimized object model for an interactive theorem prover](http://leanprover.github.io/talks/eth2018.pdf) [[video]](https://www.youtube.com/watch?v=Bv0CXyhbJ5s), ETH Compiler Social, Zurich, December 2018.
