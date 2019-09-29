@@ -16,6 +16,9 @@ ads: false
 - "The Lean Theorem Prover." [PDF](/papers/system.pdf)<br />
   [Leonardo de Moura][leo], [Soonho Kong][soonho], [Jeremy Avigad][jeremy], [Floris van Doorn][floris] and [Jakob von Raumer][jakob],<br />25th International Conference on Automated Deduction (CADE-25), Berlin, Germany, 2015.
 
+- "Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming." [PDF](https://arxiv.org/abs/1908.05647) <br /> [Sebastian Ullrich][kha], [Leonardo de Moura][leo],<br />
+  The 31st symposium on Implementation and Application of Functional Languages (IFL 2019), Singapore, 2019.
+
 - "A Metaprogramming Framework for Formal Verification." [PDF](/papers/tactic.pdf)<br />
   [Gabriel Ebner][gabriel], [Sebastian Ullrich][kha], [Jared Roesch][jared], [Jeremy Avigad][jeremy], [Leonardo de Moura][leo],<br />22nd ACM SIGPLAN International Conference on Functional Programming (ICFP 2017), Oxford, UK, 2017.
 
