@@ -1,1 +1,1 @@
-Based on http://mmistakes.github.io/skinny-bones-jekyll/
+Based on https://mmistakes.github.io/jekyll-theme-skinny-bones/
