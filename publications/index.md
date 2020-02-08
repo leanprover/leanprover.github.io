@@ -20,7 +20,7 @@ ads: false
   [Daniel Selsam][daniel], [Sebastian Ullrich][kha], [Leonardo de Moura][leo], <br />
   under review, 2020. <br/>
 
-- "Beyond Notations: Hygienic Macro Expansion for Theorem Proving Languages"<br />
+- "Beyond Notations: Hygienic Macro Expansion for Theorem Proving Languages" [PDF](https://arxiv.org/pdf/2001.10490.pdf)<br />
   [Sebastian Ullrich][kha], [Leonardo de Moura][leo], <br />
   under review, 2020. <br/>
 
