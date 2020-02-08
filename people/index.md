@@ -15,11 +15,11 @@ Lean 4 is being developed by:
 
 - [Leonardo de Moura](http://leodemoura.github.io) (Microsoft Research)
 - [Sebastian Ullrich](https://kha.github.io/) (Karlsruhe Institute of Technology)
+- [Daniel Selsam](https://dselsam.github.io) (Microsoft Research)
 
 Past members:
 
 - [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
-- [Daniel Selsam](http://stanford.edu/~dselsam/) (Stanford)
 - [Jared Roesch](http://jroesch.github.io/) (University of Washington)
 - [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/) (Carnegie Mellon University)
 - [Floris van Doorn](http://www.contrib.andrew.cmu.edu/~fpv/) (Carnegie Mellon University)

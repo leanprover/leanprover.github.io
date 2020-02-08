@@ -16,6 +16,14 @@ ads: false
 - "The Lean Theorem Prover." [PDF](/papers/system.pdf)<br />
   [Leonardo de Moura][leo], [Soonho Kong][soonho], [Jeremy Avigad][jeremy], [Floris van Doorn][floris] and [Jakob von Raumer][jakob],<br />25th International Conference on Automated Deduction (CADE-25), Berlin, Germany, 2015.
 
+- "Tabled Typeclass Resolution" [PDF](https://arxiv.org/pdf/2001.04301.pdf)<br />
+  [Daniel Selsam][daniel], [Sebastian Ullrich][kha], [Leonardo de Moura][leo], <br />
+  under review, 2020. <br/>
+
+- "Beyond Notations: Hygienic Macro Expansion for Theorem Proving Languages"<br />
+  [Sebastian Ullrich][kha], [Leonardo de Moura][leo], <br />
+  under review, 2020. <br/>
+
 - "Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming." [PDF](https://arxiv.org/abs/1908.05647), [Appendix](/papers/beans_appendix.pdf) <br /> [Sebastian Ullrich][kha], [Leonardo de Moura][leo],<br />
   The 31st symposium on Implementation and Application of Functional Languages (IFL 2019), Singapore, 2019.<br/>
 
