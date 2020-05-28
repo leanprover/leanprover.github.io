@@ -19,11 +19,10 @@ construction of fully specified axiomatic proofs.
 
 The Lean project was launched by Leonardo de Moura at Microsoft
 Research in 2013. It is an open source project, hosted on
-[GitHub](https://github.com/leanprover/lean).
-
-You can experiment with an
-[online version of Lean](https://leanprover.github.io/live/)
-that runs in your browser, or try the online tutorials listed under [documentation](../documentation).
-
-Several users maintain the mathematical components library
-[mathlib](https://github.com/leanprover/mathlib) for Lean.
+[GitHub](https://github.com/leanprover). [Lean 3](https://github.com/leanprover/lean)
+is the latest official release. Development has shifted to [Lean 4](https://github.com/leanprover/lean4),
+which is not ready for general use yet. Meanwhile, members of the Lean community centered
+around the mathematical components library [mathlib](https://github.com/leanprover-community/mathlib)
+have continued maintenance and development of Lean 3 as a separate [community version](https://github.com/leanprover-community/lean).
+Further information about mathlib and the Lean 3 community releases can be found at the [Lean Community](https://leanprover-community.github.io/index.html)
+website, including an online version of Lean.

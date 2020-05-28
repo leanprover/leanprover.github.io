@@ -11,6 +11,14 @@ image:
 ads: false
 ---
 
+# Lean 4
+
+Lean 4 is under development. There are no official releases yet.
+
+# Lean 3
+
+These are the official releases of Lean 3. For the extended community version of Lean 3, please see [leanprover-community/lean](https://github.com/leanprover-community/lean/).
+
 ## Binary
 
 There are binary packages available for all major platforms here:
@@ -20,12 +28,6 @@ There are binary packages available for all major platforms here:
 All previous releases are available here:
 
 - [Older binaries](https://github.com/leanprover/lean/releases)
-
-### Nightlies
-
-Nightly builds of Lean's `master` branch can be found in the following repository:
-
-- [Nightlies](https://github.com/leanprover/lean-nightly/releases)
 
 ## Source
 
