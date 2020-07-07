@@ -56,7 +56,7 @@ ads: false
 
 ## Presentations
 
-- [Lean 4](http://leanprover.github.io/talks/LeanPLDI.pdf), [PLDI 2020](https://conf.researchr.org/home/pldi-2020), June 2020.
+- [Lean 4](http://leanprover.github.io/talks/LeanPLDI.pdf) [video](https://youtu.be/TgHISG-81wM), [PLDI 2020](https://conf.researchr.org/home/pldi-2020), June 2020.
 
 - [Lean in Lean](http://leanprover.github.io/talks/LeanACL2.pdf), [ACL2 workshop](http://acl2-2020.info/), May 2020.
 
