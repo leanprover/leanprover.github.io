@@ -22,7 +22,7 @@ ads: false
 
 - "Beyond Notations: Hygienic Macro Expansion for Theorem Proving Languages" [PDF](https://arxiv.org/pdf/2001.10490.pdf)<br />
   [Sebastian Ullrich][kha], [Leonardo de Moura][leo], <br />
-  under review, 2020. <br/>
+  10th International Joint Conference on Automated Reasoning (IJCAR 2020), Paris, France, 2020.
 
 - "Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming." [PDF](https://arxiv.org/abs/1908.05647), [Appendix](/papers/beans_appendix.pdf) <br /> [Sebastian Ullrich][kha], [Leonardo de Moura][leo],<br />
   The 31st symposium on Implementation and Application of Functional Languages (IFL 2019), Singapore, 2019.<br/>
@@ -50,7 +50,7 @@ ads: false
 [cody]: http://www.andrew.cmu.edu/user/croux
 [constr]: http://arxiv.org/abs/1505.04324
 [gabriel]: https://gebner.org/
-[kha]: https://kha.github.io/
+[kha]: https://pp.ipd.kit.edu/~ullrich/
 [jared]: http://jroesch.github.io/
 [daniel]: http://stanford.edu/~dselsam/
 
