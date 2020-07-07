@@ -11,6 +11,8 @@ image:
 ads: false
 ---
 
+This is a list of papers and presentations about Lean by the Lean developers. For further publications about Lean, the mathlib library, and other formalizations in Lean, please also see [the Lean community website](https://leanprover-community.github.io/papers.html).
+
 ## Papers
 
 - "The Lean Theorem Prover." [PDF](/papers/system.pdf)<br />
@@ -97,31 +99,3 @@ ads: false
 - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150717_CICM), [CICM](http://cicm-conference.org/2015/cicm.php), Washington D.C., July 2015
 
 - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150218_MSR), PL(X) meeting at <a href="http://research.microsoft.com/en-us/groups/rise/">Microsoft Research</a>, February 2015
-
-## Formalizations
-
-- "Constructing the Propositional Truncation using Non-recursive HITs".
-  [arXiv](https://arxiv.org/abs/1512.02274),
-  [code](https://github.com/fpvandoorn/leansnippets/blob/master/cpp.hlean)<br />
-  Floris van Doorn.  Certified Proofs and Programs (CPP), 2016
-
-- "The Cayley-Dickson Construction in Homotopy Type Theory".
-  [arXiv](https://arxiv.org/abs/1610.01134)<br />
-  Ulrik Buchholtz and Egbert Rijke
-
-## Theses
-
-- *Formalization of non-abelian topology for homotopy type theory*.
-  [PDF](http://von-raumer.de/msc-thesis.pdf), [code](https://github.com/javra/msc-thesis)<br />
-  Jakob von Raumer, MS thesis, Karlruhe Institute of Technology, 2015.
-
-- *Simple Verification of Rust Programs via Functional Purification*.
-  [PDF](https://github.com/Kha/masters-thesis/blob/master/main.pdf), [code](https://github.com/Kha/electrolysis)<br />
-  Sebastian Ullrich, MS thesis, Karlruhe Institute of Technology, 2016.
-
-## Courses
-
-- *Logic and Proof*. An introductory course for undergraduates.
-  [online tutorial](../../logic_and_proof),
-  [pdf](../../logic_and_proof/logic_and_proof.pdf)<br />
-  Jeremy Avigad, Robert Y. Lewis, and Floris van Doorn.
