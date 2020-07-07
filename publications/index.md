@@ -60,6 +60,8 @@ ads: false
 
 - [Lean in Lean](http://leanprover.github.io/talks/LeanACL2.pdf), [ACL2 workshop](http://acl2-2020.info/), May 2020.
 
+- [Lean 4: State of the ⋃](http://leanprover.github.io/talks/vu2019.pdf) [video](https://youtu.be/yAizjui7CKA), [Formal Methods in Mathematics / Lean Together 2020](http://www.andrew.cmu.edu/user/avigad/meetings/fomm2020/), Pittsburgh, January 2020.
+
 - [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](http://leanprover.github.io/talks/IFL2019.pdf), [IFL 2019](http://2019.iflconference.org/), Singapore, September 2019.
 
 - [Lean 4: a guided preview](http://leanprover.github.io/talks/vu2019.pdf), [Lean Together 2019](https://lean-forward.github.io/lean-together/2019/index.html), Amsterdam, January 2019.
