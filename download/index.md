@@ -17,7 +17,7 @@ Lean 4 is under development. There are no official releases yet.
 
 # Lean 3
 
-These are the official releases of Lean 3. For the extended community version of Lean 3, please see [leanprover-community/lean](https://github.com/leanprover-community/lean/).
+Below are the frozen official releases of Lean 3. For the extended community version of Lean 3, please see the [community website](https://leanprover-community.github.io/).
 
 ## Binary
 
