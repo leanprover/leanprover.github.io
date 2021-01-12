@@ -13,7 +13,23 @@ ads: false
 
 # Lean 4
 
-Lean 4 is under development. There are no official releases yet.
+Lean 4 first milestone is already available.
+
+## Binary
+
+There are binary packages available for all major platforms here:
+
+- [Binaries](https://github.com/leanprover/lean4/releases/latest)
+
+Nightly builds are available here:
+
+- [Nightly builds](https://github.com/leanprover/lean4-nightly/releases)
+
+## Source
+
+The source code can be downloaded here:
+
+- [Source Code](http://github.com/leanprover/lean4)
 
 # Lean 3
 
@@ -39,7 +55,7 @@ The source code can be downloaded here:
 
 There are [Emacs](https://www.gnu.org/software/emacs/) and [Visual Studio Code](http://code.visualstudio.com) extensions, each of which support interactive editing.
 
-- Emacs: [lean-mode](https://github.com/leanprover/lean-mode) is a major mode available as a MELPA package for Emacs 24.3 or newer.
+- Emacs: [lean4-mode](https://github.com/leanprover/lean4/tree/master/lean4-mode) is a major mode available in the Lean 4 repository for Emacs 27.1 or newer.
 
 - [Visual Studio Code](http://code.visualstudio.com) is available for all major platforms.
-  The [Lean extension](https://marketplace.visualstudio.com/items?itemName=jroesch.lean) is available in its marketplace.
+  The [Lean 4 extension](https://marketplace.visualstudio.com/items?itemName=mhuisi.lean4) is available in its marketplace.

@@ -13,14 +13,14 @@ ads: false
 
 The [Lean 4 manual](https://leanprover.github.io/lean4/doc/) (work in progress) will give you an overview of the language.
 
-Lean 4 is a work in progress. You are welcome to experiment with it, but please
+Lean 4 first milestone release is available. You are welcome to experiment with it, but please
 recognize that the system is still changing, and if you are looking
 for stability, it may not be the system for you. Similarly, the project
 cannot accommodate feature requests at this stage. If you are trying to decide
 whether to invest time in learning to use Lean right now, this
 [FAQ](https://leanprover.github.io/lean4/doc/faq.html)
 
-You can experiment with Lean 3 by running an [online](https://leanprover.github.io/live/) Javascript version in
+You can also experiment with Lean 3 by running an [online](https://leanprover.github.io/live/) Javascript version in
 your browser (see also the [community version](https://leanprover-community.github.io/lean-web-editor/)).
 The [learning resources page](https://leanprover-community.github.io/learn.html)
 of the community website lists many tutorials and documentation sources for Lean 3.
