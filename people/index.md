@@ -13,8 +13,9 @@ ads: false
 
 Lean 4 is being developed by:
 
-- [Leonardo de Moura](http://leodemoura.github.io) (Microsoft Research)
+- [Leo de Moura](http://leodemoura.github.io) (Microsoft Research)
 - [Sebastian Ullrich](https://kha.github.io/) (Karlsruhe Institute of Technology)
+- [Dany Fabian](https://www.microsoft.com/en-us/research/people/danfab) (Microsoft Research)
 
 Past members:
 
