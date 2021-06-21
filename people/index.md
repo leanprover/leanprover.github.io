@@ -6,7 +6,6 @@ modified:
 excerpt:
 image:
   feature:
-  teaser: lean_logo_small.svg
   thumb:
 ads: false
 ---

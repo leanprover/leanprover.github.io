@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -8,11 +6,54 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="962.5"
    height="200"
    viewBox="0 0 770 160"
-   id="svg3051">
+   id="svg3051"
+   sodipodi:docname="lean_logo_banner.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1418"
+     id="namedview160"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="2.452987"
+     inkscape:cx="547.66735"
+     inkscape:cy="44.029362"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="surface1">
+    <sodipodi:guide
+       position="266.18865,139.70095"
+       orientation="0,-1"
+       id="guide162" />
+    <sodipodi:guide
+       position="264.25922,140.63873"
+       orientation="1,0"
+       id="guide164" />
+    <sodipodi:guide
+       position="504.2605,140.83555"
+       orientation="1,0"
+       id="guide166" />
+    <sodipodi:guide
+       position="509.41937,47.346599"
+       orientation="0,-1"
+       id="guide168" />
+  </sodipodi:namedview>
   <metadata
      id="metadata3162">
     <rdf:RDF>
@@ -21,7 +62,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -179,48 +220,35 @@
      transform="matrix(0.33377285,0,0,0.33377285,256.00668,11.884809)"
      id="surface1">
     <g
-       id="g3112"
-       style="fill:#000000;fill-opacity:1">
-      <use
-         id="use3114"
-         x="348.2168"
-         y="301.89426"
-         width="770"
-         height="415"
-         xlink:href="#glyph0-1" />
+       id="g1226"
+       transform="matrix(0.9999917,0,0,0.8497516,-0.00237998,22.961642)">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="M 323.2793,166.51926 H 179.98243 v -6.32812 H 323.2793 V 31.14426 H 176.82618 v -5.9375 h 152.78124 v 276.6875 H 24.727604 V 25.210709 h 6.339311 V 295.99778 H 323.2793 Z"
+         id="path188"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccccccc" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="M 554.58618,301.89426 V 37.48801 l 182.875,264.40625 h 6.32812 V 25.303323 h -5.9375 V 290.81613 L 553.78931,25.303323 h -5.53125 V 301.89426 Z"
+         id="path196"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 493.91087,342.7146 35.08932,83.78546 35.25165,-83.75238"
+         transform="matrix(3.192199,0,0,3.192199,-1250.002,-1067.559)"
+         id="path75"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 511.6195,385.54515 h 34.93019"
+         transform="matrix(3.192199,0,0,3.192199,-1250.002,-1067.559)"
+         id="path77"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
     </g>
-    <g
-       id="g3116"
-       style="fill:#000000;fill-opacity:1">
-      <use
-         id="use3118"
-         x="529.64868"
-         y="301.89426"
-         width="770"
-         height="415"
-         xlink:href="#glyph1-1" />
-    </g>
-    <g
-       id="g3120"
-       style="fill:#000000;fill-opacity:1">
-      <use
-         id="use3122"
-         x="6.1280389"
-         y="301.89426"
-         width="770"
-         height="415"
-         xlink:href="#glyph1-2" />
-    </g>
-    <path
-       d="m 493.91343,343.0006 35.08676,83.49946 34.99987,-83.49946"
-       transform="matrix(3.192199,0,0,3.192199,-1250.002,-1067.559)"
-       id="path3124"
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
-    <path
-       d="m 511.0585,384.99996 35.69493,0"
-       transform="matrix(3.192199,0,0,3.192199,-1250.002,-1067.559)"
-       id="path3126"
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
     <g
        id="g3128"
        style="fill:#000000;fill-opacity:1">
