@@ -4,17 +4,21 @@
   url:        /about/
   excerpt:    "Introduction to Lean"
 
-- title:      Documentation
-  url:        /documentation/
-  excerpt:
-
 - title:      Download
   url:        /download/
   excerpt:    "Precompiled binaries"
 
+- title:      Documentation
+  url:        /documentation/
+  excerpt:
+
 - title:      Publications
   url:        /publications/
   excerpt:    "Publications: papers, talks, and theses"
+
+- title:      Links
+  url:        /links/
+  excerpt:    "Videos, articles, podcasts, social media"
 
 - title:      People
   url:        /people/
