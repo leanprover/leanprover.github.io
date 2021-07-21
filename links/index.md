@@ -45,7 +45,7 @@ ads: false
 
 ## Blog posts
 
-- [The Lean Theorem Prover: Past, Present and Future](https://galois.com/blog/2018/07/the-lean-theorem-prover-past-present-and-future/)
+- [Real-time Robotics Control in the Lean Language](https://galois.com/blog/2021/03/real-time-robotics-control-in-the-lean-language/)
 
 ## Lean Together meetings
 
