@@ -43,6 +43,8 @@ ads: false
 
 - ["Will Computers Outsmart Mathematicians?"](https://www.youtube.com/watch?v=q7YqQ96Go8k&t).
 
+- ["The Dawn of Formalized Mathematics"](https://vimeo.com/567049015), by Andrej Bauer. It also includes this [video](https://vimeo.com/566990363) showing activities of mathematicians working on the Lean mathematical library.
+
 ## Blog posts
 
 - [Real-time Robotics Control in the Lean Language](https://galois.com/blog/2021/03/real-time-robotics-control-in-the-lean-language/)
