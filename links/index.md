@@ -29,6 +29,8 @@ ads: false
 
 - [Jordan Ellenberg's article](https://bigthink.com/technology-innovation/artificial-intelligence-replace-mathematicians) mentioning Scholze's result and Lean.
 
+- [Proof Assistant Makes Jump to Big League Math](https://www.quantamagazine.org/lean-computer-program-confirms-peter-scholze-proof-20210728/), Quanta article about Scholze's result and Lean.
+
 - [Quanta article](https://www.quantamagazine.org/at-the-international-mathematical-olympiad-artificial-intelligence-prepares-to-go-for-the-gold-20200921/) about the IMO grand challenge.
 
 ## Videos
