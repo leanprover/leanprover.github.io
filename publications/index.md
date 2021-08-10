@@ -15,8 +15,8 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Papers
 
-- "The Lean Theorem Prover." [PDF](/papers/system.pdf)<br />
-  [Leonardo de Moura][leo], [Soonho Kong][soonho], [Jeremy Avigad][jeremy], [Floris van Doorn][floris] and [Jakob von Raumer][jakob],<br />25th International Conference on Automated Deduction (CADE-25), Berlin, Germany, 2015.
+- "The Lean 4 Theorem Prover and Programming Language" [PDF](/papers/lean4.pdf)<br />
+  [Leonardo de Moura][leo], [Sebastian Ullrich][kha],<br />28th International Conference on Automated Deduction (CADE-28), Pittsburgh, USA, 2021.
 
 - "Tabled Typeclass Resolution" [PDF](https://arxiv.org/pdf/2001.04301.pdf)<br />
   [Daniel Selsam][daniel], [Sebastian Ullrich][kha], [Leonardo de Moura][leo], <br />
@@ -35,10 +35,12 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 - ["Developing Bug-Free Machine Learning Systems With Formal Mathematics."](https://arxiv.org/abs/1706.08605) [Source code](https://github.com/dselsam/certigrad) <br />
   [Daniel Selsam][daniel], Percy Liang, David L. Dill, Thirty-fourth International Conference on Machine Learning (ICML) 2017.<br />
 
-
 - "Congruence Closure in Intensional Type Theory." [PDF](/papers/congr.pdf)<br />
   [Daniel Selsam][daniel] and [Leonardo de Moura][leo], <br />
   International Joint Conference on Automated Reasoning (IJCAR), Coimbra, Portugal, 2016.
+
+- "The Lean Theorem Prover." [PDF](/papers/system.pdf)<br />
+  [Leonardo de Moura][leo], [Soonho Kong][soonho], [Jeremy Avigad][jeremy], [Floris van Doorn][floris] and [Jakob von Raumer][jakob],<br />25th International Conference on Automated Deduction (CADE-25), Berlin, Germany, 2015.
 
 - "Elaboration in Dependent Type Theory." [PDF][constr] <br />
   [Leonardo de Moura][leo], [Jeremy Avigad][jeremy], [Soonho Kong][soonho] and [Cody Roux][cody]<br />
