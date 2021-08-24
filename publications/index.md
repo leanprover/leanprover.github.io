@@ -60,6 +60,12 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Presentations
 
+- Metaprogramming in Lean 4 [[slides pt. 1]](https://leanprover-community.github.io/lt2021/slides/sebastian-lean4-parsers-macros.pdf) [[slides pt. 2]](https://leanprover-community.github.io/lt2021/slides/leo-LT2021-meta.pdf) [[video]](https://www.youtube.com/watch?v=hxQ1vvhYN_U) [[video cont.]](https://www.youtube.com/watch?v=vy4JWIiiXSY), [Lean Together 2021](https://leanprover-community.github.io/lt2021/), January 2021.
+
+- An overview of Lean 4 [[slides pt. 1]](https://leanprover-community.github.io/lt2021/slides/leo-LT2021.pdf) [[slides pt. 2]](https://leanprover-community.github.io/lt2021/slides/sebastian-An-Overview-of-Lean-4-Demo.pdf) [[video]](https://www.youtube.com/watch?v=UeGvhfW1v9M), [Lean Together 2021](https://leanprover-community.github.io/lt2021/), January 2021.
+
+- [Beyond Notations: Hygienic Macro Expansion for Theorem Proving Languages](http://leanprover.github.io/talks/ijcar2020.pdf) [video](https://www.youtube.com/watch?v=34jZTv0Gla8), [IJCAR 2020](https://ijcar2020.org/), July 2020.
+
 - [Lean 4](http://leanprover.github.io/talks/LeanPLDI.pdf) [video](https://youtu.be/TgHISG-81wM), [PLDI 2020](https://conf.researchr.org/home/pldi-2020), June 2020.
 
 - [Lean in Lean](http://leanprover.github.io/talks/LeanACL2.pdf), [ACL2 workshop](http://acl2-2020.info/), May 2020.
