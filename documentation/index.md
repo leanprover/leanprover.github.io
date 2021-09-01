@@ -11,7 +11,11 @@ image:
 ads: false
 ---
 
-The [Lean 4 manual](https://leanprover.github.io/lean4/doc/) (work in progress) will give you an overview of the language.
+- [Theorem Proving in Lean 4](https://leanprover.github.io/theorem_proving_in_lean4/) is a tutorial with exercises.
+You almost certainly want to read it at some point anyway, since it explains foundational things much better
+than any hands-on tutorial could do.
+
+- The [Lean 4 manual](https://leanprover.github.io/lean4/doc/) (work in progress) will give you an overview of the language.
 
 Lean 4 first milestone release is available. You are welcome to experiment with it, but please
 recognize that the system is still changing, and if you are looking
