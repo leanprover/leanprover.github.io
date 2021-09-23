@@ -35,6 +35,10 @@ ads: false
 
 ## Videos
 
+- [Charles Hoskinson](https://en.wikipedia.org/wiki/Charles_Hoskinson) talking about the [Hoskinson Center for Formal Mathematics](https://youtu.be/3snIzhjqsk0?t=501) and Lean.
+
+- [Jeremy Avigad at the opening of the Hoskinson Center at Carnegie Mellon University](https://www.youtube.com/watch?v=tbz6cdnFyPc)
+
 - A [collection](https://www.youtube.com/channel/UCWe5B7Ikr0AI9727doEUxPg/videos) of YouTube videos about Lean created by the community.
 
 - [Lean mathematical library](https://youtu.be/HL7DEkXV_60?t=295) is one of Quanta magazine's "2020's Biggest Breakthroughs in Math and Computer Science".
