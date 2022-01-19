@@ -30,6 +30,8 @@ The [learning resources page](https://leanprover-community.github.io/learn.html)
 of the community website lists many tutorials and documentation sources for Lean 3.
 *Please be aware that Lean 4 is not backward compatible with Lean 3*.
 
-## Chat Room
+## Chat Rooms
 
 A public chat room dedicated to Lean is open on [Zulip](https://leanprover.zulipchat.com/).
+
+A public server dedicated to Lean is open on [Discord](https://discord.gg/nDX85DPF).
