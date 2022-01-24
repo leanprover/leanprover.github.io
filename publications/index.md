@@ -60,6 +60,8 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Presentations
 
+- [Gotta Prove Fast: Building an Ecosystem for Eﬀortless Native Compilation of Tactics](http://leanprover.github.io/talks/WITS2022.pdf), [Workshop on the Implementation of Type Systems 2022](https://popl22.sigplan.org/home/wits-2022), January 2022.
+
 - Metaprogramming in Lean 4 [[slides pt. 1]](https://leanprover-community.github.io/lt2021/slides/sebastian-lean4-parsers-macros.pdf) [[slides pt. 2]](https://leanprover-community.github.io/lt2021/slides/leo-LT2021-meta.pdf) [[video]](https://www.youtube.com/watch?v=hxQ1vvhYN_U) [[video cont.]](https://www.youtube.com/watch?v=vy4JWIiiXSY), [Lean Together 2021](https://leanprover-community.github.io/lt2021/), January 2021.
 
 - An overview of Lean 4 [[slides pt. 1]](https://leanprover-community.github.io/lt2021/slides/leo-LT2021.pdf) [[slides pt. 2]](https://leanprover-community.github.io/lt2021/slides/sebastian-An-Overview-of-Lean-4-Demo.pdf) [[video]](https://www.youtube.com/watch?v=UeGvhfW1v9M), [Lean Together 2021](https://leanprover-community.github.io/lt2021/), January 2021.
