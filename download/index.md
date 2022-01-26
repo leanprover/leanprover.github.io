@@ -55,7 +55,7 @@ The source code can be downloaded here:
 
 There are [Emacs](https://www.gnu.org/software/emacs/) and [Visual Studio Code](http://code.visualstudio.com) extensions, each of which support interactive editing.
 
-- Emacs: [lean4-mode](https://github.com/leanprover/lean4/tree/master/lean4-mode) is a major mode available in the Lean 4 repository for Emacs 27.1 or newer.
+- Emacs: [lean4-mode](https://github.com/leanprover/lean4-mode) is a major mode for Emacs 27.1 or newer.
 
 - [Visual Studio Code](http://code.visualstudio.com) is available for all major platforms.
-  The [Lean 4 extension](https://marketplace.visualstudio.com/items?itemName=mhuisi.lean4) is available in its marketplace.
+  The [Lean 4 extension](https://github.com/leanprover/vscode-lean4) is available in its marketplace.
