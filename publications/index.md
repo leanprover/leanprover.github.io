@@ -60,19 +60,19 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Presentations
 
-- [Gotta Prove Fast: Building an Ecosystem for Eﬀortless Native Compilation of Tactics](http://leanprover.github.io/talks/WITS2022.pdf), [Workshop on the Implementation of Type Systems 2022](https://popl22.sigplan.org/home/wits-2022), January 2022.
+- [Gotta Prove Fast: Building an Ecosystem for Eﬀortless Native Compilation of Tactics](http://leanprover.github.io/talks/WITS2022.pdf) [[video]](https://youtu.be/Tn74XMuTyM8), [Workshop on the Implementation of Type Systems 2022](https://popl22.sigplan.org/home/wits-2022), January 2022.
 
 - Metaprogramming in Lean 4 [[slides pt. 1]](https://leanprover-community.github.io/lt2021/slides/sebastian-lean4-parsers-macros.pdf) [[slides pt. 2]](https://leanprover-community.github.io/lt2021/slides/leo-LT2021-meta.pdf) [[video]](https://www.youtube.com/watch?v=hxQ1vvhYN_U) [[video cont.]](https://www.youtube.com/watch?v=vy4JWIiiXSY), [Lean Together 2021](https://leanprover-community.github.io/lt2021/), January 2021.
 
 - An overview of Lean 4 [[slides pt. 1]](https://leanprover-community.github.io/lt2021/slides/leo-LT2021.pdf) [[slides pt. 2]](https://leanprover-community.github.io/lt2021/slides/sebastian-An-Overview-of-Lean-4-Demo.pdf) [[video]](https://www.youtube.com/watch?v=UeGvhfW1v9M), [Lean Together 2021](https://leanprover-community.github.io/lt2021/), January 2021.
 
-- [Beyond Notations: Hygienic Macro Expansion for Theorem Proving Languages](http://leanprover.github.io/talks/ijcar2020.pdf) [video](https://www.youtube.com/watch?v=34jZTv0Gla8), [IJCAR 2020](https://ijcar2020.org/), July 2020.
+- [Beyond Notations: Hygienic Macro Expansion for Theorem Proving Languages](http://leanprover.github.io/talks/ijcar2020.pdf) [[video]](https://www.youtube.com/watch?v=34jZTv0Gla8), [IJCAR 2020](https://ijcar2020.org/), July 2020.
 
-- [Lean 4](http://leanprover.github.io/talks/LeanPLDI.pdf) [video](https://youtu.be/TgHISG-81wM), [PLDI 2020](https://conf.researchr.org/home/pldi-2020), June 2020.
+- [Lean 4](http://leanprover.github.io/talks/LeanPLDI.pdf) [[video]](https://youtu.be/TgHISG-81wM), [PLDI 2020](https://conf.researchr.org/home/pldi-2020), June 2020.
 
 - [Lean in Lean](http://leanprover.github.io/talks/LeanACL2.pdf), [ACL2 workshop](http://acl2-2020.info/), May 2020.
 
-- [Lean 4: State of the ⋃](http://leanprover.github.io/talks/cmu2020.pdf) [video](https://youtu.be/yAizjui7CKA), [Formal Methods in Mathematics / Lean Together 2020](http://www.andrew.cmu.edu/user/avigad/meetings/fomm2020/), Pittsburgh, January 2020.
+- [Lean 4: State of the ⋃](http://leanprover.github.io/talks/cmu2020.pdf) [[video]](https://youtu.be/yAizjui7CKA), [Formal Methods in Mathematics / Lean Together 2020](http://www.andrew.cmu.edu/user/avigad/meetings/fomm2020/), Pittsburgh, January 2020.
 
 - [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](http://leanprover.github.io/talks/IFL2019.pdf), [IFL 2019](http://2019.iflconference.org/), Singapore, September 2019.
 
