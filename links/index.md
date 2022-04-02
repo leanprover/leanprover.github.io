@@ -19,6 +19,8 @@ ads: false
 
 - The official [Lean twitter](https://twitter.com/leanprover) account.
 
+- [Lean Nightlies](https://twitter.com/lean4_nightly) tweets release notes from [https://github.com/leanprover/lean4-nightly/releases](https://github.com/leanprover/lean4-nightly/releases)
+
 - [Kevin's Buzzard twitter](https://twitter.com/XenaProject) about Lean.
 
 ## Popular science articles about Lean
