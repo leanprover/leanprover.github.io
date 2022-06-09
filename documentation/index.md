@@ -17,6 +17,8 @@ than any hands-on tutorial could do.
 
 - The [Lean 4 manual](https://leanprover.github.io/lean4/doc/) (work in progress) will give you an overview of the language.
 
+- [Functional Programming in Lean](https://leanprover.github.io/functional_programming_in_lean/) (work in progress). We are planning to release new chapters every month.
+
 Lean 4 first milestone release is available. You are welcome to experiment with it, but please
 recognize that the system is still changing, and if you are looking
 for stability, it may not be the system for you. Similarly, the project
