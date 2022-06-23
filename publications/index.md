@@ -111,3 +111,7 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150717_CICM), [CICM](http://cicm-conference.org/2015/cicm.php), Washington D.C., July 2015
 
 - [The Lean Theorem Prover](http://leanprover.github.io/presentations/20150218_MSR), PL(X) meeting at <a href="http://research.microsoft.com/en-us/groups/rise/">Microsoft Research</a>, February 2015
+
+## Developer update meetings
+
+- [June 15th 2022](http://leanprover.github.io/talks/lean-update-2022-06-15.pdf)
