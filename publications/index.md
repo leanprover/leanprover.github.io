@@ -23,7 +23,7 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 - "Tabled Typeclass Resolution" [PDF](https://arxiv.org/pdf/2001.04301.pdf)<br />
   [Daniel Selsam][daniel], [Sebastian Ullrich][kha], [Leonardo de Moura][leo], <br />
-  under review, 2020. <br/>
+  draft, 2020. <br/>
 
 - "Beyond Notations: Hygienic Macro Expansion for Theorem Proving Languages" [PDF](https://arxiv.org/pdf/2001.10490.pdf)<br />
   [Sebastian Ullrich][kha], [Leonardo de Moura][leo], <br />
