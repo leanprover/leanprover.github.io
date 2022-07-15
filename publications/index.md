@@ -15,7 +15,7 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Papers
 
-- "‘do’ Unchained: Embracing Local Imperativity in a Purely Functional Language (Functional Pearl)" [PDF](/papers/do.pdf)<br />, [Supplement repository](https://github.com/Kha/do-supplement)
+- "‘do’ Unchained: Embracing Local Imperativity in a Purely Functional Language (Functional Pearl)" [PDF](/papers/do.pdf), [Supplement repository](https://github.com/Kha/do-supplement)<br />
   [Sebastian Ullrich][kha], [Leonardo de Moura][leo],<br /> 27th ACM SIGPLAN International Conference on Functional Programming (ICFP 2022), Ljubljana, Slovenia, 2022.
 
 - "The Lean 4 Theorem Prover and Programming Language" [PDF](/papers/lean4.pdf)<br />
