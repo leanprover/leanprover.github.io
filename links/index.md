@@ -31,6 +31,8 @@ ads: false
 
 - [Jordan Ellenberg's article](https://bigthink.com/technology-innovation/artificial-intelligence-replace-mathematicians) mentioning Scholze's result and Lean.
 
+- [Can Computers be Mathematicians](https://www.quantamagazine.org/can-computers-be-mathematicians-20220629/), The Joy of Why, Quanta Magazine podcast.
+
 - [Proof Assistant Makes Jump to Big League Math](https://www.quantamagazine.org/lean-computer-program-confirms-peter-scholze-proof-20210728/), Quanta article about Scholze's result and Lean.
 
 - [Quanta article](https://www.quantamagazine.org/at-the-international-mathematical-olympiad-artificial-intelligence-prepares-to-go-for-the-gold-20200921/) about the IMO grand challenge.
@@ -38,6 +40,10 @@ ads: false
 - Lean has been mentioned in Quanta's The Year in Math and Computer Science two years in a row: [2020](https://www.quantamagazine.org/the-year-in-math-and-computer-science-20201223/) and [2021](https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/).
 
 ## Videos
+
+- [Automated Mathematical Proofs - Computerphile](https://www.youtube.com/watch?v=prYaTrZUces)
+
+- [The rise of formalism in mathematics](https://www.youtube.com/watch?v=SEID4XYFN7o), Kevin Buzzard's invited talk at ICM 2022.
 
 - [Charles Hoskinson](https://en.wikipedia.org/wiki/Charles_Hoskinson) talking about the [Hoskinson Center for Formal Mathematics](https://youtu.be/3snIzhjqsk0?t=501) and Lean.
 
@@ -58,6 +64,8 @@ ads: false
 ## Blog posts
 
 - [Real-time Robotics Control in the Lean Language](https://galois.com/blog/2021/03/real-time-robotics-control-in-the-lean-language/)
+
+- [OpenAI formal math](https://openai.com/blog/formal-math/)
 
 ## Lean Together meetings
 
