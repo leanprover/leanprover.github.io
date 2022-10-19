@@ -65,6 +65,8 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 - [‘do’ Unchained: Embracing Local Imperativity in a Purely Functional Language (Functional Pearl)](http://leanprover.github.io/talks/icfp2022.pdf) [[video]](https://youtu.be/nqBVYQh6Lxo), [ICFP 2022](https://icfp22.sigplan.org/), September 2022.
 
+- [Lean 4](http://leanprover.github.io/talks/ICERM-2022.pdf), [Lean for the Curious Mathematician](https://icerm.brown.edu/topical_workshops/tw-22-lean/), [[video]](https://icerm.brown.edu/video_archive/?play=2906), July 2022.
+
 - [An Introduction to the Lean 4 theorem prover and programming language](http://leanprover.github.io/talks/NFM2022.pdf), [NASA Formal Methods Symposium](https://nfm2022.caltech.edu/), May 2022.
 
 - [Gotta Prove Fast: Building an Ecosystem for Eﬀortless Native Compilation of Tactics](http://leanprover.github.io/talks/WITS2022.pdf) [[video]](https://youtu.be/Tn74XMuTyM8), [Workshop on the Implementation of Type Systems 2022](https://popl22.sigplan.org/home/wits-2022), January 2022.
