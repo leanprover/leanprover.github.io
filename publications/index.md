@@ -63,6 +63,8 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Presentations
 
+- [Metaprograms and Proofs: Macros in Lean 4](http://leanprover.github.io/talks/RacketCon2022.pdf), [RacketCon 2022](https://con.racket-lang.org/), October 2022.
+
 - [‘do’ Unchained: Embracing Local Imperativity in a Purely Functional Language (Functional Pearl)](http://leanprover.github.io/talks/icfp2022.pdf) [[video]](https://youtu.be/nqBVYQh6Lxo), [ICFP 2022](https://icfp22.sigplan.org/), September 2022.
 
 - [Lean 4](http://leanprover.github.io/talks/ICERM-2022.pdf), [Lean for the Curious Mathematician](https://icerm.brown.edu/topical_workshops/tw-22-lean/), [[video]](https://icerm.brown.edu/video_archive/?play=2906), July 2022.
