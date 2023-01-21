@@ -19,6 +19,8 @@ than any hands-on tutorial could do.
 
 - [Functional Programming in Lean](https://leanprover.github.io/functional_programming_in_lean/) (work in progress). We are planning to release new chapters every month.
 
+- [The Mathlib4 API Documentation](https://leanprover-community.github.io/mathlib4_docs/) contains API documentation for the Lean standard library, and for the very popular community written library Mathlib (work in progress).
+
 Lean 4 first milestone release is available. You are welcome to experiment with it, but please
 recognize that the system is still changing, and if you are looking
 for stability, it may not be the system for you. Similarly, the project
