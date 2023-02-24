@@ -25,9 +25,11 @@ ads: false
 
 ## Popular science articles about Lean
 
+- [Nature's article](https://www.nature.com/articles/d41586-023-00487-2) "How will AI change mathematics?" cites Lean multiple times.
+
 - [Wired article](https://www.wired.com/story/the-effort-to-build-the-mathematical-library-of-the-future/) about the Lean mathematical library.
 
-- [Nature's article](https://media.nature.com/original/magazine-assets/d41586-021-01627-2/d41586-021-01627-2.pdf) about [Peter Scholze](https://en.wikipedia.org/wiki/Peter_Scholze)'s (Fields Medal in 2018) project formalized in Lean.
+- [Nature's article](https://www.nature.com/articles/d41586-021-01627-2) about [Peter Scholze](https://en.wikipedia.org/wiki/Peter_Scholze)'s (Fields Medal in 2018) project formalized in Lean.
 
 - [Jordan Ellenberg's article](https://bigthink.com/technology-innovation/artificial-intelligence-replace-mathematicians) mentioning Scholze's result and Lean.
 
