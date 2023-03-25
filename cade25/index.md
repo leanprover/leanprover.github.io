@@ -66,7 +66,7 @@ applications and/or extending Lean. We will focus on the Lua bindings
 because they are easier to use than the C++ ones, and can be embedded
 into Lean specifications. We will demonstrate how to access Lean
 automation (e.g., the higher-order unification procedure, the rewriter,
-and decision procedures) programatically; and extend Lean with
+and decision procedures) programmatically; and extend Lean with
 new decision procedures and tactics. Since Lua scripts can be embedded
 in a Lean specification, participants will be able to interactively
 execute and modify all examples using Lean's web IDE or native IDE.
