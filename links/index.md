@@ -43,6 +43,8 @@ ads: false
 
 ## Videos
 
+- [The Lean Proof Assistant: Introduction and Challenges](https://youtu.be/BY78oZYMGCk) presented by Leonardo de Moura (Microsoft Research) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA. 
+
 - [Automated Mathematical Proofs - Computerphile](https://www.youtube.com/watch?v=prYaTrZUces)
 
 - [The rise of formalism in mathematics](https://www.youtube.com/watch?v=SEID4XYFN7o), Kevin Buzzard's invited talk at ICM 2022.
