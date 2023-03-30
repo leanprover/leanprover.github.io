@@ -45,7 +45,7 @@ ads: false
 
 - [The Lean Proof Assistant: Introduction and Challenges](https://youtu.be/BY78oZYMGCk) presented by Leonardo de Moura (Microsoft Research) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA. 
 
-- [Formal mathematics for mathematicians and mathematics students](https://youtu.be/tp_h3vzkObo) presented by Patrick Massot (Université Paris-Saclay) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA. 
+- [Formal Mathematics for Mathematicians and Mathematics Students](https://youtu.be/tp_h3vzkObo) presented by Patrick Massot (Université Paris-Saclay) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA. 
 
 - [Automated Mathematical Proofs - Computerphile](https://www.youtube.com/watch?v=prYaTrZUces)
 
