@@ -18,17 +18,16 @@ Core team:
 
 Past members:
 
-- [Dany Fabian](https://www.microsoft.com/en-us/research/people/danfab) (Microsoft Research)
-- [Daniel Selsam](https://dselsam.github.io) (Microsoft Research)
-- [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
-- [Jared Roesch](http://jroesch.github.io/) (University of Washington)
-- [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/) (Carnegie Mellon University)
-- [Floris van Doorn](http://www.contrib.andrew.cmu.edu/~fpv/) (Carnegie Mellon University)
-- [Soonho Kong](http://www.cs.cmu.edu/~soonhok) (Carnegie Mellon University)
+- [Dany Fabian](https://www.microsoft.com/en-us/research/people/danfab) (Microsoft)
+- [Daniel Selsam](https://dselsam.github.io) (OpenAI)
+- [Jared Roesch](http://jroesch.github.io/) (OctoML)
+- [Robert Lewis](https://www.andrew.cmu.edu/user/rlewis1/) (Brown University)
+- [Floris van Doorn](http://www.contrib.andrew.cmu.edu/~fpv/) (University of Paris-Saclay)
+- [Soonho Kong](http://www.cs.cmu.edu/~soonhok) (AWS)
 - [Jakob von Raumer](http://von-raumer.de/) (University of Nottingham)
 - [Jeremy Avigad](http://www.andrew.cmu.edu/user/avigad) (Carnegie Mellon University)
 - [Mario Carneiro](https://www.cmu.edu/dietrich/philosophy/people/phd/mario-carneiro.html) (Carnegie Mellon University)
-- [Johannes Hölzl](https://www.cs.vu.nl/~jhl890) (Faculty of Science - Computer Science, Vrije Universiteit Amsterdam)
+- [Johannes Hölzl](https://www.cs.vu.nl/~jhl890) (Apple)
 
 Contributors:
 
