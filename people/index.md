@@ -32,7 +32,7 @@ Past members:
 Contributors:
 
 - [Assia Mahboubi](http://specfun.inria.fr/mahboubi/) (INRIA)
-- [Cody Roux](http://www.andrew.cmu.edu/user/croux/) (Draper Laboratory)
+- [Cody Roux](http://www.andrew.cmu.edu/user/croux/) (AWS)
 - Parikshit Khanna (Indian Institute of Technology, Kanpur)
 - [Ulrik Buchholtz](http://www.andrew.cmu.edu/user/ulrikb/) (Carnegie Mellon University)
 - [Favonia (Kuen-Bang Hou)](http://www.cs.cmu.edu/~kuenbanh/) (Carnegie Mellon University)
