@@ -10,14 +10,15 @@ image:
 ads: false
 ---
 
-Lean 4 is being developed by:
+Core team:
 
-- [Leo de Moura](http://leodemoura.github.io) (Microsoft Research)
+- **Project Leader**: [Leo de Moura](http://leodemoura.github.io) (AWS)
 - [Sebastian Ullrich](https://kha.github.io/) (Karlsruhe Institute of Technology)
-- [Dany Fabian](https://www.microsoft.com/en-us/research/people/danfab) (Microsoft Research)
+- [Gabriel Ebner](https://gebner.org/) (Microsoft Research)
 
 Past members:
 
+- [Dany Fabian](https://www.microsoft.com/en-us/research/people/danfab) (Microsoft Research)
 - [Daniel Selsam](https://dselsam.github.io) (Microsoft Research)
 - [Gabriel Ebner](https://gebner.org/) (Vienna University of Technology)
 - [Jared Roesch](http://jroesch.github.io/) (University of Washington)
