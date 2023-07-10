@@ -63,6 +63,8 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Presentations
 
+- [Syntax Extensibility in Lean 4](http://leanprover.github.io/talks/Edinburgh2023.pdf), [University of Edinburgh](https://www.ed.ac.uk/), June 2023.
+
 - [Metaprograms and Proofs: Macros in Lean 4](http://leanprover.github.io/talks/RacketCon2022.pdf), [RacketCon 2022](https://con.racket-lang.org/), October 2022.
 
 - [‘do’ Unchained: Embracing Local Imperativity in a Purely Functional Language (Functional Pearl)](http://leanprover.github.io/talks/icfp2022.pdf) [[video]](https://youtu.be/nqBVYQh6Lxo), [ICFP 2022](https://icfp22.sigplan.org/), September 2022.

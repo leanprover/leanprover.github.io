@@ -17,7 +17,12 @@ than any hands-on tutorial could do.
 
 - The [Lean 4 manual](https://leanprover.github.io/lean4/doc/) (work in progress) will give you an overview of the language.
 
-- [Functional Programming in Lean](https://leanprover.github.io/functional_programming_in_lean/) (work in progress). We are planning to release new chapters every month.
+- [Functional Programming in Lean](https://leanprover.github.io/functional_programming_in_lean/).
+
+- [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/index.html) has been ported to Lean 4.
+
+- [The Mechanics of Proof](https://hrmacbeth.github.io/math2001/). This is a set of lecture notes dealing with how to write careful, rigorous mathematical proofs.
+These lecture notes are aimed at the early university level and have been written for the course Math 2001, at Fordham University.
 
 Lean 4 first milestone release is available. You are welcome to experiment with it, but please
 recognize that the system is still changing, and if you are looking
