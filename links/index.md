@@ -25,6 +25,8 @@ ads: false
 
 ## Popular science articles about Lean
 
+- [New York Time's article](https://www.nytimes.com/2023/07/02/science/ai-mathematics-machine-learning.html) "A.I. Is Coming for Mathematics, Too" cites Lean and some of its projects.
+
 - [Nature's article](https://www.nature.com/articles/d41586-023-00487-2) "How will AI change mathematics?" cites Lean multiple times.
 
 - [Wired article](https://www.wired.com/story/the-effort-to-build-the-mathematical-library-of-the-future/) about the Lean mathematical library.
@@ -42,6 +44,12 @@ ads: false
 - Lean has been mentioned in Quanta's The Year in Math and Computer Science two years in a row: [2020](https://www.quantamagazine.org/the-year-in-math-and-computer-science-20201223/) and [2021](https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/).
 
 ## Videos
+
+- [The Lean Proof Assistant: Introduction and Challenges](https://youtu.be/BY78oZYMGCk) presented by Leonardo de Moura (Microsoft Research) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA.
+
+- [Formal Mathematics for Mathematicians and Mathematics Students](https://youtu.be/tp_h3vzkObo) presented by Patrick Massot (Université Paris-Saclay) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA.
+
+- [Formalizing Invisible Mathematics](https://youtu.be/tp_h3vzkObo) presented by Andrej Bauer (University of Ljubljana) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA.
 
 - [Automated Mathematical Proofs - Computerphile](https://www.youtube.com/watch?v=prYaTrZUces)
 
