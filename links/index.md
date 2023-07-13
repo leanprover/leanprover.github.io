@@ -51,9 +51,7 @@ ads: false
 
 - [Formalizing Invisible Mathematics](https://youtu.be/tp_h3vzkObo) presented by Andrej Bauer (University of Ljubljana) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA.
 
-- [Formal Mathematics for Mathematicians and Mathematics Students](https://youtu.be/tp_h3vzkObo) presented by Patrick Massot (Université Paris-Saclay) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA. 
-
-- [Formalizing Invisible Mathematics](https://youtu.be/tp_h3vzkObo) presented by Andrej Bauer (University of Ljubljana) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA. 
+- [Learning Mathematics with Lean (2022)](https://youtube.com/playlist?list=PLgBHexwnIcduLcwinFhr8mHMk9WttUs4O): playlist containing the recorded talks of the first [*Learn Mathematics with Lean*](https://www.lboro.ac.uk/departments/maths-education/events/2022/learningmathematicswithlean/) event (06/04/2022) organised by the Department of Mathematics Education of the Loughborough University.
 
 - [Automated Mathematical Proofs - Computerphile](https://www.youtube.com/watch?v=prYaTrZUces)
 
