@@ -32,6 +32,5 @@ The Lean project was launched by Leonardo de Moura when he was at Microsoft
 Research in 2013. It is an open source project, hosted on [GitHub](https://github.com/leanprover).
 [Lean 4](https://github.com/leanprover/lean4) is the latest version. The first milestone has been released on January 4, 2021,
 and nightly stable builds are available [here](https://github.com/leanprover/lean4-nightly/releases).
-The mathematical components library mathlib is still based on [Lean 3](https://github.com/leanprover/lean), but it will be ported to Lean 4.
-Further information about mathlib and the Lean 3 community releases can be found at the [Lean Community](https://leanprover-community.github.io/index.html)
-website, including an online version of Lean.
+Information about the community of Lean users and the mathematical components library Mathlib can be found at the 
+[Lean Community](https://leanprover-community.github.io/index.html) website.
