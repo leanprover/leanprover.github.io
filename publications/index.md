@@ -15,6 +15,9 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Papers
 
+- "An Extensible Theorem Proving Frontend" [PDF](/papers/thesis-sebastian.pdf)<br />
+  [Sebastian Ullrich][kha], PhD Thesis, Karlsruhe Institute of Technology, Germany, 2023.
+
 - "‘do’ Unchained: Embracing Local Imperativity in a Purely Functional Language (Functional Pearl)" [PDF](/papers/do.pdf), [Supplement repository](https://github.com/Kha/do-supplement)<br />
   [Sebastian Ullrich][kha], [Leonardo de Moura][leo],<br /> 27th ACM SIGPLAN International Conference on Functional Programming (ICFP 2022), Ljubljana, Slovenia, 2022.
 
