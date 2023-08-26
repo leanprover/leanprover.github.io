@@ -10,14 +10,11 @@ image:
 ads: false
 ---
 
-Core team:
-
-- **Project Leader**: [Leo de Moura](http://leodemoura.github.io) (AWS)
-- [Sebastian Ullrich](https://kha.github.io/) (Karlsruhe Institute of Technology)
-- [Gabriel Ebner](https://gebner.org/) (Microsoft Research)
+Lean is principally developed at the [Lean FRO](https://lean-fro.org/people/).
 
 Past members:
 
+- [Gabriel Ebner](https://gebner.org/) (Microsoft Research)
 - [Dany Fabian](https://www.microsoft.com/en-us/research/people/danfab) (Microsoft)
 - [Daniel Selsam](https://dselsam.github.io) (OpenAI)
 - [Jared Roesch](http://jroesch.github.io/) (OctoML)
