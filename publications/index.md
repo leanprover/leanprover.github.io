@@ -66,6 +66,8 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Presentations
 
+- [Scaling Lean to the Next Millions of Lines of Proofs](http://leanprover.github.io/talks/WITS2023.pdf), [WITS 2023](https://ifl23.github.io/wits.html), August 2023.
+
 - [Syntax Extensibility in Lean 4](http://leanprover.github.io/talks/Edinburgh2023.pdf), [University of Edinburgh](https://www.ed.ac.uk/), June 2023.
 
 - [Metaprograms and Proofs: Macros in Lean 4](http://leanprover.github.io/talks/RacketCon2022.pdf), [RacketCon 2022](https://con.racket-lang.org/), October 2022.
