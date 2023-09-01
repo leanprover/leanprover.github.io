@@ -33,9 +33,19 @@ The source code can be downloaded here:
 
 - [Source Code](http://github.com/leanprover/lean4)
 
+# Editor Support
+
+There are [Visual Studio Code](http://code.visualstudio.com) and [Emacs](https://www.gnu.org/software/emacs/) extensions, each of which support interactive editing.
+
+- [Visual Studio Code](http://code.visualstudio.com) is available for all major platforms.
+  The [Lean 4 extension](https://github.com/leanprover/vscode-lean4) is available in its marketplace.
+
+- Emacs: [lean4-mode](https://github.com/leanprover/lean4-mode) is a major mode for Emacs 27.1 or newer.
+
+
 # Lean 3
 
-Below are the official releases of Lean 3. For the extended community version of Lean 3, please see the [community website](https://leanprover-community.github.io/).
+Below are the official releases of Lean 3. For the extended community version of Lean 3, please see the [community website](https://leanprover-community.github.io/lean3/).
 
 ## Binary
 
@@ -52,12 +62,3 @@ All previous releases are available here:
 The source code can be downloaded here:
 
 - [Source Code](http://github.com/leanprover/lean)
-
-## Editor Support
-
-There are [Emacs](https://www.gnu.org/software/emacs/) and [Visual Studio Code](http://code.visualstudio.com) extensions, each of which support interactive editing.
-
-- Emacs: [lean4-mode](https://github.com/leanprover/lean4-mode) is a major mode for Emacs 27.1 or newer.
-
-- [Visual Studio Code](http://code.visualstudio.com) is available for all major platforms.
-  The [Lean 4 extension](https://github.com/leanprover/vscode-lean4) is available in its marketplace.
