@@ -19,7 +19,7 @@ than any hands-on tutorial could do.
 
 - [Functional Programming in Lean](https://leanprover.github.io/functional_programming_in_lean/).
 
-- [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/index.html) has been ported to Lean 4.
+- [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/index.html).
 
 - [The Mechanics of Proof](https://hrmacbeth.github.io/math2001/). This is a set of lecture notes dealing with how to write careful, rigorous mathematical proofs.
 These lecture notes are aimed at the early university level and have been written for the course Math 2001, at Fordham University.
@@ -31,11 +31,10 @@ cannot accommodate feature requests at this stage. If you are trying to decide
 whether to invest time in learning to use Lean right now, this
 [FAQ](https://leanprover.github.io/lean4/doc/faq.html)
 
-You can also experiment with Lean 3 by running an [online](https://leanprover.github.io/live/) Javascript version in
-your browser (see also the [community version](https://leanprover-community.github.io/lean-web-editor/)).
+You can also experiment with Lean 4 in an [online](https://lean.math.hhu.de/)
+code playground in your browser.
 The [learning resources page](https://leanprover-community.github.io/learn.html)
-of the community website lists many tutorials and documentation sources for Lean 3.
-*Please be aware that Lean 4 is not backward compatible with Lean 3*.
+of the community website lists many tutorials and documentation sources for Lean 4.
 
 ## Chat Room
 
