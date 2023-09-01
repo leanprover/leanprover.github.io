@@ -81,10 +81,6 @@ ads: false
 
 - [OpenAI formal math](https://openai.com/blog/formal-math/)
 
-## Lean Together meetings
+## Lean meetings
 
-- [2021](https://leanprover-community.github.io/lt2021/)
-
-- [2020](https://www.andrew.cmu.edu/user/avigad/meetings/fomm2020/)
-
-- [2019](https://lean-forward.github.io/lean-together/2019/)
+The community website hosts a list of [upcoming and past events](https://leanprover-community.github.io/events.html) on Lean.
