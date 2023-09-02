@@ -25,6 +25,8 @@ ads: false
 
 ## Popular science articles about Lean
 
+- [Why Mathematical Proof Is a Social Compact](https://www.quantamagazine.org/why-mathematical-proof-is-a-social-compact-20230831/) A Quanta article that mentions Lean, and the accompanying [video](https://www.youtube.com/watch?v=3l1RMiGeTfU) shows Lean code.
+
 - [New York Time's article](https://www.nytimes.com/2023/07/02/science/ai-mathematics-machine-learning.html) "A.I. Is Coming for Mathematics, Too" cites Lean and some of its projects.
 
 - [Nature's article](https://www.nature.com/articles/d41586-023-00487-2) "How will AI change mathematics?" cites Lean multiple times.
