@@ -19,7 +19,7 @@ ads: false
 
 - The official [Lean Twitter](https://twitter.com/leanprover) account (and on Mastodon at [@leanprover@functional.cafe](https://functional.cafe/@leanprover)).
 
-- [Kevin Buzzard's Mastodon](@xenaproject@mathstodon.xyz) about Lean.
+- [Kevin Buzzard's @xenaproject Mastodon](https://mathstodon.xyz/@xenaproject) about Lean.
 
 ## Popular science articles about Lean
 
