@@ -66,6 +66,8 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Presentations
 
+- [The Lean Focused Research Organization](http://leanprover.github.io/talks/lftcm2023.pdf), [Lean for the Curious Mathematician 2023](https://lftcm2023.github.io/), September 2023.
+
 - [Scaling Lean to the Next Millions of Lines of Proofs](http://leanprover.github.io/talks/WITS2023.pdf), [WITS 2023](https://ifl23.github.io/wits.html), August 2023.
 
 - [Syntax Extensibility in Lean 4](http://leanprover.github.io/talks/Edinburgh2023.pdf), [University of Edinburgh](https://www.ed.ac.uk/), June 2023.
