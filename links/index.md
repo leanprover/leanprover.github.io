@@ -43,7 +43,9 @@ ads: false
 
 - Lean has been mentioned in Quanta's The Year in Math and Computer Science two years in a row: [2020](https://www.quantamagazine.org/the-year-in-math-and-computer-science-20201223/) and [2021](https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/).
 
-## Videos
+## Videos and Podcasts
+
+- [Z3 and Lean, the Spiritual Journey](Z3 and Lean, the Spiritual Journey) at the Type Theory Forall podcast.
 
 - [The Lean Proof Assistant: Introduction and Challenges](https://youtu.be/BY78oZYMGCk) presented by Leonardo de Moura (Microsoft Research) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA.
 
@@ -60,6 +62,8 @@ ads: false
 - [Charles Hoskinson](https://en.wikipedia.org/wiki/Charles_Hoskinson) talking about the [Hoskinson Center for Formal Mathematics](https://youtu.be/3snIzhjqsk0?t=501) and Lean.
 
 - [Jeremy Avigad at the opening of the Hoskinson Center at Carnegie Mellon University](https://www.youtube.com/watch?v=tbz6cdnFyPc)
+
+- [Combining the Worlds of Automated and Interactive Theorem Proving In Lean](https://building-better-systems.simplecast.com/episodes/14-leo-de-moura-combining-the-worlds-of-automated-and-interactive-theorem-proving-in-lean) at the Building Better Systems podcast.
 
 - A [collection](https://www.youtube.com/channel/UCWe5B7Ikr0AI9727doEUxPg/videos) of YouTube videos about Lean created by the community.
 
