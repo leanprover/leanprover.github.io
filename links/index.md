@@ -47,6 +47,8 @@ ads: false
 
 - [Z3 and Lean, the Spiritual Journey](Z3 and Lean, the Spiritual Journey) at the Type Theory Forall podcast.
 
+- [Lean 4: Empowering the Formal Mathematics Revolution and Beyond](https://www.youtube.com/live/rDe0nIHINXs) presented by Leonardo de Moura (Amazon Web Services) at the [Topos Institute Colloquium](https://topos.site/topos-colloquium/) organised by the [Topos Institute](https://topos.institute).
+
 - [The Lean Proof Assistant: Introduction and Challenges](https://youtu.be/BY78oZYMGCk) presented by Leonardo de Moura (Microsoft Research) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA.
 
 - [Formal Mathematics for Mathematicians and Mathematics Students](https://youtu.be/tp_h3vzkObo) presented by Patrick Massot (Université Paris-Saclay) at the [Machine Assisted Proofs Workshop](http://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/) organised by the [Institute for Pure & Applied Mathematics (IPAM)](http://www.ipam.ucla.edu/) of UCLA.
