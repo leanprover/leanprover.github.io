@@ -25,7 +25,7 @@ Nightly builds are available here:
 
 - [Nightly builds](https://github.com/leanprover/lean4-nightly/releases)
 
-You will usually want to follow the [official instructions](https://leanprover.github.io/lean4/doc/quickstart.html) instead of downloading these releases directly.
+You will usually want to follow the [official instructions](/lean4/doc/quickstart.html) instead of downloading these releases directly.
 
 ## Source
 

@@ -11,13 +11,13 @@ image:
 ads: false
 ---
 
-- [Theorem Proving in Lean 4](https://leanprover.github.io/theorem_proving_in_lean4/) is a tutorial with exercises.
+- [Theorem Proving in Lean 4](/theorem_proving_in_lean4/) is a tutorial with exercises.
 You almost certainly want to read it at some point anyway, since it explains foundational things much better
 than any hands-on tutorial could do.
 
-- The [Lean 4 manual](https://leanprover.github.io/lean4/doc/) (work in progress) will give you an overview of the language.
+- The [Lean 4 manual](/lean4/doc/) (work in progress) will give you an overview of the language.
 
-- [Functional Programming in Lean](https://leanprover.github.io/functional_programming_in_lean/).
+- [Functional Programming in Lean](/functional_programming_in_lean/).
 
 - [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/index.html).
 
@@ -29,7 +29,7 @@ recognize that the system is still changing, and if you are looking
 for stability, it may not be the system for you. Similarly, the project
 cannot accommodate feature requests at this stage. If you are trying to decide
 whether to invest time in learning to use Lean right now, this
-[FAQ](https://leanprover.github.io/lean4/doc/faq.html)
+[FAQ](/lean4/doc/faq.html)
 
 You can also experiment with Lean 4 in an [online](https://lean.math.hhu.de/)
 code playground in your browser.

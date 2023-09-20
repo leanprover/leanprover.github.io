@@ -34,7 +34,7 @@ introduction, advanced features, and writing and debugging tactics.
 In the first part, we will introduce Lean logic and language with a
 series of examples. Participants will be able to execute and modify
 all examples using any modern web browser.
-The material is based on the book [Theorem Proving in Lean](https://leanprover.github.io/theorem_proving_in_lean).
+The material is based on the book [Theorem Proving in Lean](/theorem_proving_in_lean).
 Participants are encouraged to install the Lean native IDE (based on
 Emacs). The native IDE provides functionality such as: continuous error
 checking, auto-completion, and visualization features.
@@ -52,7 +52,7 @@ can access it before and after the tutorial.
 In the final part, we describe how to write and debug non trivial tactics.
 Lean tactics and other meta programs are implemented using the same language
 used to write definitions and prove lemmas. The material is based on
-the book [Programming in Lean](https://leanprover.github.io/programming_in_lean).
+the book [Programming in Lean](/programming_in_lean).
 We will describe how to use and extend the Lean simplifier.
 We will also provide a short introduction to a resolution prover
 implemented in Lean.
