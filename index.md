@@ -1,7 +1,7 @@
 ---
 layout: archive
 image:
-  feature: lean_logo2.svg
+  feature: lean_logo.svg
 permalink: /
 ---
 
