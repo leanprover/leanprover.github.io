@@ -66,6 +66,8 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Presentations
 
+- [Lean 4: an extensible proof assistant and programming language](/talks/lean_itp_summer_school_2023.pdf), [ITP Summer School](https://itp-school-2023.github.io/program), September 2023.
+
 - [Lean 4: Empowering the Formal Mathematics Revolution and Beyond](https://www.youtube.com/watch?v=rDe0nIHINXs&t=28s), [Topos Institute](https://topos.institute/), September 2023.
 
 - [The Lean Focused Research Organization](/talks/lftcm2023.pdf), [Lean for the Curious Mathematician 2023](https://lftcm2023.github.io/), September 2023.
