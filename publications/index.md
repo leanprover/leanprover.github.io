@@ -66,6 +66,8 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Presentations
 
+- [Machine-Checked Proofs and the Rise of Formal Methods in Mathematics](/talks/simons2023.pdf), [video](https://www.youtube.com/watch?v=ekYeqvMcaWQ&list=PLgKuh-lKre11Hkeo5UnqhYZzY35Y70z5y), [Simons Institute](https://simons.berkeley.edu/events/machine-checked-proofs-rise-formal-methods-mathematics-theoretically-speaking), Berkeley, October 2023.
+
 - [Lean 4: an extensible proof assistant and programming language](/talks/lean_itp_summer_school_2023.pdf), [ITP Summer School](https://itp-school-2023.github.io/program), September 2023.
 
 - [Lean 4: Empowering the Formal Mathematics Revolution and Beyond](https://www.youtube.com/watch?v=rDe0nIHINXs&t=28s), [Topos Institute](https://topos.institute/), September 2023.
