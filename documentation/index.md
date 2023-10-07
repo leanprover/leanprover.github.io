@@ -24,6 +24,8 @@ than any hands-on tutorial could do.
 - [The Mechanics of Proof](https://hrmacbeth.github.io/math2001/). This is a set of lecture notes dealing with how to write careful, rigorous mathematical proofs.
 These lecture notes are aimed at the early university level and have been written for the course Math 2001, at Fordham University.
 
+- [The Mathlib4 API Documentation](https://leanprover-community.github.io/mathlib4_docs/) contains API documentation for the Lean standard library, and for the very popular community written library Mathlib (work in progress).
+
 Lean 4 first milestone release is available. You are welcome to experiment with it, but please
 recognize that the system is still changing, and if you are looking
 for stability, it may not be the system for you. Similarly, the project
