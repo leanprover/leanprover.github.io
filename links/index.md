@@ -23,6 +23,8 @@ ads: false
 
 ## Popular science articles about Lean
 
+- [The Deep Link Equating Math Proofs and Computer Programs](https://www.quantamagazine.org/the-deep-link-equating-math-proofs-and-computer-programs-20231011/) Another Quanta article that mentions Lean.
+
 - [Why Mathematical Proof Is a Social Compact](https://www.quantamagazine.org/why-mathematical-proof-is-a-social-compact-20230831/) A Quanta article that mentions Lean, and the accompanying [video](https://www.youtube.com/watch?v=3l1RMiGeTfU) shows Lean code.
 
 - [New York Time's article](https://www.nytimes.com/2023/07/02/science/ai-mathematics-machine-learning.html) "A.I. Is Coming for Mathematics, Too" cites Lean and some of its projects.
