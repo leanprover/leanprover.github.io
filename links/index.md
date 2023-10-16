@@ -85,6 +85,8 @@ ads: false
 
 - [OpenAI formal math](https://openai.com/blog/formal-math/)
 
+- [Meta AI: Teaching AI advanced mathematical reasoning](https://ai.meta.com/blog/ai-math-theorem-proving/)
+
 ## Lean meetings
 
 The community website hosts a list of [upcoming and past events](https://leanprover-community.github.io/events.html) on Lean.
