@@ -13,7 +13,11 @@ ads: false
 
 # Lean 4
 
-Lean 4 is currently released as milestone releases towards a first official release.
+Stable releases of Lean 4 are published approximately once per month, after a series of release candidates for community testing.
+
+## Getting Lean 4
+
+**Please follow the [official instructions](/lean4/doc/quickstart.html)** unless you know that you need to directly download one of these releases.
 
 ## Binary
 
@@ -25,7 +29,6 @@ Nightly builds are available here:
 
 - [Nightly builds](https://github.com/leanprover/lean4-nightly/releases)
 
-You will usually want to follow the [official instructions](/lean4/doc/quickstart.html) instead of downloading these releases directly.
 
 ## Source
 
