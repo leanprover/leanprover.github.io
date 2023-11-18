@@ -12,7 +12,7 @@ ads: false
 
 Lean is principally developed at the [Lean FRO](https://lean-fro.org/people/).
 
-Past members:
+Past development team members:
 
 - [Gabriel Ebner](https://gebner.org/) (Microsoft Research)
 - [Dany Fabian](https://www.microsoft.com/en-us/research/people/danfab) (Microsoft)
@@ -26,7 +26,7 @@ Past members:
 - [Mario Carneiro](https://www.cmu.edu/dietrich/philosophy/people/phd/mario-carneiro.html) (Carnegie Mellon University)
 - [Johannes Hölzl](https://www.cs.vu.nl/~jhl890) (Apple)
 
-Contributors:
+Further contributors:
 
 - [Assia Mahboubi](http://specfun.inria.fr/mahboubi/) (INRIA)
 - [Cody Roux](http://www.andrew.cmu.edu/user/croux/) (AWS)

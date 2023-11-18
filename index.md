@@ -10,3 +10,7 @@ permalink: /
         {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
+
+<center>
+<h1>Programming Language and Theorem Prover</h1>
+</center>

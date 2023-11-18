@@ -30,8 +30,7 @@ Lean has numerous features, including:
 
 The Lean project was launched by Leonardo de Moura when he was at Microsoft
 Research in 2013. It is an open source project, hosted on [GitHub](https://github.com/leanprover).
-[Lean 4](https://github.com/leanprover/lean4) is the latest version. The first milestone has been released on January 4, 2021,
-and nightly stable builds are available [here](https://github.com/leanprover/lean4-nightly/releases).
+[Lean 4](https://github.com/leanprover/lean4) is the latest version. For installing Lean 4, please see [Download](/download).
 Information about the community of Lean users and the mathematical components library Mathlib can be found at the
 [Lean Community](https://leanprover-community.github.io/index.html) website.
 The [Lean FRO](https://lean-fro.org/) nonprofit was launched in August of 2023. Its mission is to tackle the challenges of scalability, usability, and proof automation in the Lean theorem prover.
