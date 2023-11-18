@@ -1,12 +1,12 @@
 # Site wide configuration
 
 title: Lean
-description: The Lean Theorem Prover
+description: The Lean Programming Language and Theorem Prover
 logo: lean_logo.svg
 teaser:
 locale:
 baseurl:
-url: https://lean-lang.org
+url:
 safe: true
 
 # Jekyll configuration
