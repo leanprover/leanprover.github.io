@@ -15,11 +15,11 @@ ads: false
 
 - A public chat room dedicated to Lean is open on [Zulip](https://leanprover.zulipchat.com/).
 
-## Twitter / Mastodon
+## Social Media
 
-- The official [Lean Twitter](https://twitter.com/leanprover) account (and on Mastodon at [@leanprover@functional.cafe](https://functional.cafe/@leanprover)).
+- The official Lean [Twitter](https://twitter.com/leanprover) and [Mastodon](https://functional.cafe/@leanprover) accounts.
 
-- [Kevin Buzzard's @xenaproject Mastodon](https://mathstodon.xyz/@xenaproject) about Lean.
+- [Kevin Buzzard's @xenaproject Mastodon](https://mathstodon.xyz/@xenaproject) account about Lean.
 
 ## Popular science articles about Lean
 
