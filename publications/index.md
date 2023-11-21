@@ -13,6 +13,10 @@ ads: false
 
 This is a list of papers and presentations about Lean by the Lean developers. For further publications about Lean, the mathlib library, and other formalizations in Lean, please also see [the Lean community website](https://leanprover-community.github.io/papers.html).
 
+* [Papers](#papers)
+* [Presentations](#presentations)
+* [Developer update meetings](#developer-update-meetings)
+
 ## Papers
 
 - "An Extensible Theorem Proving Frontend" [PDF](/papers/thesis-sebastian.pdf)<br />
@@ -137,6 +141,8 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 - [The Lean Theorem Prover](/presentations/20150218_MSR), PL(X) meeting at <a href="http://research.microsoft.com/en-us/groups/rise/">Microsoft Research</a>, February 2015
 
 ## Developer update meetings
+
+- [Nov 21th 2023](/talks/community-meeting-nov-2023.pdf)
 
 - [Oct 13th 2023](/talks/community-meeting-oct-2023.pdf) [[video]](https://youtu.be/jaibFnoMDSw)
 
