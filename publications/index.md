@@ -142,7 +142,7 @@ This is a list of papers and presentations about Lean by the Lean developers. Fo
 
 ## Developer update meetings
 
-- [Nov 21th 2023](/talks/community-meeting-nov-2023.pdf) [[Standard Library slides](/talks/community-meeting-nov-2023-std.pdf)]
+- [Nov 21th 2023](/talks/community-meeting-nov-2023.pdf) [[Standard Library slides](/talks/community-meeting-nov-2023-std.pdf)]] [video]](https://youtu.be/4IDrPL4I_bU)
 
 - [Oct 13th 2023](/talks/community-meeting-oct-2023.pdf) [[video]](https://youtu.be/jaibFnoMDSw)
 
