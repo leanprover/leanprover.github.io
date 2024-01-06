@@ -20,7 +20,7 @@ ads: false
 - [The Mechanics of Proof](https://hrmacbeth.github.io/math2001/) is a set of lecture notes dealing with how to write careful, rigorous mathematical proofs.
 These lecture notes are aimed at the early university level and have been written for the course Math 2001, at Fordham University.
 
-- The [Lean 4 manual](/lean4/doc/) (work in progress) will give you an overview of the language.
+- The [Lean 4 manual](/lean4/doc/) will give you an overview of the language.
 
 The [learning resources page](https://leanprover-community.github.io/learn.html) of the community website lists many further tutorials and documentation sources for Lean 4.
 
